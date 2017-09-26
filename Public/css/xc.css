@@ -1,0 +1,18 @@
+/* 
+* @Author: Harney
+* @Date:   2017-01-09 14:00:00
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-01-09 14:00:54
+*/
+*{margin: 0; padding: 0;}
+.xc_layout{
+   min-width: 320px;
+   max-width: 640px;
+   margin: 0 auto;
+}
+body{ margin:0 auto;}
+.xc_layout_box{ margin-left:3%; margin-right:3%;}
+p{text-indent:2em; line-height:20px; font-family:"苹方 常规"; font-size:15px;}
+h1{ font-family:"苹方 常规"; font-size:18px;}
+h2{ font-family:"苹方 常规"; font-size:16px;}
+a{color:#ff5a00;}

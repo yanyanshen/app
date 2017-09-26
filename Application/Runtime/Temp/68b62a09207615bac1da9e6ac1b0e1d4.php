@@ -1,0 +1,3 @@
+<?php
+//000000000300a:2:{i:0;a:12:{s:4:"tcid";s:3:"939";s:4:"name";s:11:"C1照全包";s:7:"include";s:0:"";s:8:"masterid";s:36:"32C725D7_6E8E_4280_88DC_F116662C9A71";s:4:"time";N;s:7:"carname";s:6:"普桑";s:4:"mode";s:1:"0";s:13:"officialprice";s:4:"5000";s:13:"whole517price";s:4:"4400";s:14:"prepay517price";s:4:"4300";s:16:"prepay517deposit";s:3:"100";s:9:"classtime";s:15:"周一至周日";}i:1;a:12:{s:4:"tcid";s:3:"940";s:4:"name";s:11:"C2照全包";s:7:"include";s:0:"";s:8:"masterid";s:36:"32C725D7_6E8E_4280_88DC_F116662C9A71";s:4:"time";N;s:7:"carname";s:6:"富康";s:4:"mode";s:1:"0";s:13:"officialprice";s:4:"6000";s:13:"whole517price";s:4:"5300";s:14:"prepay517price";s:4:"5200";s:16:"prepay517deposit";s:3:"100";s:9:"classtime";s:15:"周一至周日";}}
+?>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>驾校详情</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="__PUBLIC__/ment/css/mine.css" type="text/css" rel="stylesheet">
+        <script  src="__PUBLIC__/ment/js/My97DatePicker/WdatePicker.js"></script>
+    </head>
+
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：驾校管理-》驾校详情</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U('jx_list?p='.$p)}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action="{:U('#')}" method="post" enctype="multipart/form-data">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                <input type="hidden" name='id' value="{$id}"/>
+                <input type="hidden" name='p' value="{$p}"/>
+                    <td width="7%">驾校账号</td>
+                    <td><input type="text" name="account" value="{$jx.account}" /></td>
+                </tr>
+		<tr>
+                    <td>登录密码</td>
+                    <td><input type="text" name="pass" value="{$jx.pass}" readonly style="width:500px;"/></td>
+                </tr>
+                <tr>
+                    <td>驾校简称</td>
+                    <td><input type="text" name="nickname" value="{$jx.nickname}" /></td>
+                </tr>
+                <tr>
+                    <td>驾校全称</td>
+                    <td><input type="text" name="fullname" value="{$jx.fullname}" style="width:400px"/></td>
+                </tr>
+                 <tr>
+                    <td>优先级</td>
+                    <td><input type="text" name="priority" value="{$jx.priority}"/>(数字，优先级越大排名越靠前)</td>
+                </tr>
+                 <tr>
+                    <td>驾校logo</td>
+                    <td><input type="text" name="logo" value="{$jx.logo}" style="width:500px"/></td>
+                </tr>
+                <tr>
+                    <td>计时培训</td>
+                    <td><label><input type="radio" {$jx['timeflag']==1?'checked':''} name='timeflag' value=1/>支持</label>　<label><input type="radio"  {$jx['timeflag']==0?'checked':''} name='timeflag' value=0/>不支持</label></td>
+                </tr>
+                <tr>
+                    <td>注册时间</td>
+                    <td><input type="text" name="ntime" value="{$jx['ntime']}" readonly/></td>
+                </tr>
+                 <tr>
+                    <td>签名</td>
+                    <td><input type="text" name="signature" value="{$jx['signature']}" /></td>
+                </tr>
+                <tr>
+                    <td>评分</td>
+                    <td><input type="text" name="score" value="{$jx['score']}" /></td>
+                </tr>
+                 <tr>
+                    <td>火热报名</td>
+                    <td><label><input type="radio" name='hotflag' value=1 {$jx['hotflag']==1?'checked':''}/>是</label><label><input type="radio" name='hotflag' value=0 {$jx['hotflag']==0?'checked':''}/>否</label></td>
+                </tr>
+                 <tr>
+                    <td>是否推荐</td>
+                   <td><label><input type="radio" name='recommendflag' value=1 {$jx['recommendflag']==1?'checked':''}/>是</label><label><input type="radio" name='recommendflag' value=0 {$jx['recommendflag']==0?'checked':''}/>否</label></td>
+                </tr>
+                 <tr>
+                    <td>评论数</td>
+                    <td><input type="text" name="evalutioncount" value="{$jx['evalutioncount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>好评数</td>
+                    <td><input type="text" name="praisecount" value="{$jx['praisecount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>总学员数</td>
+                    <td><input type="text" name="allcount" value="{$jx['allcount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>已通过人数</td>
+                    <td><input type="text" name="passedcount" value="{$jx['passedcount']}" /></td>
+                </tr>
+                <tr>
+                    <td>联系人/联系方式</td>
+                    <td><input type="text" name="connectteacher" value="{$jx['connectteacher']}"/>（姓名 空格 手机号）</td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td><input type="text" name="address" value="{$jx['address']}"/></td>
+                </tr>
+                 <tr>
+                    <td>所在城市</td>
+                    <td>
+                    	<select name="cityid" id="">
+                    		<volist name="city" id='v'>
+                    			<option value="{$v.id}" {$jx['cityid']==$v['id']?'selected':''}>{$v.cityname}</option>
+                    		</volist>
+                    	</select>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>驾校简介</td>
+                    <td><textarea name="introduction" id="" cols="80" rows="10">{$jx['introduction']}</textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="保存更新">
+                    </td>
+                </tr>  
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

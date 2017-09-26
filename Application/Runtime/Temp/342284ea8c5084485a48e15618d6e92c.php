@@ -1,0 +1,3 @@
+<?php
+//000000000300a:1:{i:0;a:11:{s:6:"newsid";s:2:"30";s:8:"masterid";s:36:"87696BB0_B365_6EC8_BE24_DBE30E4901B7";s:8:"objectid";s:36:"203C498C_3434_185B_1C37_51A9069FB64C";s:4:"time";s:19:"2016-11-14 16:32:28";s:7:"content";s:142:"李文:【双十一刚刚过去，又即将迎来双十二，要学车的朋友们有福了，情侣学车打对折哦！快来报名吧！】";s:14:"evalutioncount";s:1:"1";s:8:"piccount";s:1:"1";s:11:"praisecount";s:1:"1";s:13:"transmitcount";s:1:"0";s:6:"extras";N;s:6:"tranid";s:2:"29";}}
+?>

@@ -1,0 +1,1774 @@
+[ 2017-01-03T13:16:30+08:00 ] 101.81.10.176 /index.php/Ment/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+
+[ 2017-01-03T13:16:30+08:00 ] 101.81.10.176 /index.php/Ment/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2017-01-03T13:16:30+08:00 ] 101.81.10.176 /index.php/Ment/Index/verify_img.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-01-03T13:16:35+08:00 ] 101.81.10.176 /index.php/Ment/Index/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-03T13:16:37+08:00 ] 101.81.10.176 /index.php/Ment/Index/verify_img.html?+new%20Date()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-01-03T13:16:43+08:00 ] 101.81.10.176 /index.php/Ment/Index/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pass`,`username`,`ntime`,`masgroup`,`flag`,`username`,`role`,`logintimes`,`permissid` FROM `xueche1_admin` WHERE ( account='517liaonan' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_admin` SET `logintimes`=logintimes+1 WHERE ( account='517liaonan' ) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0006s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`info`,`nip`) VALUES ('517liaonan','1483420603','登录','1699809968') [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Ment/Controller/IndexController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-01-03T13:16:43+08:00 ] 101.81.10.176 /index.php/Ment/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-01-03T13:16:43+08:00 ] 101.81.10.176 /index.php/Ment/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-01-03T13:16:43+08:00 ] 101.81.10.176 /index.php/Ment/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-01-03T13:16:43+08:00 ] 101.81.10.176 /index.php/Ment/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-03T13:16:45+08:00 ] 101.81.10.176 /index.php/Ment/School/jx_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`account`,`img`,`userid`,`nickname`,`score`,`ntime`,`connectteacher`,`address`,`cityid`,`verify`,`lastupdate`,`priority` FROM `xueche1_school` ORDER BY id asc LIMIT 0,14   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='4E1A1784-6F12-FA7B-22E6-BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='4E1A1784-6F12-FA7B-22E6-BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='4E1A1784-6F12-FA7B-22E6-BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='4E1A1784-6F12-FA7B-22E6-BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='4E1A1784-6F12-FA7B-22E6-BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='07825C54-2994-4B42-3351-19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='07825C54-2994-4B42-3351-19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='07825C54-2994-4B42-3351-19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='07825C54-2994-4B42-3351-19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='07825C54-2994-4B42-3351-19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='638AD5F8-C2B6-5CA4-7231-AA8081343B6C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='638AD5F8-C2B6-5CA4-7231-AA8081343B6C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='638AD5F8-C2B6-5CA4-7231-AA8081343B6C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='638AD5F8-C2B6-5CA4-7231-AA8081343B6C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='638AD5F8-C2B6-5CA4-7231-AA8081343B6C' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='84B81AD2-DAF5-43E5-BE87-7F984A9E7C92' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='84B81AD2-DAF5-43E5-BE87-7F984A9E7C92' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='84B81AD2-DAF5-43E5-BE87-7F984A9E7C92' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='84B81AD2-DAF5-43E5-BE87-7F984A9E7C92' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='84B81AD2-DAF5-43E5-BE87-7F984A9E7C92' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A0F6B774-B2E1-EF23-2259-08E2750FB0FA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A0F6B774-B2E1-EF23-2259-08E2750FB0FA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A0F6B774-B2E1-EF23-2259-08E2750FB0FA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='A0F6B774-B2E1-EF23-2259-08E2750FB0FA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='A0F6B774-B2E1-EF23-2259-08E2750FB0FA' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-01-03T13:16:47+08:00 ] 101.81.10.176 /index.php/Ment/School/jx_list/p/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`account`,`img`,`userid`,`nickname`,`score`,`ntime`,`connectteacher`,`address`,`cityid`,`verify`,`lastupdate`,`priority` FROM `xueche1_school` ORDER BY id asc LIMIT 924,14   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='0365719B-FAF9-6F98-6D27-2BDE565D086C' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='0365719B-FAF9-6F98-6D27-2BDE565D086C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='0365719B-FAF9-6F98-6D27-2BDE565D086C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='0365719B-FAF9-6F98-6D27-2BDE565D086C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='0365719B-FAF9-6F98-6D27-2BDE565D086C' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='88C1D8C4-09E2-FF79-2C0A-5522CEAA4724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='88C1D8C4-09E2-FF79-2C0A-5522CEAA4724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='88C1D8C4-09E2-FF79-2C0A-5522CEAA4724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='88C1D8C4-09E2-FF79-2C0A-5522CEAA4724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='88C1D8C4-09E2-FF79-2C0A-5522CEAA4724' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='198FE8E2-3D28-9AC8-6FFE-AF982B818A64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='198FE8E2-3D28-9AC8-6FFE-AF982B818A64' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='198FE8E2-3D28-9AC8-6FFE-AF982B818A64' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='198FE8E2-3D28-9AC8-6FFE-AF982B818A64' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='198FE8E2-3D28-9AC8-6FFE-AF982B818A64' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=308 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='B4413204-E58E-F04C-4D93-D167B6464E62' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='B4413204-E58E-F04C-4D93-D167B6464E62' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='B4413204-E58E-F04C-4D93-D167B6464E62' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B4413204-E58E-F04C-4D93-D167B6464E62' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='B4413204-E58E-F04C-4D93-D167B6464E62' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D5633E97-2A13-288F-B1A1-D6347BFD6EF0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D5633E97-2A13-288F-B1A1-D6347BFD6EF0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D5633E97-2A13-288F-B1A1-D6347BFD6EF0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D5633E97-2A13-288F-B1A1-D6347BFD6EF0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='D5633E97-2A13-288F-B1A1-D6347BFD6EF0' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='5569B01C-6065-70BA-14D9-7DE0BCB0FED8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='5569B01C-6065-70BA-14D9-7DE0BCB0FED8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='5569B01C-6065-70BA-14D9-7DE0BCB0FED8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='5569B01C-6065-70BA-14D9-7DE0BCB0FED8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='5569B01C-6065-70BA-14D9-7DE0BCB0FED8' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='AA96249F-EEBB-A861-188C-71885AF0593B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='AA96249F-EEBB-A861-188C-71885AF0593B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='AA96249F-EEBB-A861-188C-71885AF0593B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA96249F-EEBB-A861-188C-71885AF0593B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='AA96249F-EEBB-A861-188C-71885AF0593B' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=60 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='6B29F8EB-EEA4-5A81-7C9F-5D7DD1E77260' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='6B29F8EB-EEA4-5A81-7C9F-5D7DD1E77260' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='6B29F8EB-EEA4-5A81-7C9F-5D7DD1E77260' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6B29F8EB-EEA4-5A81-7C9F-5D7DD1E77260' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='6B29F8EB-EEA4-5A81-7C9F-5D7DD1E77260' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=222 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='AC2EA7B0-3E6F-4059-8FE7-AAC1586FD54D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='AC2EA7B0-3E6F-4059-8FE7-AAC1586FD54D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='AC2EA7B0-3E6F-4059-8FE7-AAC1586FD54D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AC2EA7B0-3E6F-4059-8FE7-AAC1586FD54D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='AC2EA7B0-3E6F-4059-8FE7-AAC1586FD54D' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='67A52885-980C-2327-C63C-781BBF3130ED' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='67A52885-980C-2327-C63C-781BBF3130ED' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='67A52885-980C-2327-C63C-781BBF3130ED' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='67A52885-980C-2327-C63C-781BBF3130ED' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` WHERE ( masterid='67A52885-980C-2327-C63C-781BBF3130ED' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=308 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-01-03T13:16:52+08:00 ] 101.81.10.176 /index.php/Ment/School/jx_info/id/961/p/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT `account`,`pass`,`nickname`,`fullname`,`priority`,`logo`,`timeflag`,`ntime`,`signature`,`score`,`hotflag`,`recommendflag`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`connectteacher`,`address`,`cityid`,`introduction` FROM `xueche1_school` WHERE ( id=961 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-01-03T13:17:44+08:00 ] 101.81.10.176 /index.php/Ment/TeaManage/zhengjian/id/961/p/67/t/jx.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school` WHERE ( id=961 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_papersimg` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`imgurl`,`imgtime`,`paperstype` FROM `xueche1_papersimg` WHERE ( userid='67A52885-980C-2327-C63C-781BBF3130ED' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-01-03T13:17:59+08:00 ] 101.81.10.176 /index.php/Ment/School/jx_info/id/961/p/67.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT `account`,`pass`,`nickname`,`fullname`,`priority`,`logo`,`timeflag`,`ntime`,`signature`,`score`,`hotflag`,`recommendflag`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`connectteacher`,`address`,`cityid`,`introduction` FROM `xueche1_school` WHERE ( id=961 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-03T13:29:59+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`account`,`img`,`sex`,`nickname`,`score`,`ntime`,`jltype`,`serialId`,`carNumber`,`address`,`cityid`,`verify`,`lastupdate` FROM `xueche1_coach` ORDER BY id asc LIMIT 0,14   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='B3738353-D3FF-F20F-5946-E462A6912AF5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='B3738353-D3FF-F20F-5946-E462A6912AF5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='B3738353-D3FF-F20F-5946-E462A6912AF5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='BB6B1DE1-2B6E-B965-C5AC-BA18875F06D3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='BB6B1DE1-2B6E-B965-C5AC-BA18875F06D3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='BB6B1DE1-2B6E-B965-C5AC-BA18875F06D3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='786540E1-0A54-8D31-076F-18E69A06D850' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='786540E1-0A54-8D31-076F-18E69A06D850' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='786540E1-0A54-8D31-076F-18E69A06D850' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D001B15F-B869-2DCC-B031-5FDB1B819F9D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D001B15F-B869-2DCC-B031-5FDB1B819F9D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D001B15F-B869-2DCC-B031-5FDB1B819F9D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='F3443A9E-B21B-493D-0407-3AA87D760D6B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='F3443A9E-B21B-493D-0407-3AA87D760D6B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='F3443A9E-B21B-493D-0407-3AA87D760D6B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='96591126-B8F1-6F37-624D-40E1B8799AB4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='96591126-B8F1-6F37-624D-40E1B8799AB4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='96591126-B8F1-6F37-624D-40E1B8799AB4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D28834C4-BEAE-74E7-EB54-F6A3FF89B1C5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D28834C4-BEAE-74E7-EB54-F6A3FF89B1C5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D28834C4-BEAE-74E7-EB54-F6A3FF89B1C5' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2017-01-03T13:30:01+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_list/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`account`,`img`,`sex`,`nickname`,`score`,`ntime`,`jltype`,`serialId`,`carNumber`,`address`,`cityid`,`verify`,`lastupdate` FROM `xueche1_coach` ORDER BY id asc LIMIT 882,14   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-03T13:30:04+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info/id/901/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`account`,`pass`,`sex`,`nickname`,`birthday`,`numberId`,`driverId`,`serialId`,`signature`,`timeflag`,`ntime`,`driverage`,`teachedage`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`jltype`,`address`,`masterid`,`boss`,`cityid`,`introduction` FROM `xueche1_coach` WHERE `id` = 901 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school` WHERE ( cityid=1 )  [ RunTime:0.0013s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_coach` WHERE ( cityid=1 and jltype=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-01-03T13:30:28+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: UPDATE `xueche1_coach` SET `id`='901',`account`='13888223799',`pass`='33a7a4ac92627d9ee0b99a5c69d0eb3e',`nickname`='胡学忠教练',`sex`='0',`numberId`='',`driverId`='',`serialId`='',`signature`='',`timeflag`='0',`birthday`='2016-12-29',`ntime`='2016-12-29 21:48:41',`driverage`='',`teachedage`='',`evalutioncount`='0',`praisecount`='0',`allcount`='0',`passedcount`='0',`address`='云南昆明',`jltype`='0',`masterid`='D18CF959-EDB7-B2C2-C8D0-85CFB1415721',`boss`='4F4F1DD4-034D-25A3-55B8-D0B81E543656',`cityid`='1',`introduction`='' WHERE ( id=901 ) [ RunTime:0.0012s ]
+
+[ 2017-01-03T13:30:29+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_list/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`account`,`img`,`sex`,`nickname`,`score`,`ntime`,`jltype`,`serialId`,`carNumber`,`address`,`cityid`,`verify`,`lastupdate` FROM `xueche1_coach` ORDER BY id asc LIMIT 882,14   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-01-03T13:30:34+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info/id/902/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`account`,`pass`,`sex`,`nickname`,`birthday`,`numberId`,`driverId`,`serialId`,`signature`,`timeflag`,`ntime`,`driverage`,`teachedage`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`jltype`,`address`,`masterid`,`boss`,`cityid`,`introduction` FROM `xueche1_coach` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school` WHERE ( cityid=1 )  [ RunTime:0.0013s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_coach` WHERE ( cityid=1 and jltype=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2017-01-03T13:30:35+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info/id/902/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`account`,`pass`,`sex`,`nickname`,`birthday`,`numberId`,`driverId`,`serialId`,`signature`,`timeflag`,`ntime`,`driverage`,`teachedage`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`jltype`,`address`,`masterid`,`boss`,`cityid`,`introduction` FROM `xueche1_coach` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school` WHERE ( cityid=1 )  [ RunTime:0.0013s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_coach` WHERE ( cityid=1 and jltype=2 )  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-03T13:30:52+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: UPDATE `xueche1_coach` SET `id`='902',`account`='18008305699',`pass`='a4747560767bf0b0ccbcc4b5e2ca1aff',`nickname`='陈曦教练',`sex`='0',`numberId`='',`driverId`='',`serialId`='',`signature`='',`timeflag`='0',`birthday`='2017-01-03',`ntime`='2017-01-03 10:59:12',`driverage`='',`teachedage`='',`evalutioncount`='0',`praisecount`='0',`allcount`='0',`passedcount`='0',`address`='重庆',`jltype`='0',`masterid`='D18CF959-EDB7-B2C2-C8D0-85CFB1415721',`boss`='4F4F1DD4-034D-25A3-55B8-D0B81E543656',`cityid`='1',`introduction`='' WHERE ( id=902 ) [ RunTime:0.0017s ]
+
+[ 2017-01-03T13:30:53+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_list/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`account`,`img`,`sex`,`nickname`,`score`,`ntime`,`jltype`,`serialId`,`carNumber`,`address`,`cityid`,`verify`,`lastupdate` FROM `xueche1_coach` ORDER BY id asc LIMIT 882,14   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-01-03T13:30:58+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info/id/902/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`account`,`pass`,`sex`,`nickname`,`birthday`,`numberId`,`driverId`,`serialId`,`signature`,`timeflag`,`ntime`,`driverage`,`teachedage`,`evalutioncount`,`praisecount`,`allcount`,`passedcount`,`jltype`,`address`,`masterid`,`boss`,`cityid`,`introduction` FROM `xueche1_coach` WHERE `id` = 902 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school` WHERE ( cityid=1 )  [ RunTime:0.0014s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_coach` WHERE ( cityid=1 and jltype=2 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-01-03T13:31:04+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: UPDATE `xueche1_coach` SET `id`='902',`account`='18008305699',`pass`='a4747560767bf0b0ccbcc4b5e2ca1aff',`nickname`='陈曦教练',`sex`='0',`numberId`='',`driverId`='',`serialId`='',`signature`='',`timeflag`='0',`birthday`='2017-01-03',`ntime`='2017-01-03 10:59:12',`driverage`='',`teachedage`='',`evalutioncount`='0',`praisecount`='0',`allcount`='0',`passedcount`='0',`address`='重庆',`jltype`='0',`masterid`='D18CF959-EDB7-B2C2-C8D0-85CFB1415721',`boss`='4F4F1DD4-034D-25A3-55B8-D0B81E543656',`cityid`='308',`introduction`='' WHERE ( id=902 ) [ RunTime:0.0014s ]
+
+[ 2017-01-03T13:31:05+08:00 ] 101.81.10.176 /index.php/Ment/Coach/jl_list/p/64.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`account`,`img`,`sex`,`nickname`,`score`,`ntime`,`jltype`,`serialId`,`carNumber`,`address`,`cityid`,`verify`,`lastupdate` FROM `xueche1_coach` ORDER BY id asc LIMIT 882,14   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2C4BEC4D-EA78-A5B6-90A7-291F8350B96E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='F257DC00-280A-59C0-74A2-37803EEA361D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FF7889FE-D008-A119-9E98-025CD28DEACC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A665C06D-780D-3C61-F3DE-308E02714FFD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='E4E63CD3-46E0-231E-157F-B03F175FD808' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='41816CE0-33B3-01A1-0CED-A37AF17ACC31' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='FE1795A0-BDE9-E490-D708-E41B8892A3A8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C202510E-6A7A-2813-1B98-353BCE176B23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='0EA142BD-761D-0D5E-38D5-B89A5FD6B724' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='2D268D09-DA46-A816-8996-D5945037F28F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='A460A0E0-205A-CC53-0689-E2733F6F442F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='C8382491-D7DA-63DF-B245-83F5805ABD9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='372EE4D8-510E-981A-E61E-E337A92FACBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( objectid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='D72C7630-0880-2F75-ADA2-39B67A101224' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id=308 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`cityname` FROM `xueche1_citys` WHERE ( flag=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-01-03T17:23:48+08:00 ] 101.81.10.176 /ment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-03T17:23:48+08:00 ] 101.81.10.176 /index.php/Ment/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2017-01-03T17:23:48+08:00 ] 101.81.10.176 /index.php/Ment/Index/verify_img.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-03T17:24:01+08:00 ] 101.81.10.176 /index.php/Ment/Index/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pass`,`username`,`ntime`,`masgroup`,`flag`,`username`,`role`,`logintimes`,`permissid` FROM `xueche1_admin` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_admin` SET `logintimes`=logintimes+1 WHERE ( account='admin' ) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`info`,`nip`) VALUES ('admin','1483435441','登录','1699809968') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Ment/Controller/IndexController.class.php 第 52 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2017-01-03T17:24:01+08:00 ] 101.81.10.176 /index.php/Ment/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-01-03T17:24:01+08:00 ] 101.81.10.176 /index.php/Ment/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-03T17:24:01+08:00 ] 101.81.10.176 /index.php/Ment/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-01-03T17:24:01+08:00 ] 101.81.10.176 /index.php/Ment/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2017-01-03T17:24:08+08:00 ] 101.81.10.176 /index.php/Ment/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-01-03T17:24:09+08:00 ] 101.81.10.176 /index.php/Ment/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-01-03T17:24:09+08:00 ] 101.81.10.176 /index.php/Ment/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-01-03T17:24:09+08:00 ] 101.81.10.176 /index.php/Ment/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-03T17:24:09+08:00 ] 180.163.1.46 /index.php/ment/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-01-03T17:24:12+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-01-03T17:24:49+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT `userid` FROM `xueche1_coach` WHERE ( account='15901744174' ) LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`phone`,`message`,`manager`,`ntime`) VALUES ('4','15901744174','00000','admin','2017-01-03 17:24:49') [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000408s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-01-03T17:33:44+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-01-03T17:34:23+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0017s ]
+SQL: SELECT `userid` FROM `xueche1_coach` WHERE ( account='15901744174' ) LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`phone`,`message`,`manager`,`ntime`) VALUES ('4','15901744174','awdsaf','admin','2017-01-03 17:34:23') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-01-03T17:34:46+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-01-03T17:34:55+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('jld','vdwfvsdv','admin','2017-01-03 17:34:55') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000439s ]
+
+[ 2017-01-03T17:35:05+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004667s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-01-03T17:35:24+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('jld','fgdsgdsfg','admin','2017-01-03 17:35:24') [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-03T17:35:30+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2017-01-03T17:35:50+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0011s ]
+SQL: SELECT `userid` FROM `xueche1_user` WHERE ( account='15901744172' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`phone`,`message`,`manager`,`ntime`) VALUES ('4','15901744172','ascdsc','admin','2017-01-03 17:35:50') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-01-03T17:36:22+08:00 ] 101.81.10.176 /index.php/Ment/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2017-01-03T17:36:22+08:00 ] 101.81.10.176 /index.php/Ment/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-03T17:36:22+08:00 ] 101.81.10.176 /index.php/Ment/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-01-03T17:36:22+08:00 ] 101.81.10.176 /index.php/Ment/Index/right.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-01-03T17:36:24+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-03T17:36:28+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('xy','','admin','2017-01-03 17:36:28') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000433s ]
+
+[ 2017-01-03T17:36:38+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('xy','asasa','admin','2017-01-03 17:36:38') [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2017-01-03T17:36:43+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('jld','asasa','admin','2017-01-03 17:36:43') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2017-01-03T17:37:53+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('all','fdsacvasd','admin','2017-01-03 17:37:53') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2017-01-03T17:37:54+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('all','fdsacvasd','admin','2017-01-03 17:37:54') [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-01-03T17:38:03+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2] error_log(./jpush.log): failed to open stream: Permission denied /var/www/xueche/ThinkPHP/Library/Vendor/JPush/Http.php 第 122 行.
+SQL: SHOW COLUMNS FROM `xueche1_jpush` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_jpush` (`type`,`message`,`manager`,`ntime`) VALUES ('all','','admin','2017-01-03 17:38:03') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-03T17:38:09+08:00 ] 101.81.10.176 /index.php/Ment/System/sendPush.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-03T17:38:48+08:00 ] 101.81.10.176 /index.php/Ment/Index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-01-03T17:38:51+08:00 ] 101.81.10.176 /index.php/Ment/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-01-03T17:38:51+08:00 ] 101.81.10.176 /index.php/Ment/Index/verify_img.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-01-03T17:38:58+08:00 ] 180.153.160.24 /index.php/ment/index/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-01-03T17:38:58+08:00 ] 180.153.160.24 /index.php/Ment/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+

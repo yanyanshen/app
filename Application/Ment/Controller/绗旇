@@ -1,0 +1,15 @@
+1，模板直接输出session
+	{$Think.session.account}
+2，模板得到当前ip地址
+	{$Think.server.SERVER_ADDR}<br /><!--当前服务器的ip-->
+	{$Think.server.REMOTE_ADDR}<br /><!--访问者外部的ip-->
+	{$Think.server.SERVER_NAME}<br /><!--localhost-->
+	{$Think.const.__SELF__}<br /><!--当前项目路径-->
+	{$Think.const.APP_NAME}<br /><!--项目名称-->
+	<!--2、获得ThinkPHP内部定义的变量-->
+	{$Think.now}<br /><!--当前时间-->
+	{$Think.template}<br /><!--APP/Tpl/Admin/View/show.html -->
+	{$Think.version}<br /><!--tp版本号-->
+	{$Think.LDELIM}<br /><!---->
+3, thinkphp中清除session方法
+	session('[destroy]');   //thinkphp中清除session方法

@@ -1,0 +1,2151 @@
+[ 2017-01-25T01:55:53+08:00 ] 17.200.11.44 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 01:55:53','www.517xc.com/Admin/Index/version','17.200.11.44','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-25T01:56:02+08:00 ] 17.200.11.44 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 01:56:02','www.517xc.com/Admin/Index/bannerCount','17.200.11.44','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-01-25T01:56:05+08:00 ] 17.200.11.44 /Admin/Coach/getpublicList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 01:56:05','www.517xc.com/Admin/Coach/getpublicList1','17.200.11.44','ios') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3210','3211','3212','3213','3214')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2017-01-25T01:56:17+08:00 ] 17.200.11.44 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 01:56:17','www.517xc.com/Admin/Index/check','17.200.11.44','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15801719593' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15801719593' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-25T01:56:32+08:00 ] 17.200.11.44 /Admin/index/userinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0BC9E90D_7014_323C_F4C1_72E8C7F568F9','访问','2017-01-25 01:56:32','www.517xc.com/Admin/index/userinfo','17.200.11.44','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT `account`,`nickname`,`truename`,`sex`,`birthday`,`img`,`signature`,`grade`,`jtype`,`address` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-01-25T01:56:40+08:00 ] 17.200.11.44 /Admin/Driving/listcenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 01:56:40','www.517xc.com/Admin/Driving/listcenter','17.200.11.44','ios') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0012s ]
+SQL: SELECT l.listname,l.objectid,l.phone,l.masterid,l.id,l.masname,l.stucount,l.trname,l.applymode,l.prices,l.address,l.remark,l.mode,l.description,l.total_fee,l.couponmode,l.listid,l.listtime,l.type,l.state,l.classid,l.description,l.flag,`preferentialprice`,l.gmt_payment as paytime FROM xueche1_list l WHERE (  l.masterid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' and l.mode=1 and l.flag=1 ) ORDER BY l.id desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1082 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-01-25T06:54:30+08:00 ] 180.97.106.161 //admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+
+[ 2017-01-25T06:54:36+08:00 ] 180.97.106.162 //index.php?m=admin&c=index&a=login&pc_hash=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 88 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 06:54:36','www.517xc.com//index.php?m=admin&c=index&a=login&pc_hash=','180.97.106.162',NULL) [ RunTime:0.0003s ]
+ERR: 非法操作:login
+
+[ 2017-01-25T06:54:37+08:00 ] 180.97.106.162 //admin.php?mod=phpcms&file=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-01-25T06:54:40+08:00 ] 180.97.106.37 //admin/privilege.php?act=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载控制器:Privilege.php
+
+[ 2017-01-25T06:54:59+08:00 ] 180.97.106.37 //admin/cpstyle.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载控制器:Cpstyle.css
+
+[ 2017-01-25T06:55:14+08:00 ] 180.97.106.37 //admin/editor/editor/dialog/fck_about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载控制器:Editor
+
+[ 2017-01-25T06:55:23+08:00 ] 180.97.106.37 ///admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+
+[ 2017-01-25T07:40:00+08:00 ] 36.23.239.216 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 07:40:00','www.517xc.com/Admin/Index/check','36.23.239.216','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-01-25T07:40:03+08:00 ] 36.23.239.216 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 07:40:03','www.517xc.com/Admin/Index/bannerCount','36.23.239.216','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-01-25T07:48:36+08:00 ] 36.23.239.216 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 07:48:36','www.517xc.com/Admin/Index/version','36.23.239.216','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-25T07:48:37+08:00 ] 36.23.239.216 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 07:48:37','www.517xc.com/Admin/Index/check','36.23.239.216','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-01-25T07:48:39+08:00 ] 36.23.239.216 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 07:48:39','www.517xc.com/Admin/Index/bannerCount','36.23.239.216','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-01-25T08:00:24+08:00 ] 183.129.208.148 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:00:24','www.517xc.com/Admin/Index/version','183.129.208.148','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-01-25T08:00:25+08:00 ] 183.129.208.148 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:00:25','www.517xc.com/Admin/Index/check','183.129.208.148','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0007s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-01-25T08:00:27+08:00 ] 183.129.208.148 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:00:27','www.517xc.com/Admin/Index/bannerCount','183.129.208.148','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-01-25T08:17:15+08:00 ] 183.129.208.148 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:17:15','www.517xc.com/Admin/Index/version','183.129.208.148','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-01-25T08:17:16+08:00 ] 183.129.208.148 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:17:16','www.517xc.com/Admin/Index/check','183.129.208.148','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-01-25T08:17:18+08:00 ] 183.129.208.148 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 08:17:18','www.517xc.com/Admin/Index/bannerCount','183.129.208.148','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-01-25T09:25:03+08:00 ] 117.151.146.170 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 09:25:03','www.517xc.com/Admin/Index/bannerCount','117.151.146.170','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-01-25T09:25:03+08:00 ] 117.151.146.170 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('9BCAC7D2-24E7-FE87-8439-044A57C5DFAB','访问','2017-01-25 09:25:03','www.517xc.com/Admin/Index/version','117.151.146.170','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-01-25T09:25:03+08:00 ] 117.151.146.170 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('9BCAC7D2-24E7-FE87-8439-044A57C5DFAB','访问','2017-01-25 09:25:03','www.517xc.com/Admin/coach/getpublicList','117.151.146.170','an') [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%荆州%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=173 and verify=3 ) LIMIT 0,5   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-01-25T09:25:03+08:00 ] 117.151.146.170 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('9BCAC7D2-24E7-FE87-8439-044A57C5DFAB','访问','2017-01-25 09:25:03','www.517xc.com/Admin/coach/getpublicList','117.151.146.170','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%荆州%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=173 and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-01-25T09:25:03+08:00 ] 117.151.146.170 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('9BCAC7D2-24E7-FE87-8439-044A57C5DFAB','访问','2017-01-25 09:25:03','www.517xc.com/Admin/coach/getpublicList','117.151.146.170','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%荆州%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=173 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-01-25T09:25:35+08:00 ] 117.151.146.170 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 09:25:35','www.517xc.com/Admin/Index/bannerCount','117.151.146.170','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-25T11:53:16+08:00 ] 183.129.208.148 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 11:53:16','www.517xc.com/Admin/Index/version','183.129.208.148','ios') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-01-25T11:53:17+08:00 ] 183.129.208.148 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 11:53:16','www.517xc.com/Admin/Index/check','183.129.208.148','ios') [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-01-25T11:53:19+08:00 ] 183.129.208.148 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 11:53:19','www.517xc.com/Admin/Index/bannerCount','183.129.208.148','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-01-25T12:07:34+08:00 ] 183.129.208.148 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 12:07:34','www.517xc.com/Admin/Index/version','183.129.208.148','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-25T12:07:35+08:00 ] 183.129.208.148 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 12:07:35','www.517xc.com/Admin/Index/check','183.129.208.148','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-01-25T12:07:37+08:00 ] 183.129.208.148 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 12:07:37','www.517xc.com/Admin/Index/bannerCount','183.129.208.148','ios') [ RunTime:0.0005s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-01-25T12:07:40+08:00 ] 183.129.208.148 /Admin/Coach/getpublicList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('B8176C1C-EA6F-D5CB-3B8E-B49E457D47CB','访问','2017-01-25 12:07:40','www.517xc.com/Admin/Coach/getpublicList1','183.129.208.148','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0008s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3210','3211','3212','3213','3214')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-01-25T13:06:02+08:00 ] 183.129.208.148 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:06:02','www.517xc.com/Admin/Index/version','183.129.208.148','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-01-25T13:06:03+08:00 ] 183.129.208.148 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:06:03','www.517xc.com/Admin/Index/check','183.129.208.148','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='15372590316' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-01-25T13:06:05+08:00 ] 183.129.208.148 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:06:05','www.517xc.com/Admin/Index/bannerCount','183.129.208.148','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-01-25T13:39:08+08:00 ] 101.69.254.198 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:08','www.517xc.com/Admin/Index/version','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-01-25T13:39:08+08:00 ] 101.69.254.198 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:39:08','www.517xc.com/Admin/Index/bannerCount','101.69.254.198','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2017-01-25T13:39:08+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:08','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0011s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B2D2E16C_F98F_4B6C_42C6_5D40E46F4173' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9D03F115_6383_529A_D015_87F0BD45AEC0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B2D2E16C_F98F_4B6C_42C6_5D40E46F4173'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='D59F8ABA_6662_B644_8309_EAF59B2DDF3B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9D03F115_6383_529A_D015_87F0BD45AEC0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='D59F8ABA_6662_B644_8309_EAF59B2DDF3B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-01-25T13:39:08+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:08','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-01-25T13:39:08+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:08','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9_C4A7_42AC_A74E_ED080F162A81' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='105BF1E9_C4A7_42AC_A74E_ED080F162A81' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='105BF1E9_C4A7_42AC_A74E_ED080F162A81'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='89C127FF_D682_3F27_D759_1EAA11AA54F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='89C127FF_D682_3F27_D759_1EAA11AA54F9' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='89C127FF_D682_3F27_D759_1EAA11AA54F9'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='48F7AED5_C1C1_5808_36CF_20374E30CB77' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='48F7AED5_C1C1_5808_36CF_20374E30CB77' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='48F7AED5_C1C1_5808_36CF_20374E30CB77'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-01-25T13:39:24+08:00 ] 101.69.254.198 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0014s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:39:24','www.517xc.com/Admin/Index/bannerCount','101.69.254.198','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-01-25T13:39:27+08:00 ] 101.69.254.198 /Admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:27','www.517xc.com/Admin/dynamic/getalldynamic','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0D34AC5F-D53E-EDB2-12F8-0B7B49A9AF7E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0D34AC5F-D53E-EDB2-12F8-0B7B49A9AF7E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0008s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=57 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=57 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=56 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=56 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=55 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE_A1AF_5F50_5C3F_C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='8CF687BE_A1AF_5F50_5C3F_C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=54 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=54 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=52 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=52 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0015s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076_B223_BBEB_4B33_0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A2194076_B223_BBEB_4B33_0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=45 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=45 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=43 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=43 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331_1DA3_E56C_DAC1_5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331_1DA3_E56C_DAC1_5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C_3434_185B_1C37_51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C_3434_185B_1C37_51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='defalut' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-01-25T13:39:58+08:00 ] 101.69.254.198 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:58','www.517xc.com/Admin/Index/version','101.69.254.198','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-01-25T13:39:58+08:00 ] 101.69.254.198 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:39:58','www.517xc.com/Admin/Index/bannerCount','101.69.254.198','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-01-25T13:39:58+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:58','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0008s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B2D2E16C_F98F_4B6C_42C6_5D40E46F4173' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9D03F115_6383_529A_D015_87F0BD45AEC0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B2D2E16C_F98F_4B6C_42C6_5D40E46F4173'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='D59F8ABA_6662_B644_8309_EAF59B2DDF3B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9D03F115_6383_529A_D015_87F0BD45AEC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='D59F8ABA_6662_B644_8309_EAF59B2DDF3B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2017-01-25T13:39:58+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:58','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-01-25T13:39:58+08:00 ] 101.69.254.198 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 13:39:58','www.517xc.com/Admin/coach/getpublicList','101.69.254.198','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%杭州%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=15 and verify=3 ) LIMIT 0,5   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9_C4A7_42AC_A74E_ED080F162A81' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='105BF1E9_C4A7_42AC_A74E_ED080F162A81' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0008s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='105BF1E9_C4A7_42AC_A74E_ED080F162A81'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='89C127FF_D682_3F27_D759_1EAA11AA54F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='89C127FF_D682_3F27_D759_1EAA11AA54F9' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='89C127FF_D682_3F27_D759_1EAA11AA54F9'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6635A7B2_34A9_BEA5_7750_0BF9CDAA3185'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='EF2AD3F1_9A82_46EA_AE86_80E069A16DEE'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='48F7AED5_C1C1_5808_36CF_20374E30CB77' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='48F7AED5_C1C1_5808_36CF_20374E30CB77' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='48F7AED5_C1C1_5808_36CF_20374E30CB77'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-01-25T13:40:47+08:00 ] 101.69.254.198 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 13:40:47','www.517xc.com/Admin/Index/bannerCount','101.69.254.198','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-01-25T17:14:40+08:00 ] 223.86.247.31 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('08645B93-B5F2-E131-9802-204522D1FADA','访问','2017-01-25 17:14:40','www.517xc.com/Admin/Index/version','223.86.247.31','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2017-01-25T17:14:40+08:00 ] 223.86.247.31 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:14:40','www.517xc.com/Admin/Index/bannerCount','223.86.247.31','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-01-25T17:14:41+08:00 ] 223.86.247.31 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('08645B93-B5F2-E131-9802-204522D1FADA','访问','2017-01-25 17:14:41','www.517xc.com/Admin/coach/getpublicList','223.86.247.31','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%德阳%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=246 and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2017-01-25T17:14:41+08:00 ] 223.86.247.31 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('08645B93-B5F2-E131-9802-204522D1FADA','访问','2017-01-25 17:14:41','www.517xc.com/Admin/coach/getpublicList','223.86.247.31','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%德阳%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=246 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-25T17:14:41+08:00 ] 223.86.247.31 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('08645B93-B5F2-E131-9802-204522D1FADA','访问','2017-01-25 17:14:41','www.517xc.com/Admin/coach/getpublicList','223.86.247.31','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%德阳%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=246 and verify=3 ) LIMIT 0,5   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+
+[ 2017-01-25T17:21:38+08:00 ] 223.86.247.31 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:21:38','www.517xc.com/Admin/Index/bannerCount','223.86.247.31','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-25T17:33:33+08:00 ] 116.231.175.204 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:33:33','www.517xc.com/Admin/Index/version','116.231.175.204','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-01-25T17:33:38+08:00 ] 116.231.175.204 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:33:38','www.517xc.com/Admin/Index/check','116.231.175.204','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 20 and defined /var/www/xueche/Application/Admin/Common/function.php 第 22 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13817733346' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='13817733346' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0007s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-01-25T17:33:40+08:00 ] 116.231.175.204 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:33:40','www.517xc.com/Admin/Index/bannerCount','116.231.175.204','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000455s ]
+
+[ 2017-01-25T17:33:43+08:00 ] 116.231.175.204 /Admin/Coach/getpublicList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('6A9C38CE_999F_66D3_0CAF_5889D3D8D98E','访问','2017-01-25 17:33:43','www.517xc.com/Admin/Coach/getpublicList1','116.231.175.204','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3210','3211','3212','3213','3214')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-01-25T17:51:58+08:00 ] 110.75.248.228 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 88 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 17:51:58','58.215.176.58/Admin/Driving/alipayCallBack','110.75.248.228',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0012s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016102621001004620226734161',`buyer_email`='157084726@qq.com',`total_fee`='0.01',`gmt_payment`='2016-10-26 17:54:51' WHERE ( listid='2016102617471010157499' ) [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016102617471010157499' ) [ RunTime:0.0002s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016102617471010157499' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_student` SET `paytype`='0' WHERE ( userid='' ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 733 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 734 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-01-25T20:28:36+08:00 ] 58.217.187.42 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0014s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:28:36','www.517xc.com/Admin/Index/version','58.217.187.42','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-01-25T20:29:20+08:00 ] 58.217.187.42 /Admin/Index/sends
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:29:20','www.517xc.com/Admin/Index/sends','58.217.187.42','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `xueche1_auth` (`auth`,`time`,`phone`) VALUES ('371654','1485347360','13812662468') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-01-25T20:30:14+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:30:14','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 62 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-01-25T20:30:18+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:30:18','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 62 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2017-01-25T20:30:42+08:00 ] 58.217.187.42 /Admin/Index/sends
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:30:42','www.517xc.com/Admin/Index/sends','58.217.187.42','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_auth` SET `auth`='387746',`time`='1485347442' WHERE ( phone='13812662468' ) [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-01-25T20:30:48+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:30:48','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 62 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-01-25T20:30:50+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:30:50','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 62 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-01-25T20:31:13+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:31:13','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2017-01-25T20:31:16+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:31:16','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0033s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-01-25T20:31:24+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:31:24','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2017-01-25T20:31:28+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:31:28','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-01-25T20:32:13+08:00 ] 58.217.187.42 /Admin/Index/sends
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:32:13','www.517xc.com/Admin/Index/sends','58.217.187.42','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_auth` SET `auth`='957546',`time`='1485347533' WHERE ( phone='13812662468' ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-01-25T20:32:53+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:32:53','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-01-25T20:33:07+08:00 ] 58.217.187.42 /Admin/Index/adduser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:33:07','www.517xc.com/Admin/Index/adduser','58.217.187.42','ios') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: 13812662468b /var/www/xueche/Application/Admin/Controller/IndexController.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `xueche1_auth` [ RunTime:0.0008s ]
+SQL: SELECT `auth`,`time` FROM `xueche1_auth` WHERE ( phone='13812662468' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='13812662468' ) LIMIT 1   [ RunTime:0.0034s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 34 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-01-25T20:35:57+08:00 ] 183.167.211.88 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 20:35:57','www.517xc.com/Admin/Index/version','183.167.211.88','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-01-25T20:35:57+08:00 ] 183.167.211.88 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:35:57','www.517xc.com/Admin/Index/bannerCount','183.167.211.88','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-25T20:35:58+08:00 ] 183.167.211.88 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 20:35:58','www.517xc.com/Admin/coach/getpublicList','183.167.211.88','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0007s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC_05C2_C391_5640_D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC_05C2_C391_5640_D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guiderland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC_05C2_C391_5640_D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC_06C2_C391_5640_D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC_06C2_C391_5640_D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC_06C2_C391_5640_D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='5C11C490_5D36_2AAB_C259_DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='5C11C490_5D36_2AAB_C259_DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='5C11C490_5D36_2AAB_C259_DD0F86A707C1'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='60D43BC0_C115_6A7A_E500_5775D097FDAA'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-01-25T20:35:58+08:00 ] 183.167.211.88 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 20:35:58','www.517xc.com/Admin/coach/getpublicList','183.167.211.88','an') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0007s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='E7D96389_D40B_EA8B_46DF_99FF792C0D27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C_CADB_C5D0_DCB4_9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='E7D96389_D40B_EA8B_46DF_99FF792C0D27'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='81362E0D_4200_7FE6_EFDC_7051A54E34AD' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C_CADB_C5D0_DCB4_9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='81362E0D_4200_7FE6_EFDC_7051A54E34AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC_05C2_C391_5640_D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C_CADB_C5D0_DCB4_9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B0D60BCC_05C2_C391_5640_D0AC680B41AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='C203E3AC_FE4C_FB3C_8584_3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C_CADB_C5D0_DCB4_9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='C203E3AC_FE4C_FB3C_8584_3499F46C6863'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='6DD1B43D_35EF_30DE_BE07_6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C_CADB_C5D0_DCB4_9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='6DD1B43D_35EF_30DE_BE07_6429980F2F53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-01-25T20:35:58+08:00 ] 183.167.211.88 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 20:35:58','www.517xc.com/Admin/coach/getpublicList','183.167.211.88','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959_EDB7_B2C2_C8D0_85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0014s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9_CDC6_3432_1FF1_601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0011s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108_806A_A9BE_DB34_A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108_806A_A9BE_DB34_A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8_C71C_CB17_5AC8_9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918_4DE4_412F_738C_954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918_4DE4_412F_738C_954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2017-01-25T20:36:19+08:00 ] 183.167.211.88 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-25 20:36:19','www.517xc.com/Admin/coach/getpublicList','183.167.211.88','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 5,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='E9581929_CF91_99CF_237F_FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='E9581929_CF91_99CF_237F_FB07C3AB2091' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='E9581929_CF91_99CF_237F_FB07C3AB2091'  ORDER BY rand() LIMIT 20   [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='921E6D53_1E61_31F4_6912_39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='921E6D53_1E61_31F4_6912_39E9051C9777' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='921E6D53_1E61_31F4_6912_39E9051C9777'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='4E1A1784_6F12_FA7B_22E6_BBCB70836AC1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='4E1A1784_6F12_FA7B_22E6_BBCB70836AC1' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='4E1A1784_6F12_FA7B_22E6_BBCB70836AC1'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='07825C54_2994_4B42_3351_19343C4CA7AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='07825C54_2994_4B42_3351_19343C4CA7AD' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='07825C54_2994_4B42_3351_19343C4CA7AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0014s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='1CDED6A4_1404_D478_8689_7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='1CDED6A4_1404_D478_8689_7A7EBC18BFBB' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='1CDED6A4_1404_D478_8689_7A7EBC18BFBB'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-01-25T20:36:58+08:00 ] 183.167.211.88 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:36:58','www.517xc.com/Admin/Index/bannerCount','183.167.211.88','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-25T20:37:58+08:00 ] 112.17.235.167 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 20:37:58','www.517xc.com/Admin/Index/version','112.17.235.167','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-01-25T21:15:58+08:00 ] 117.136.44.206 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:15:58','www.517xc.com/Admin/Index/version','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2017-01-25T21:15:58+08:00 ] 117.136.44.206 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:15:58','www.517xc.com/Admin/Index/bannerCount','117.136.44.206','an') [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-01-25T21:15:58+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:15:58','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-01-25T21:15:58+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:15:58','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2017-01-25T21:15:59+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:15:59','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-01-25T21:16:05+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:16:05','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2017-01-25T21:16:07+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:16:07','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2017-01-25T21:16:09+08:00 ] 117.136.44.206 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:16:09','www.517xc.com/Admin/coach/getpublicList','117.136.44.206','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%许昌%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=161 and verify=3 ) LIMIT 0,5   [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-01-25T21:16:21+08:00 ] 117.136.44.206 /Admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:16:21','www.517xc.com/Admin/dynamic/getalldynamic','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0D34AC5F-D53E-EDB2-12F8-0B7B49A9AF7E' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0D34AC5F-D53E-EDB2-12F8-0B7B49A9AF7E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0007s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=57 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=57 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=56 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=56 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=55 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE_A1AF_5F50_5C3F_C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='8CF687BE_A1AF_5F50_5C3F_C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=54 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=54 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D_7014_323C_F4C1_72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=52 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=52 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0016s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076_B223_BBEB_4B33_0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A2194076_B223_BBEB_4B33_0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=45 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=45 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='60D43BC0_C115_6A7A_E500_5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=43 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=43 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331_1DA3_E56C_DAC1_5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331_1DA3_E56C_DAC1_5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C_3434_185B_1C37_51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C_3434_185B_1C37_51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2017-01-25T21:16:34+08:00 ] 117.136.44.206 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:16:34','www.517xc.com/Admin/Index/bannerCount','117.136.44.206','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-01-25T21:16:42+08:00 ] 117.136.44.206 /Admin/Dynamic/thumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:16:42','www.517xc.com/Admin/Dynamic/thumb','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=57 and mode=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `xueche1_dynamic` (`masterid`,`objecthingid`,`objectid`,`rtime`,`mode`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','57','5196C331_1DA3_E56C_DAC1_5EF8655FF96B','2017-01-25 21:16:42','1') [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: UPDATE `xueche1_news` SET `praisecount`=praisecount+1 WHERE ( newsid=57 ) [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/DynamicController.class.php on line 242 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-01-25T21:16:43+08:00 ] 117.136.44.206 /Admin/Dynamic/thumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:16:43','www.517xc.com/Admin/Dynamic/thumb','117.136.44.206','an') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=56 and mode=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `xueche1_dynamic` (`masterid`,`objecthingid`,`objectid`,`rtime`,`mode`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','56','0BC9E90D_7014_323C_F4C1_72E8C7F568F9','2017-01-25 21:16:43','1') [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: UPDATE `xueche1_news` SET `praisecount`=praisecount+1 WHERE ( newsid=56 ) [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/DynamicController.class.php on line 242 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-25T21:16:46+08:00 ] 117.136.44.206 /Admin/Dynamic/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','访问','2017-01-25 21:16:46','www.517xc.com/Admin/Dynamic/getNewsDetail','117.136.44.206','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0008s ]
+SQL: SELECT `evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid` FROM `xueche1_news` WHERE ( newsid=55 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT `type`,`id` FROM `xueche1_dynamic` WHERE ( objecthingid=55 and (mode=3 or mode=4) )  [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`type` FROM `xueche1_dynamic` WHERE ( objecthingid=55 and mode=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`type` FROM `xueche1_dynamic` WHERE ( objecthingid=55 and mode=2 )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2017-01-25T21:16:47+08:00 ] 117.136.44.206 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:16:47','www.517xc.com/Admin/Index/bannerCount','117.136.44.206','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 187 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-01-25T21:16:48+08:00 ] 117.136.44.206 /Admin/Dynamic/thumb
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-25 21:16:48','www.517xc.com/Admin/Dynamic/thumb','117.136.44.206','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='87696BB0_B365_6EC8_BE24_DBE30E4901B7' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `xueche1_dynamic` (`masterid`,`objecthingid`,`objectid`,`rtime`,`mode`) VALUES ('87696BB0_B365_6EC8_BE24_DBE30E4901B7','55','0BC9E90D_7014_323C_F4C1_72E8C7F568F9','2017-01-25 21:16:48','1') [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_news` SET `praisecount`=praisecount+1 WHERE ( newsid=55 ) [ RunTime:0.0005s ]
+NOTIC: [2] Missing argument 5 for type(), called in /var/www/xueche/Application/Admin/Controller/DynamicController.class.php on line 242 and defined /var/www/xueche/Application/Admin/Common/function.php 第 91 行.
+NOTIC: [8] Undefined variable: t /var/www/xueche/Application/Admin/Common/function.php 第 94 行.
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 96 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 104 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 115 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 120 行.
+NOTIC: [8] Undefined variable: date /var/www/xueche/Application/Admin/Common/function.php 第 123 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000474s ]
+

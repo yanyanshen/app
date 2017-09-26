@@ -1,0 +1,704 @@
+[ 2016-11-25T10:43:36+08:00 ] 101.81.13.210 /Manage/Index/skin/default/skin.css
+ERR: 非法操作:skin
+
+[ 2016-11-25T15:16:26+08:00 ] 101.81.13.210 /Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0009s ]
+SQL: SELECT `permissId` FROM `xueche1_admin` WHERE ( account='517liaonan' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-25T15:16:26+08:00 ] 101.81.13.210 /Manage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0010s ]
+SQL: SELECT `ntime`,`nip` FROM `xueche1_adminlog` WHERE ( account='517liaonan' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_adminlog` WHERE ( account='517liaonan' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-25%' ) GROUP BY state  [ RunTime:0.0006s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-24%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11%' ) GROUP BY state  [ RunTime:0.0003s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) GROUP BY state  [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` GROUP BY state  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: count /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-25%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-24%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 54 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 56 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 57 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 58 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 67 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 78 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 86 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 87 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 88 行.
+NOTIC: [8] Undefined variable: ww /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 102 行.
+NOTIC: [8] Undefined variable: php /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 106 行.
+NOTIC: [8] Undefined variable: ver /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 130 行.
+NOTIC: [8] Undefined variable: s /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 134 行.
+NOTIC: [8] Undefined variable: tp /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 138 行.
+NOTIC: [8] Undefined variable: sql /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 142 行.
+NOTIC: [8] Undefined variable: file /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-11-25T15:16:26+08:00 ] 101.81.13.210 /Manage/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+ERR: 非法操作:skin
+
+[ 2016-11-25T15:16:29+08:00 ] 101.81.13.210 /Manage/list/orderList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_list l LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`listid`,`listtime`,`masterid`,`objectid`,`phone`,`stucount`,`listname`,`paymethod`,`liststate`,`paytime`,`state`,`classid`,`customer`,`note`,`type`,`returndate`,`lastupdate`,`CL_type`,`flag`,`preferentialprice`,`gmt_payment` FROM xueche1_list l ORDER BY id desc LIMIT 0,13   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=115 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D3DF07F6-9A8A-F115-202D-F6EE8DCE7F12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=94 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='FFA23B86-C8C2-33FF-49DF-C1E34AA36F9D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=146 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-11-25T15:16:50+08:00 ] 101.81.13.210 /Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0011s ]
+SQL: SELECT `permissId` FROM `xueche1_admin` WHERE ( account='517liaonan' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-11-25T15:16:51+08:00 ] 101.81.13.210 /Manage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: SELECT `ntime`,`nip` FROM `xueche1_adminlog` WHERE ( account='517liaonan' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_adminlog` WHERE ( account='517liaonan' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-25%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-24%' ) GROUP BY state  [ RunTime:0.0003s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) GROUP BY state  [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` GROUP BY state  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: count /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 86 行.
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-25%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11-24%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-11%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 54 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 56 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 57 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 58 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 67 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 78 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 85 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 86 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 87 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 88 行.
+NOTIC: [8] Undefined variable: ww /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 102 行.
+NOTIC: [8] Undefined variable: php /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 106 行.
+NOTIC: [8] Undefined variable: ver /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 130 行.
+NOTIC: [8] Undefined variable: s /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 134 行.
+NOTIC: [8] Undefined variable: tp /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 138 行.
+NOTIC: [8] Undefined variable: sql /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 142 行.
+NOTIC: [8] Undefined variable: file /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-11-25T15:16:51+08:00 ] 101.81.13.210 /Manage/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+ERR: 非法操作:skin
+
+[ 2016-11-25T15:16:53+08:00 ] 101.81.13.210 /Manage/list/orderList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_list l LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`listid`,`listtime`,`masterid`,`objectid`,`phone`,`stucount`,`listname`,`paymethod`,`liststate`,`paytime`,`state`,`classid`,`customer`,`note`,`type`,`returndate`,`lastupdate`,`CL_type`,`flag`,`preferentialprice`,`gmt_payment` FROM xueche1_list l ORDER BY id desc LIMIT 0,13   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=115 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0008s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D3DF07F6-9A8A-F115-202D-F6EE8DCE7F12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=94 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='FFA23B86-C8C2-33FF-49DF-C1E34AA36F9D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=146 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-11-25T15:16:58+08:00 ] 101.81.13.210 /Manage/List/listInfo/listid/2016112414284510054555/userid/36872D55-397F-B744-6FDB-47EE074EE675/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school`  [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`masterid`,`phone`,`address`,`listtime`,`objectid`,`remark`,`mode`,`prices`,`total_fee`,`stucount`,`state`,`applymode`,`listid`,`masname`,`couponmode`,`listname`,`description`,`classid`,`flag`,`trname`,`paytime`,`paymethod`,`liststate`,`customer`,`note`,`returndate`,`lastupdate`,`payment_type`,`buyer_email`,`gmt_payment`,`trade_no`,`gmt_refund`,`Cl_type`,`listtype`,`type`,`preferentialprice` FROM `xueche1_list` WHERE ( listid='2016112414284510054555' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`connectteacher` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_listdocumentary` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`documenttime`,`content`,`nextreturndate`,`operator` FROM `xueche1_listdocumentary` WHERE ( listid='2016112414284510054555' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`officialprice`,`whole517price`,`prepay517deposit` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username` FROM `xueche1_admin` WHERE ( masgroup=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: vv /var/www/xueche/Application/Runtime/Cache/Manage/bfd95785a25200537361fb16e0c91eec.php 第 232 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Runtime/Cache/Manage/bfd95785a25200537361fb16e0c91eec.php 第 337 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-11-25T15:17:02+08:00 ] 101.81.13.210 /Manage/List/orderList/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_list l LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`listid`,`listtime`,`masterid`,`objectid`,`phone`,`stucount`,`listname`,`paymethod`,`liststate`,`paytime`,`state`,`classid`,`customer`,`note`,`type`,`returndate`,`lastupdate`,`CL_type`,`flag`,`preferentialprice`,`gmt_payment` FROM xueche1_list l ORDER BY id desc LIMIT 0,13   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=115 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D3DF07F6-9A8A-F115-202D-F6EE8DCE7F12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=94 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='FFA23B86-C8C2-33FF-49DF-C1E34AA36F9D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=146 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-11-25T15:17:04+08:00 ] 101.81.13.210 /Manage/List/addlistdocument.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `xueche1_listdocumentary` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_listdocumentary` (`listid`,`content`,`nextreturndate`,`operator`,`documenttime`) VALUES ('2016112414284510054555','222','2016-11-25','廖楠','2016-11-25') [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `lastupdate`='廖楠' WHERE ( listid='2016112414284510054555' ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0007s ]
+ERR: 1406:Data too long for column 'info' at row 1
+ [ SQL语句 ] : INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES ('517liaonan','1480058224','1699810770','修改2016112414284510054555订单的跟单记录成功')
+ERR: 1406:Data too long for column 'info' at row 1
+ [ SQL语句 ] : INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES ('517liaonan','1480058224','1699810770','修改2016112414284510054555订单的跟单记录成功')
+
+[ 2016-11-25T15:17:05+08:00 ] 101.81.13.210 /Manage/List/listInfo/listid/2016112414284510054555/userid/36872D55-397F-B744-6FDB-47EE074EE675/p/1.html?listid=2016112414284510054555&content=222&nextreturndate=2016-11-25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `userid`,`nickname` FROM `xueche1_school`  [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`masterid`,`phone`,`address`,`listtime`,`objectid`,`remark`,`mode`,`prices`,`total_fee`,`stucount`,`state`,`applymode`,`listid`,`masname`,`couponmode`,`listname`,`description`,`classid`,`flag`,`trname`,`paytime`,`paymethod`,`liststate`,`customer`,`note`,`returndate`,`lastupdate`,`payment_type`,`buyer_email`,`gmt_payment`,`trade_no`,`gmt_refund`,`Cl_type`,`listtype`,`type`,`preferentialprice` FROM `xueche1_list` WHERE ( listid='2016112414284510054555' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0008s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`connectteacher` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_listdocumentary` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`documenttime`,`content`,`nextreturndate`,`operator` FROM `xueche1_listdocumentary` WHERE ( listid='2016112414284510054555' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT `name`,`officialprice`,`whole517price`,`prepay517deposit` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`username` FROM `xueche1_admin` WHERE ( masgroup=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: vv /var/www/xueche/Application/Runtime/Cache/Manage/bfd95785a25200537361fb16e0c91eec.php 第 232 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Runtime/Cache/Manage/bfd95785a25200537361fb16e0c91eec.php 第 337 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-11-25T15:17:15+08:00 ] 101.81.13.210 /Manage/list/orderList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_list l LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`listid`,`listtime`,`masterid`,`objectid`,`phone`,`stucount`,`listname`,`paymethod`,`liststate`,`paytime`,`state`,`classid`,`customer`,`note`,`type`,`returndate`,`lastupdate`,`CL_type`,`flag`,`preferentialprice`,`gmt_payment` FROM xueche1_list l ORDER BY id desc LIMIT 0,13   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=115 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D3DF07F6-9A8A-F115-202D-F6EE8DCE7F12' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=94 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='FFA23B86-C8C2-33FF-49DF-C1E34AA36F9D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=156 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='36872D55-397F-B744-6FDB-47EE074EE675' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='146598DC-49AA-17B9-71A2-1730C3200CBF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=146 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=16 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=11 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=5 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=148 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+

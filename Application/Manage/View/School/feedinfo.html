@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<title>查看反馈信息</title>
+</head>
+<body>
+<div class="pd-20">
+<form action="" method="post" class="form form-horizontal" >
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>用户昵称：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$info.feedname}" name="feedname" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>联系方式：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$info['feedphone']}" name="feedphone" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>反馈时间：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text"  name="feedtime" value="{$info['feedtime']}" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3">反馈信息：</label>
+      <div class="formControls col-5">
+        <textarea name="content" cols="" rows="" class="textarea" datatype="*10-100" readonly>{$info['content']}</textarea>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-9 col-offset-3">
+        <a href="{:U('getfeedback')}"><input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;返回&nbsp;&nbsp;"></a>
+      </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>

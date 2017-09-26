@@ -1,0 +1,3 @@
+<?php
+//000000000300a:2:{i:0;a:5:{s:2:"id";s:2:"25";s:4:"time";s:19:"2017-01-22 13:22:14";s:8:"masterid";s:36:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B";s:8:"objectid";s:36:"8CF687BE_A1AF_5F50_5C3F_C051BB0218A7";s:7:"content";s:15:"已经回答了";}i:1;a:5:{s:2:"id";s:2:"26";s:4:"time";s:19:"2017-01-22 13:22:27";s:8:"masterid";s:36:"8CF687BE_A1AF_5F50_5C3F_C051BB0218A7";s:8:"objectid";s:36:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B";s:7:"content";s:12:"不具体啊";}}
+?>

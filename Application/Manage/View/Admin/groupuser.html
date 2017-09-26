@@ -1,0 +1,68 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<LINK rel="Bookmark" href="__PUBLIC__/517/favicon.ico" >
+<LINK rel="Shortcut Icon" href="__PUBLIC__/517/favicon.ico" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<script src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+<script>
+$("document").ready(function(){
+	$("#b2").click(function(){
+		$.ajax({
+			url:"{:U('changegroup')}",
+		    type:"POST",
+	        data:$('#form2').serialize(),
+	        success:function(data) {
+	           switch(data){
+	       		case '0':alert('移除失败');break;
+	       		default:  alert("移除成功");
+	       		location.reload();
+	       	  }
+	        }
+		});
+	});
+});
+</script>
+<title>组详情</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 组成员管理 <span class="c-gray en">&gt;</span> 组成员列表 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="{:U('groupmanage?p='.$p)}"><button>返回组管理</button></a></span> <span class="r">共有数据：<strong>{$count}</strong> 条</span> </div>
+	<table class="table table-border table-bordered table-bg">
+		<tr>
+			<td colspan='2'>{$group['groupname']}</td>
+		</tr>
+		<tr>
+			<td width="50">描述</td>
+			<td>{$group['description']}</td>
+		</tr>
+		<tr>
+			<td>组成员</td>
+			<td>移至其他组</td>
+		</tr>
+		<tr>
+		<form id="form2">
+			<td width="200"><volist name='user' id='v'>
+					<label><input type="checkbox" name="{$v['account']}" value="{$v['account']}"/>{$v['username']}</label><br>
+			</volist></td>
+			<td>
+				<volist name="groups" id='g'>
+					<label><input type="radio" name="masname" value="{$g.id}" {$g['id']==$id?'checked':''}/>{$g.groupname}</label>&nbsp;&nbsp;
+				</volist>&nbsp;&nbsp;<button id='b2'>移至该组</button>
+			</td>
+			</form>
+		</tr>
+	</table>
+</div>
+
+</body>
+</html>

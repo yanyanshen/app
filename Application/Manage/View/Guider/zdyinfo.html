@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+<script  src="__PUBLIC__/517/js/My97DatePicker/WdatePicker.js"></script>
+	<script>
+	$("document").ready(function(){
+ 		$("#button1").click(function(){
+			$.ajax({
+				url:"{:U('zdyinfoupdate')}",
+			    type:"POST",
+		        data:$('#form1').serialize(),
+		        success: function(data) {
+		           if(data==1){
+		        	   alert("更新成功");
+		        	   location.reload();
+		           }else if(data==0){
+		        	   alert("更新失败");
+		           }
+		        }
+			});
+		});
+ 		$("#button2").click(function(){
+			var landmarkid=$("input[type='checkbox']:checked").serialize()+'&userid={$userid}';
+			$.ajax({
+			    url:"{:U('addzdyland')}",
+			    type:"get",
+		        data:landmarkid,
+		        success: function(data) {
+		           if(data==1){
+		        	   alert("添加成功");
+		        	   location.reload();
+		           }else{
+		        	   alert("添加失败");
+		           }
+		        }
+			});
+
+		});
+	});
+	$("document").ready(function(){
+		$("#selectcity").change(function(){
+			$.post(
+				"{:U('user/county')}",
+				{
+					type:$("#selectcity option:selected").val(),
+				},function(data,status){
+					data1=eval("("+data+")");
+					//循环前先清空
+					$("#select").html("");
+					for(i=0;i<data1.length;i++){
+						$("#select").append("<option value="+data1[i].id+">"+data1[i].countyname+"</option>");//在后面追加
+					}
+				});
+			});
+	});
+	$("document").ready(function(){
+		$("#select").change(function(){
+			$.post(
+				"{:U('school/landmark')}",
+				{
+					type:$("#select option:selected").val(),
+					userid:"{$userid}"
+				},function(data,status){
+					data2=eval("("+data+")");
+					//循环前先清空
+					$("#aa").html('');
+					for(i=0;i<data2.length;i++){
+						id=data2[i]['id'];
+						$("#aa").append("<label><input type='checkbox' name='"+id+"' value='"+id+"'  />"+data2[i]['landname']+"　<label>");
+					}
+				});
+			});
+				// checkAll全选/全不选
+         $("#checkall").bind("click", function () {
+               if ($(this).is(":checked")) {
+                    $("input[type='checkbox']").prop("checked", true);
+                } else {
+                    $("input[type='checkbox']").prop("checked", false);
+                }
+         });
+	});
+	</script>
+<title>编辑指导员</title>
+</head>
+<body style="background:#9CC">
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 指导员列表 <span class="c-gray en">&gt;</span> 指导员详情 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
+<div class="pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form1" name='form1'>
+		<div class="row cl">
+		<input type="hidden" value="{$info.userid}"  name="userid">
+			<label class="form-label col-2"><span class="c-red">*</span>指导员账号：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text" name="account" style="width:300px;" value="{$info.account}">
+			</div>
+			<label class="form-label col-2" style="width:100px;">姓名：</label>
+			<div class="formControls col-4">
+				<input type="text" class="input-text" name="nickname" style="width:300px;" value="{$info.nickname}">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2"><span class="c-red">*</span>评分：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text"  name="score" style="width:300px;" value="{$info.score}">
+			</div>
+			<label class="form-label col-2" style="width:100px;"><span class="c-red">*</span>联系方式：</label>
+			<div class="formControls col-4">
+				<input type="text" class="input-text"  name="phone" style="width:300px;" value="{$info.phone}">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2">接送范围：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" name="pickrange"   class="input-text" style="width:300px;" value="{$info.pickrange}">
+
+			</div>
+			<label class="form-label col-2" style="width:100px;">地址：</label>
+			<div class="formControls col-4">
+				<input type="text" name="address"  class="input-text" style="width:300px;" value="{$info.address}">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >选择城市：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<select name="cityid" id="">
+					<volist name="city" id='v'>
+						<option value="{$v.id}">{$v.cityname}</option>
+					</volist>
+				</select>
+				　　计时培训：<label><input type="radio" name="timeflag" value=1 {$info['timeflag']==1?'checked':''}/>支持</label>　<label><input type="radio" name="timeflag" value=0 {$info['timeflag']==0?'checked':''}/>不支持</label>
+			</div>
+			<label class="form-label col-2" style="width:100px;">出生日期：</label>
+			<div class="formControls col-4"  style="width:300px;">
+				<input type="text" name="birthday" onClick="WdatePicker()"  class="input-text" style="width:120px;" value="{$info.birthday}" >
+				性别：<label><input type="radio" name="sex" value=1 {$info['sex']==1?'checked':''}/>男</label>　<label><input type="radio" name="sex" value=2 {$info['sex']==2?'checked':''}/>女</label>　<label><input type="radio" name="sex" value=0 {$info['sex']==0?'checked':''}/>保密</label>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >学员人数：</label>
+			<div class="formControls col-4" style="width:200px">
+				<input type="text" name="allcount"   class="input-text" style="width:200px;" value="{$info.allcount}">
+			</div>
+			<label class="form-label col-2" style="width:100px;">已通过人数：</label>
+			<div class="formControls col-4"  style="width:200px;">
+				<input type="text" class="input-text"  name="passedcount"  style="width:200px;" value="{$info.passedcount}">
+			</div><label class="form-label col-2" style="width:100px;">通过率：</label>
+			<div class="formControls col-4"  style="width:200px;">
+				<input type="text" id="datemax" class="input-text"  value="{$passrate}" style="width:150px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >总评价数：</label>
+			<div class="formControls col-4" style="width:200px">
+				<input type="text" name="evalutioncount"  class="input-text" style="width:200px;" value="{$info.evalutioncount}">
+			</div>
+			<label class="form-label col-2" style="width:100px;">好评数：</label>
+			<div class="formControls col-4"  style="width:200px;">
+				<input type="text"  class="input-text"  name="praisecount" style="width:200px;" value="{$info.praisecount}">
+			</div><label class="form-label col-2" style="width:100px;">好评率：</label>
+			<div class="formControls col-4"  style="width:200px;">
+				<input type="text" id="datemax" class="input-text"  value="{$goodrate}" style="width:150px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2">指导员简介：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<textarea name="introduction"  cols="30" rows="10" style="width:100%">{$info.introduction}</textarea>
+		    </div>
+		</div>{$json}
+		<div class="row cl">
+			<label class="form-label col-2">学车成本：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<textarea name="cost"  cols="30" rows="10" style="width:100%">{$info.cost}</textarea>
+		    </div>
+		</div>
+		{$cost}
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<b  class="btn btn-primary radius" id="button1" onclick='myCheck()'><i class="Hui-iconfont">&#xe632;</i> 保存更新</b>
+				<a href="{:U('guiderList')}"><button class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 返回列表</button></a>
+				<button  class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+</form>
+<form action="" method="post" class="form form-horizontal" id="form2">
+		<div class="row cl">
+				<input type="hidden" value="{$info.userid}"  name="userid">
+			<label class="form-label col-2">覆盖地区：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<table border="1px" cellspacing=0 style="width:100%">
+		    		<tr>
+		    			<td align="center" colspan=2>已覆盖地区</td>
+		    		</tr>
+		    		<tr>
+		    			<td align="center" width="150">地区</td>
+		    			<td align="center">地标</td>
+		    		</tr>
+		    		<foreach name="countys" item="v" key="k">
+			    		<tr>
+			    			<td align="center" width="150">{$k}</td>
+			    			<td >
+			    				<volist name="v" id='vv'>{$vv['landname']}<a href="{:U('?userid='.$userid.'&p='.$p.'&sid='.$vv['sid'])}"><i class="Hui-iconfont"  style="color:red">&#xe6a6;</i></a> 　　</volist>
+			    			</td>
+			    		</tr>
+		    		</foreach>
+		    	</table><br>
+		    	<table border="1px" cellspacing=0 style="width:100%">
+		    		<tr>
+		    			<td align="center" width="150" colspan='3'>添加地标</td>
+
+		    		</tr>
+		    		<tr>
+		    			<td align="center" width="150">城市</td>
+		    			<td align="center"  width="150">区/(县)</td>
+		    			<td align="center">还未添加的地标</td>
+		    		</tr>
+		    		<tr>
+		    			<td align="center" width="150">
+		    				<select name="selectcity" id="selectcity">
+		    				<volist name="city" id='c'>
+		    					<option value="{$c['id']}" {$c['id']==$cityid?'selected':''}>{$c['cityname']}</option>
+		    					</volist>
+		    				</select>
+		    			</td>
+		    			<td align="center">
+			    			<select name="select" id="select">
+		    				<volist name="count" id='c'>
+		    					<option value="{$c['id']}">{$c['countyname']}</option>
+		    					</volist>
+		    				</select>&nbsp;<label>全选<input type="checkbox" id="checkall"></label>
+		    			</td>
+		    			<td  id='aa'>
+		    			<volist name="lands" id='c'>
+		    					<label><input type='checkbox' name="{$c['id']}" value="{$c['id']}"/>{$c['landname']}　</label>
+		    				</volist>
+		    			</td>
+		    		</tr>
+		    	</table>
+		    </div>
+		</div>
+
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<b class="btn btn-primary radius" id="button2"><i class="Hui-iconfont">&#xe632;</i> 添加地标</b>
+			<a href="{:U('guiderList?p='.$p)}"><b class="btn btn-secondary radius" ><i class="Hui-iconfont">&#xe632;</i> 返回列表</b></a>
+				<button  class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+	</form>
+</div>
+</div>
+</body>
+</html>

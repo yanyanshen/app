@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:3:"137";s:6:"userid";s:36:"14572D30_773B_94A5_26C1_E1F6B32522ED";s:8:"nickname";s:12:"汽运驾校";s:3:"img";s:40:"14572D30_773B_94A5_26C1_E1F6B32522ED.jpg";s:8:"piccount";s:1:"1";s:5:"phone";s:12:"400-8040-517";s:7:"address";s:0:"";s:9:"pickrange";s:0:"";s:5:"score";s:1:"4";s:12:"introduction";s:201:"我司成立于1986年，是全市最早成立的专业驾驶员培训部之一，拥有一批执教经验丰富的专业教练员师资队伍。讲学灵活多样，教学质量名例全市前茅。  ";s:8:"allcount";s:3:"102";s:11:"passedcount";s:2:"98";s:11:"praisecount";s:1:"2";s:5:"price";s:4:"7000";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"0";s:12:"trainaddress";s:0:"";s:6:"verify";s:1:"3";}
+?>

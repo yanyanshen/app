@@ -1,0 +1,1781 @@
+[ 2016-11-15T19:49:43+08:00 ] 110.75.248.98 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 19:49:43','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.98',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081521001004620281869154',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-15 19:33:50' WHERE ( listid='0815193348-1670' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='0815193348-1670' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='0815193348-1670' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-11-15T19:52:22+08:00 ] 110.75.248.176 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 19:52:22','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.176',NULL) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081521001004620272962988',`buyer_email`='157084726@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-15 19:36:27' WHERE ( listid='2016081519351450999852' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081519351450999852' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081519351450999852' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2016-11-15T19:56:29+08:00 ] 223.104.5.227 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 19:56:29','www.517xc.com/Admin/Index/version','223.104.5.227','ios') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-11-15T19:56:32+08:00 ] 223.104.5.227 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 19:56:32','www.517xc.com/Admin/Index/check','223.104.5.227','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 17 and defined /var/www/xueche/Application/Admin/Common/function.php 第 20 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='18721195234' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='18721195234' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0006s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2016-11-15T19:56:41+08:00 ] 223.104.5.227 /Admin/Theory/Mytheory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F','访问','2016-11-15 19:56:41','www.517xc.com/Admin/Theory/Mytheory','223.104.5.227','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_smallclass` [ RunTime:0.0007s ]
+SQL: SELECT `classname`,`classsmalltype` FROM `xueche1_smallclass` GROUP BY classname  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_quebank` [ RunTime:0.0007s ]
+SQL: SELECT count(id) as num,`ChapterId` FROM `xueche1_quebank` WHERE ( subjects=0 and userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and ChapterId=2 and jtype='C1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT count(id) as num,`ChapterId` FROM `xueche1_quebank` WHERE ( subjects=0 and userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and ChapterId=3 and jtype='C1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT count(id) as num,`ChapterId` FROM `xueche1_quebank` WHERE ( subjects=0 and userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and ChapterId=4 and jtype='C1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT count(id) as num,`ChapterId` FROM `xueche1_quebank` WHERE ( subjects=0 and userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and ChapterId=1 and jtype='C1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT count(id) as num,`ChapterId` FROM `xueche1_quebank` WHERE ( subjects=0 and userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and ChapterId=5 and jtype='C1' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-11-15T19:56:49+08:00 ] 223.104.5.227 /Admin/Theory/getAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F','访问','2016-11-15 19:56:49','www.517xc.com/Admin/Theory/getAnalysis','223.104.5.227','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0 and AddressId=1  ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`imgurl`,`classid`,`degree`,`ChapterId`,`times`,`errortimes` FROM `xueche1_theory` WHERE ( subjects=0 and AddressId=1  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: index /var/www/xueche/Application/Admin/Controller/TheoryController.class.php 第 192 行.
+NOTIC: [8] Undefined variable: index /var/www/xueche/Application/Admin/Controller/TheoryController.class.php 第 197 行.
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT `tid` FROM `xueche1_speed` WHERE ( userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and subjectid=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `tid`='1',`userid`='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F',`subjectid`='0',`indexs`=NULL WHERE ( userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and subjectid=0 ) [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-11-15T19:56:52+08:00 ] 223.104.5.227 /Admin/Theory/getAnalysis
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F','访问','2016-11-15 19:56:52','www.517xc.com/Admin/Theory/getAnalysis','223.104.5.227','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0 and AddressId=1  ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`imgurl`,`classid`,`degree`,`ChapterId`,`times`,`errortimes` FROM `xueche1_theory` WHERE ( subjects=0 and AddressId=1  and id>1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0006s ]
+SQL: SELECT `tid` FROM `xueche1_speed` WHERE ( userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and subjectid=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `tid`='2',`userid`='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F',`subjectid`='0',`indexs`='1' WHERE ( userid='E57EE846-8E69-8CAA-5B1C-C7E4B643EB4F' and subjectid=0 ) [ RunTime:0.0068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-11-15T20:04:42+08:00 ] 110.75.248.104 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:04:42','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.104',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620278287629',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 10:49:08' WHERE ( listid='2016081610483955102495' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081610483955102495' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081610483955102495' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-11-15T20:10:07+08:00 ] 110.75.248.103 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:10:07','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.103',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620273236542',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 10:53:51' WHERE ( listid='2016081610532149579797' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081610532149579797' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081610532149579797' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-11-15T20:22:48+08:00 ] 110.75.248.244 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:22:48','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.244',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620281891492',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 19:00:09' WHERE ( listid='2016081618592499100521' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081618592499100521' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081618592499100521' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-11-15T20:23:40+08:00 ] 110.75.248.80 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:23:40','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.80',NULL) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620273566200',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:07:20' WHERE ( listid='2016081611065648491019' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611065648491019' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611065648491019' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2016-11-15T20:30:37+08:00 ] 110.75.248.148 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:30:37','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.148',NULL) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620273399848',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:13:31' WHERE ( listid='2016081611130549101985' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611130549101985' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611130549101985' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-11-15T20:32:18+08:00 ] 110.75.248.134 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:32:18','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.134',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620274632067',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:16:19' WHERE ( listid='2016081611155598505154' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611155598505154' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611155598505154' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-11-15T20:36:09+08:00 ] 110.75.248.103 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:36:09','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.103',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620274294936',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:19:10' WHERE ( listid='2016081611184654545710' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611184654545710' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611184654545710' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-11-15T20:36:36+08:00 ] 110.75.248.99 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:36:36','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.99',NULL) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620285942118',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:20:02' WHERE ( listid='2016081611193897100575' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611193897100575' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611193897100575' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-11-15T20:41:19+08:00 ] 183.167.211.111 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0C1D8864-D9FA-5137-8726-30D31CC1D766','访问','2016-11-15 20:41:19','www.517xc.com/Admin/coach/getpublicList','183.167.211.111','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0007s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-11-15T20:41:20+08:00 ] 183.167.211.111 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0C1D8864-D9FA-5137-8726-30D31CC1D766','访问','2016-11-15 20:41:20','www.517xc.com/Admin/coach/getpublicList','183.167.211.111','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0013s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-15T20:41:22+08:00 ] 183.167.211.111 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0C1D8864-D9FA-5137-8726-30D31CC1D766','访问','2016-11-15 20:41:22','www.517xc.com/Admin/Index/version','183.167.211.111','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-11-15T20:41:36+08:00 ] 183.167.211.111 /Admin/Theory/zjtestnum1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0C1D8864-D9FA-5137-8726-30D31CC1D766','访问','2016-11-15 20:41:36','www.517xc.com/Admin/Theory/zjtestnum1','183.167.211.111','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_smallclass` [ RunTime:0.0007s ]
+SQL: SELECT count(t.id) as num,s.classname,t.ChapterId FROM xueche1_smallclass s INNER JOIN xueche1_theory t on classsmalltype=ChapterId and t.subjects=0  and t.ChapterId >0 and t.ChapterId <=4 and cartype=0  GROUP BY t.ChapterId  [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `xueche1_province` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_province` WHERE ( province like '%上海市%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `xueche1_province` WHERE ( province like '%上海市%' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( AddressId1=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='0C1D8864-D9FA-5137-8726-30D31CC1D766' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='0C1D8864-D9FA-5137-8726-30D31CC1D766' and subjectid=0 and ChapterId=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='0C1D8864-D9FA-5137-8726-30D31CC1D766' and subjectid=0 and ChapterId=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='0C1D8864-D9FA-5137-8726-30D31CC1D766' and subjectid=0 and ChapterId=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='0C1D8864-D9FA-5137-8726-30D31CC1D766' and subjectid=0 and ChapterId=5 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-11-15T20:41:39+08:00 ] 183.167.211.111 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('0C1D8864-D9FA-5137-8726-30D31CC1D766','访问','2016-11-15 20:41:39','www.517xc.com/admin/Theory/chapter','183.167.211.111','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=2  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=2 and id>2 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=335 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=335 ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-15T20:43:16+08:00 ] 110.75.248.160 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:43:16','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.160',NULL) [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620275039676',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:25:36' WHERE ( listid='2016081611250650995748' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611250650995748' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611250650995748' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2016-11-15T20:52:47+08:00 ] 110.75.248.120 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:52:47','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.120',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620273322575',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:27:58' WHERE ( listid='2016081611272297524998' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611272297524998' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611272297524998' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-11-15T20:54:08+08:00 ] 110.75.248.155 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:54:08','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.155',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620285390908',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:36:53' WHERE ( listid='2016081611362798985254' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611362798985254' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611362798985254' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-11-15T20:56:06+08:00 ] 110.75.248.168 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 20:56:06','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.168',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620282106506',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:40:18' WHERE ( listid='2016081611395054565197' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611395054565197' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611395054565197' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-11-15T21:12:02+08:00 ] 110.75.248.33 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:12:02','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.33',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620272886988',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 11:48:03' WHERE ( listid='2016081611474099564853' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081611474099564853' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081611474099564853' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-11-15T21:16:12+08:00 ] 110.75.248.31 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:16:12','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.31',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620288938799',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 17:56:05' WHERE ( listid='2016081617553555101561' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081617553555101561' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081617553555101561' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-11-15T21:29:53+08:00 ] 110.75.248.214 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:29:53','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.214',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620286263241',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 18:10:44' WHERE ( listid='2016081618091497485299' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081618091497485299' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081618091497485299' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-11-15T21:48:14+08:00 ] 59.63.248.90 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:14','517xc.com/Admin/Index/check','59.63.248.90','an') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 17 and defined /var/www/xueche/Application/Admin/Common/function.php 第 20 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15801719596' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='15801719596' ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature`,`masterid`,`jltype` FROM `xueche1_coach` WHERE ( account='15801719596' ) LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0008s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-11-15T21:48:15+08:00 ] 59.63.248.90 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:48:15','517xc.com/Admin/Index/version','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-11-15T21:48:16+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:16','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-11-15T21:48:16+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:16','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-11-15T21:48:23+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:23','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=3 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2016-11-15T21:48:25+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:25','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=4 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-11-15T21:48:26+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:26','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-11-15T21:48:28+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:28','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=3 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2016-11-15T21:48:28+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:28','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=4 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-11-15T21:48:29+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:29','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=5 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-11-15T21:48:31+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:31','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=3 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-15T21:48:31+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:31','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0010s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-11-15T21:48:31+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:31','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-11-15T21:48:36+08:00 ] 59.63.248.90 /Admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:48:36','517xc.com/Admin/dynamic/getalldynamic','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0006s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=28 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=28 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=27 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=27 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=26 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=26 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=25 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=25 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=24 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=24 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=23 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=23 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=18 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' and objecthingid=18 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='203C498C-3434-185B-1C37-51A9069FB64C' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-11-15T21:48:49+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:49','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2016-11-15T21:48:49+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:49','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-11-15T21:48:51+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:51','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-15T21:48:51+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:51','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-15T21:48:59+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:59','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-11-15T21:48:59+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:48:59','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-11-15T21:49:02+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:02','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-11-15T21:49:02+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:02','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-11-15T21:49:05+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:05','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-11-15T21:49:05+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:05','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-11-15T21:49:12+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:12','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-15T21:49:12+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:12','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-11-15T21:49:28+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:28','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-11-15T21:49:28+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:28','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-11-15T21:49:31+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:31','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-11-15T21:49:31+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:31','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-11-15T21:49:41+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:41','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-11-15T21:49:41+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:41','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2016-11-15T21:49:43+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:43','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-11-15T21:49:43+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:43','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-11-15T21:49:52+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:52','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0010s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-11-15T21:49:52+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:52','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-11-15T21:49:53+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:53','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-11-15T21:49:54+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:54','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-11-15T21:49:59+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:59','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2016-11-15T21:50:00+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:49:59','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000452s ]
+
+[ 2016-11-15T21:50:03+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:03','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-11-15T21:50:03+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:03','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2016-11-15T21:50:05+08:00 ] 59.63.248.90 /Admin/Driving/reservationInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:05','517xc.com/Admin/Driving/reservationInfo','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT r.masterid,r.num,r.statuss,c.nickname,r.jtype,r.phone,r.subjects FROM xueche1_reservation r INNER JOIN xueche1_user c on c.userid=r.masterid and r.objectid='203C498C-3434-185B-1C37-51A9069FB64C' and r.stamp='2016-11-15'    [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_price` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_price` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `masterid` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`weekdays`,`timebucket`,`price`,`jtype`,`subjects` FROM `xueche1_price` WHERE ( masterid='25A2AD99-C4EC-BC54-C629-AEB1949D4AEE' and jtype='C1' )  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-11-15T21:50:42+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:42','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-11-15T21:50:43+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:43','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-11-15T21:50:43+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:43','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-11-15T21:50:47+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:47','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2016-11-15T21:50:47+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:47','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-11-15T21:50:49+08:00 ] 59.63.248.90 /Admin/TeaManage/landManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:49','517xc.com/Admin/TeaManage/landManage','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`countyname` FROM `xueche1_countys` WHERE ( masterid=1 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0007s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=1 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0006s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=2 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=3 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=4 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=5 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=6 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=7 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=8 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=9 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=10 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=11 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=12 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=13 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=14 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=15 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=16 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=17 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0004s ]
+SQL: SELECT l.id,s.id as sid,l.landname FROM xueche1_landmark l INNER JOIN xueche1_coachland s on s.landmarkid=l.id and l.masterid=2484 and s.coachid='203C498C-3434-185B-1C37-51A9069FB64C'   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-11-15T21:50:50+08:00 ] 59.63.248.90 /Admin/TeaManage/teaManage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:50','517xc.com/Admin/TeaManage/teaManage','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_student` WHERE ( masterid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `timeflag`,`jtype` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( coach='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coachland c INNER JOIN xueche1_landmark l on c.landmarkid=l.id and c.coachid='203C498C-3434-185B-1C37-51A9069FB64C'  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: jltype /var/www/xueche/Application/Admin/Controller/TeaManageController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-15T21:50:51+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:51','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-11-15T21:50:51+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:51','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-11-15T21:50:53+08:00 ] 59.63.248.90 /Admin/Driving/coachListcenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:53','517xc.com/Admin/Driving/coachListcenter','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT l.listid,l.mode,l.listname,l.phone,l.masterid,l.masname,l.address,l.stucount,l.applymode,l.preferentialprice,l.remark,l.state,l.prices,l.objectid,l.total_fee,l.trname,l.listtime,l.description,u.nickname,u.img,l.coach,l.coachname FROM xueche1_list l INNER JOIN xueche1_user u on u.userid=l.masterid and l.coach='203C498C-3434-185B-1C37-51A9069FB64C'  WHERE ( l.Cl_type='y' ) ORDER BY l.id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-11-15T21:50:54+08:00 ] 59.63.248.90 /Admin/Driving/coachListcenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:54','517xc.com/Admin/Driving/coachListcenter','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT l.listid,l.mode,l.listname,l.phone,l.masterid,l.masname,l.address,l.stucount,l.applymode,l.preferentialprice,l.remark,l.state,l.prices,l.objectid,l.total_fee,l.trname,l.listtime,l.description,u.nickname,u.img,l.coach,l.coachname FROM xueche1_list l INNER JOIN xueche1_user u on u.userid=l.masterid and l.coach='203C498C-3434-185B-1C37-51A9069FB64C'  WHERE ( l.Cl_type='y' ) ORDER BY l.id desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-11-15T21:50:54+08:00 ] 59.63.248.90 /Admin/Driving/coachListcenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:54','517xc.com/Admin/Driving/coachListcenter','59.63.248.90','an') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0013s ]
+SQL: SELECT l.listid,l.mode,l.listname,l.phone,l.masterid,l.masname,l.address,l.stucount,l.applymode,l.preferentialprice,l.remark,l.state,l.prices,l.objectid,l.total_fee,l.trname,l.listtime,l.description,u.nickname,u.img,l.coach,l.coachname FROM xueche1_list l INNER JOIN xueche1_user u on u.userid=l.masterid and l.coach='203C498C-3434-185B-1C37-51A9069FB64C'  WHERE ( l.state=0  and l.Cl_type='y' ) ORDER BY l.id desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-11-15T21:50:54+08:00 ] 59.63.248.90 /Admin/Driving/coachListcenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('203C498C-3434-185B-1C37-51A9069FB64C','访问','2016-11-15 21:50:54','517xc.com/Admin/Driving/coachListcenter','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT l.listid,l.mode,l.listname,l.phone,l.masterid,l.masname,l.address,l.stucount,l.applymode,l.preferentialprice,l.remark,l.state,l.prices,l.objectid,l.total_fee,l.trname,l.listtime,l.description,u.nickname,u.img,l.coach,l.coachname FROM xueche1_list l INNER JOIN xueche1_user u on u.userid=l.masterid and l.coach='203C498C-3434-185B-1C37-51A9069FB64C'  WHERE ( l.state=0  and l.Cl_type='y' ) ORDER BY l.id desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-15T21:50:58+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:58','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0009s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=1 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-15T21:50:58+08:00 ] 59.63.248.90 /Admin/Coach/returnallstu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 21:50:58','517xc.com/Admin/Coach/returnallstu','59.63.248.90','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0008s ]
+SQL: SELECT u.img,u.userid,s.truename,s.note,s.masterid,s.phone,s.address,s.pickupaddress,s.trainclass,s.subjects,s.paytype FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='203C498C-3434-185B-1C37-51A9069FB64C' and s.subjects=2 and s.Cl_type='y'  LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2016-11-15T22:18:42+08:00 ] 110.75.248.68 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 22:18:42','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.68',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620281891492',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 19:00:09' WHERE ( listid='2016081618592499100521' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081618592499100521' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081618592499100521' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-11-15T23:05:11+08:00 ] 223.104.5.203 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 23:05:11','www.517xc.com/Admin/Index/version','223.104.5.203','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-11-15T23:05:12+08:00 ] 223.104.5.203 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 23:05:12','www.517xc.com/Admin/Index/check','223.104.5.203','ios') [ RunTime:0.0002s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 17 and defined /var/www/xueche/Application/Admin/Common/function.php 第 20 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='15801719594' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `xueche1_coach` WHERE ( account='15801719594' ) LIMIT 1   [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xueche1_school` WHERE ( account='15801719594' ) LIMIT 1   [ RunTime:0.0032s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_school` WHERE ( account='15801719594' ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0007s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-11-15T23:05:13+08:00 ] 110.75.248.184 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 23:05:13','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.184',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620278387753',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 13:45:08' WHERE ( listid='2016081613433555100495' ) [ RunTime:0.0004s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081613433555100495' ) [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081613433555100495' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-11-15T23:57:39+08:00 ] 110.75.248.188 /Admin/Driving/alipayCallBack
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2016-11-15 23:57:39','www.517xc.com/Admin/Driving/alipayCallBack','110.75.248.188',NULL) [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_list` SET `payment_type`='1',`trade_no`='2016081621001004620288563258',`buyer_email`='757492852@qq.com',`total_fee`='0.01',`gmt_payment`='2016-08-16 14:40:45' WHERE ( listid='2016081614142310254494' ) [ RunTime:0.0005s ]
+SQL: UPDATE `xueche1_list` SET `state`='1' WHERE ( listid='2016081614142310254494' ) [ RunTime:0.0004s ]
+SQL: SELECT `masterid`,`objectid`,`type`,`classid`,`mode`,`total_fee` FROM `xueche1_list` WHERE ( listid='2016081614142310254494' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: field /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 718 行.
+NOTIC: [8] Undefined variable: class /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 719 行.
+SQL: SHOW COLUMNS FROM `xueche1_drisch` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant mode - assumed 'mode' /var/www/xueche/Application/Admin/Controller/DrivingController.class.php 第 721 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+

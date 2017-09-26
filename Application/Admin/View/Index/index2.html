@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="keywords" content="关键字">
+	<meta name="description" content="简介">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript">
+	$("document").ready(function(){
+		$("#b").click(function(){
+			$.post(
+				"{:U('truetheory')}",
+				{
+					subjects:0,
+					jtype:'C1',
+				},function(data,status){
+					data1=eval("("+data+")");
+					$("#a").html('');
+					for(i=0;i<data1.length;i++){
+						$("#a").append(data1[i].question+"<br><img src="+data1[i].imgurl+"><br>"+data1[i].a+"<br>"+data1[i].b+"<br>")+data1[i].c+"<br>";+data1[i].d+"<br><br><hr>"//在后面追加
+					}
+					//$("#a").append(data1[i].question+"<br><img src="+data1[i].imgurl+"><br><br>");//在后面追加
+				});
+			});
+
+	});
+	</script>
+</head>
+
+<body>
+<button id="b">按钮</button>
+<div id="a">
+
+</div>
+</body>
+</html>

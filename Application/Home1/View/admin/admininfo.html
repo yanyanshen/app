@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="__PUBLIC__/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<title>更新管理员信息</title>
+</head>
+<body>
+<div class="pd-20">
+<form action="{:U('Control/add?type=adminadd')}" method="post" class="form form-horizontal" id="form-admin-add">
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>管理员账号：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$admininfo.account}" name="account" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>管理员姓名：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$admininfo.username}" name="username" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>联系方式：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$admininfo.phone}" name="phone" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+     <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>管理员邮箱：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="{$admininfo.email}" name="email" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>创建时间：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text"  name="ntime" value="{$admininfo.ntime|date='Y-m-d',###}" readonly>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+			<label class="form-label col-3">角色：</label>
+			<div class="formControls col-5"> <span class="select-box" style="width:150px;">
+				<select class="select" name="role" size="1">
+					<option value="0" {$admininfo['role']==0?'selected':''}>普通管理员</option>
+					<option value="1" {$admininfo['role']==1?'selected':''}>超级管理员</option>
+				</select>
+				</span> </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-3">部门：</label>
+			<div class="formControls col-5"> <span class="select-box" style="width:150px;">
+				<select class="select" name="department" size="1">
+				<option value="销售部" {$admininfo['department']==''?'selected':''}>领导</option>
+				<option value="销售部" {$admininfo['department']=='销售部'?'selected':''}>销售部</option>
+				<option value="技术部" {$admininfo['department']=='技术部'?'selected':''}>技术部</option>
+				</select>
+				</span> </div>
+		</div>
+    <div class="row cl">
+      <label class="form-label col-3">备注信息：</label>
+      <div class="formControls col-5">
+        <textarea name="note" cols="" rows="" class="textarea" datatype="*10-100" readonly>{$admininfo.note}</textarea>
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    <div class="row cl">
+      <div class="col-9 col-offset-3">
+        <a href="{:U('getfeedback')}"><input class="btn btn-primary radius" type="submit" value="&nbsp;&nbsp;返回&nbsp;&nbsp;"></a>
+      </div>
+    </div>
+    </form>
+</div>
+</body>
+</html>

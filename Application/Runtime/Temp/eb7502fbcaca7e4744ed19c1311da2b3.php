@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:1:"5";s:6:"userid";s:36:"60D43BC0_C115_6A7A_E500_5775D097FDAA";s:8:"nickname";s:18:"张小雨指导员";s:3:"img";s:40:"60D43BC0_C115_6A7A_E500_5775D097FDAA.png";s:7:"address";s:27:"上海 上海市 黄浦区 ";s:3:"sex";s:1:"1";s:8:"birthday";s:10:"1981-05-01";s:5:"phone";s:11:"15801719597";s:8:"piccount";s:2:"12";s:10:"teachedage";s:10:"2008-01-04";s:12:"introduction";s:27:"好好学车，天天向上";s:5:"score";s:1:"1";s:11:"passedcount";s:1:"0";s:8:"allcount";s:1:"0";s:9:"driverage";s:10:"2002-01-04";s:11:"praisecount";s:1:"1";s:15:"certificateflag";s:1:"0";s:8:"timeflag";s:1:"0";s:14:"teachablecount";s:1:"0";s:4:"cost";N;s:6:"verify";s:1:"3";}
+?>

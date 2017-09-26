@@ -1,0 +1,1355 @@
+[ 2017-01-15T07:40:48+08:00 ] 117.136.8.64 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 07:40:48','www.517xc.com/Admin/Index/version','117.136.8.64','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-01-15T14:35:09+08:00 ] 49.77.239.201 /Admin/Driving/guiderList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+
+[ 2017-01-15T14:35:12+08:00 ] 49.77.239.201 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: v /var/www/xueche/Application/Admin/Common/function.php 第 86 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 14:35:12','www.517xc.com/admin/dynamic/getalldynamic','49.77.239.201',NULL) [ RunTime:0.0003s ]
+ERR: 参数错误或者未定义:start
+
+[ 2017-01-15T14:35:14+08:00 ] 49.77.239.201 /Admin/Dynamic/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+
+[ 2017-01-15T14:35:40+08:00 ] 49.77.239.201 /Admin/Theory/returnscore
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+
+[ 2017-01-15T14:36:14+08:00 ] 49.77.239.201 /Admin/Driving/mylist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-01-15T14:36:44+08:00 ] 49.77.239.201 /admin/search/newsearchguider
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+ERR: 参数错误或者未定义:city
+
+[ 2017-01-15T18:11:03+08:00 ] 123.56.65.139 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+
+[ 2017-01-15T19:50:12+08:00 ] 183.232.175.3 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:50:12','www.517xc.com/Admin/Index/version','183.232.175.3','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-01-15T19:50:12+08:00 ] 183.232.175.3 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:50:12','www.517xc.com/Admin/coach/getpublicList','183.232.175.3','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:50:12+08:00 ] 183.232.175.3 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:50:12','www.517xc.com/Admin/coach/getpublicList','183.232.175.3','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:50:13+08:00 ] 183.232.175.3 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:50:13','www.517xc.com/Admin/coach/getpublicList','183.232.175.3','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:50:13+08:00 ] 183.232.175.3 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 19:50:13','www.517xc.com/Admin/Index/bannerCount','183.232.175.3','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-01-15T19:50:21+08:00 ] 183.232.175.3 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:50:21','www.517xc.com/admin/dynamic/getalldynamic','183.232.175.3','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0007s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=54 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=54 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=52 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=52 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0013s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=45 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=45 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0013s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=43 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=43 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=28 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=28 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=27 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=27 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='defalut' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2017-01-15T19:53:03+08:00 ] 183.232.175.2 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:53:03','www.517xc.com/Admin/Index/version','183.232.175.2','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-01-15T19:53:03+08:00 ] 183.232.175.2 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:53:03','www.517xc.com/Admin/coach/getpublicList','183.232.175.2','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:53:03+08:00 ] 183.232.175.2 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:53:03','www.517xc.com/Admin/coach/getpublicList','183.232.175.2','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:53:03+08:00 ] 183.232.175.2 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2017-01-15 19:53:03','www.517xc.com/Admin/coach/getpublicList','183.232.175.2','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0013s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2017-01-15T19:53:03+08:00 ] 183.232.175.2 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 19:53:03','www.517xc.com/Admin/Index/bannerCount','183.232.175.2','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-01-15T19:53:25+08:00 ] 183.232.175.2 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 19:53:25','www.517xc.com/Admin/Index/bannerCount','183.232.175.2','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2017-01-15T23:07:28+08:00 ] 183.193.140.206 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:07:27','www.517xc.com/Admin/Index/version','183.193.140.206','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2017-01-15T23:07:35+08:00 ] 183.193.140.206 /Admin/Index/check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:07:35','www.517xc.com/Admin/Index/check','183.193.140.206','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Missing argument 4 for pd(), called in /var/www/xueche/Application/Admin/Controller/IndexController.class.php on line 17 and defined /var/www/xueche/Application/Admin/Common/function.php 第 20 行.
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `xueche1_user` WHERE ( account='13585855882' ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `pass`,`nickname`,`userid`,`jtype`,`type`,`verify`,`subjects`,`verify`,`address`,`img`,`signature` FROM `xueche1_user` WHERE ( account='13585855882' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_conf` [ RunTime:0.0009s ]
+SQL: SELECT `downloadURL` FROM `xueche1_conf` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`maxversion`,`minversion` FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-01-15T23:07:37+08:00 ] 122.228.10.82 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:07:37','www.517xc.com/Admin/Index/bannerCount','122.228.10.82','ios') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2017-01-15T23:07:40+08:00 ] 183.193.140.206 /Admin/Coach/getpublicList1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8AFC85C2-FDB4-BFB7-2440-1E3ED03137F7','访问','2017-01-15 23:07:40','www.517xc.com/Admin/Coach/getpublicList1','183.193.140.206','ios') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0008s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('')  [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3210','3211','3212','3213','3214')  [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`longitude`,`latitude` FROM `xueche1_landmark` WHERE `id` IN ('3202','3203','3204','3205','3206')  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2017-01-15T23:21:45+08:00 ] 114.95.131.204 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:21:45','www.517xc.com/Admin/Index/version','114.95.131.204','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2017-01-15T23:21:45+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:21:45','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0007s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guiderland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-05C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0005s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-06C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='5C11C490-5D36-2AAB-C259-DD0F86A707C1'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='60D43BC0-C115-6A7A-E500-5775D097FDAA'  ORDER BY rand() LIMIT 20   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-01-15T23:21:45+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:21:45','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0008s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2017-01-15T23:21:45+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:21:45','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0014s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000645s ]
+
+[ 2017-01-15T23:21:45+08:00 ] 114.95.131.204 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:21:45','www.517xc.com/Admin/Index/bannerCount','114.95.131.204','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-01-15T23:27:43+08:00 ] 180.175.145.93 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:27:43','www.517xc.com/Admin/coach/getpublicList','180.175.145.93','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1 and verify=3 ) LIMIT 5,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2017-01-15T23:27:54+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:27:54','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1 and verify=3 ) LIMIT 10,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2017-01-15T23:27:59+08:00 ] 114.95.131.204 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:27:59','www.517xc.com/admin/dynamic/getalldynamic','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0007s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=54 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=54 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=52 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=52 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=45 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=45 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=43 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=43 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=28 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=28 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=27 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=27 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2017-01-15T23:28:48+08:00 ] 180.175.145.93 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:28:48','www.517xc.com/admin/dynamic/getalldynamic','180.175.145.93','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 10,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0007s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=26 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=26 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=25 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=25 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=24 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=24 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=23 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=23 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=18 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=18 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=17 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=17 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=16 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=16 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=9 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=9 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=2 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-01-15T23:29:17+08:00 ] 114.95.131.204 /Admin/Dynamic/getNewsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0014s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:29:17','www.517xc.com/Admin/Dynamic/getNewsDetail','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0009s ]
+SQL: SELECT `evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid` FROM `xueche1_news` WHERE ( newsid=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0007s ]
+SQL: SELECT `type`,`id` FROM `xueche1_dynamic` WHERE ( objecthingid=16 and (mode=3 or mode=4) )  [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`type` FROM `xueche1_dynamic` WHERE ( objecthingid=16 and mode=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `masterid`,`type` FROM `xueche1_dynamic` WHERE ( objecthingid=16 and mode=2 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: praise /var/www/xueche/Application/Admin/Controller/DynamicController.class.php 第 99 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-01-15T23:29:19+08:00 ] 114.95.131.204 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:29:19','www.517xc.com/Admin/Index/bannerCount','114.95.131.204','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2017-01-15T23:29:19+08:00 ] 114.95.131.204 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0014s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:29:19','www.517xc.com/admin/dynamic/getalldynamic','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0007s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=55 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=55 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=54 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=54 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=52 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=52 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A2194076-B223-BBEB-4B33-0D59C8CAD108' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=45 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=45 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_guider` WHERE ( userid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=43 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=43 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=41 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=41 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=30 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=30 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='203C498C-3434-185B-1C37-51A9069FB64C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=29 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=29 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_school` WHERE ( userid='5196C331-1DA3-E56C-DAC1-5EF8655FF96B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=28 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=28 and mode=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_coach` WHERE ( userid='A25BF70C-D5FC-2956-5760-06611F40EBC7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=27 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objecthingid=27 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2017-01-15T23:30:14+08:00 ] 114.95.131.204 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:30:14','www.517xc.com/Admin/Index/version','114.95.131.204','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-01-15T23:30:14+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:30:14','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0007s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guiderland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-05C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-06C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='5C11C490-5D36-2AAB-C259-DD0F86A707C1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='5C11C490-5D36-2AAB-C259-DD0F86A707C1'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='60D43BC0-C115-6A7A-E500-5775D097FDAA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='60D43BC0-C115-6A7A-E500-5775D097FDAA'  ORDER BY rand() LIMIT 20   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-01-15T23:30:14+08:00 ] 180.175.145.93 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:30:14','www.517xc.com/Admin/coach/getpublicList','180.175.145.93','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0008s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0007s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2017-01-15T23:30:14+08:00 ] 114.95.131.204 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:30:14','www.517xc.com/Admin/coach/getpublicList','114.95.131.204','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1 and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0008s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0016s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-01-15T23:30:14+08:00 ] 180.175.145.93 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:30:14','www.517xc.com/Admin/Index/bannerCount','180.175.145.93','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-01-15T23:31:04+08:00 ] 180.175.145.93 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0019s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%小昆山%' and cityid=1 and verify=3 )  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0008s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='FFF14026-1BB6-DFE3-002D-140467CA7808' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-01-15T23:31:13+08:00 ] 180.175.145.93 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%小昆山%' and cityid=1 and verify=3 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT `landmarkid` FROM `xueche1_schoollands` WHERE ( schoolid='FFF14026-1BB6-DFE3-002D-140467CA7808' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-01-15T23:31:26+08:00 ] 180.175.145.93 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0011s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%小昆山镇平路%' and cityid=1 and verify=3 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`longitude`,`latitude`,`landname` FROM `xueche1_landmark` WHERE ( cityid=1 and latitude>=31.011423839408 and latitude<=31.191288160592 and longitude>=121.21161833164 and longitude<=121.42167766836 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3210,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3210,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3212,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3212,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3213,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3213,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3214,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3214,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3215,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3215,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3217,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3217,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3218,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3218,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3222,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3222,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3224,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3224,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3225,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3225,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3227,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3227,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3228,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3228,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3229,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3229,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3231,landmarkid) )  [ RunTime:0.0008s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3231,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3234,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3234,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3235,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3235,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3236,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3236,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3327,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3327,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-01-15T23:33:43+08:00 ] 180.175.145.93 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0009s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%小昆山镇平路%' and cityid=1 and verify=3 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`longitude`,`latitude`,`landname` FROM `xueche1_landmark` WHERE ( cityid=1 and latitude>=31.011423839408 and latitude<=31.191288160592 and longitude>=121.21161833164 and longitude<=121.42167766836 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3210,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3210,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3212,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3212,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3213,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3213,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3214,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3214,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3215,landmarkid) )  [ RunTime:0.0011s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3215,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3217,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3217,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3218,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3218,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3222,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3222,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3224,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3224,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3225,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3225,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3227,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3227,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3228,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3228,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3229,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3229,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3231,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3231,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3234,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3234,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3235,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3235,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3236,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3236,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3327,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3327,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2017-01-15T23:34:16+08:00 ] 114.95.131.204 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0011s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%小昆山镇平路%' and cityid=1 and verify=3 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`longitude`,`latitude`,`landname` FROM `xueche1_landmark` WHERE ( cityid=1 and latitude>=31.011423839408 and latitude<=31.191288160592 and longitude>=121.21161833164 and longitude<=121.42167766836 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3210,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3210,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3212,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3212,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3213,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3213,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3214,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3214,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3215,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3215,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3217,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3217,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3218,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3218,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3222,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3222,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3224,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3224,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3225,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3225,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3227,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3227,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3228,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3228,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3229,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3229,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3231,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3231,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3234,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3234,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3235,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3235,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3236,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3236,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3327,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3327,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2017-01-15T23:39:30+08:00 ] 114.95.131.204 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:39:30','www.517xc.com/Admin/Index/bannerCount','114.95.131.204','an') [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2017-01-15T23:40:07+08:00 ] 114.95.131.204 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0012s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%海湾镇海兴路%' and cityid=1 and verify=3 )  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`longitude`,`latitude`,`landname` FROM `xueche1_landmark` WHERE ( cityid=1 and latitude>=31.011423839408 and latitude<=31.191288160592 and longitude>=121.21161833164 and longitude<=121.42167766836 )  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3210,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3210,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3212,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3212,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3213,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3213,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3214,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3214,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3215,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3215,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3217,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3217,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3218,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3218,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3222,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3222,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3224,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3224,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3225,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3225,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3227,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3227,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3228,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3228,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3229,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3229,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3231,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3231,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3234,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3234,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3235,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3235,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3236,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3236,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3327,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3327,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2017-01-15T23:40:38+08:00 ] 180.175.145.93 /Admin/coach/getTeacherDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('13E8BFFA-DB6F-B8F2-28DF-9FB67F528672','访问','2017-01-15 23:40:38','www.517xc.com/Admin/coach/getTeacherDetail','180.175.145.93','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`piccount`,`phone`,`address`,`pickrange`,`score`,`introduction`,`allcount`,`passedcount`,`praisecount`,`price`,`hotflag`,`recommendflag`,`certificateflag`,`pickflag`,`timeflag`,`piccount`,`trainaddress`,`verify` FROM xueche1_school u WHERE ( userid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_evaluating` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_evaluating` WHERE ( objecthingid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0009s ]
+SQL: SELECT u.nickname,u.img,e.id,e.time,e.masterid,e.objectid,e.content,e.score,e.num FROM xueche1_user u INNER JOIN xueche1_evaluating e on e.masterid=u.userid and e.objecthingid='988982E0-96F0-81C6-6663-ED7630993600'  ORDER BY e.id desc LIMIT 2   [ RunTime:0.0015s ]
+SQL: SELECT `id`,`masterid`,`time`,`masterid`,`content`,`score` FROM `xueche1_evaluating` WHERE ( masterid='1' and objecthingid='988982E0-96F0-81C6-6663-ED7630993600' ) ORDER BY id desc  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xueche1_consult` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_consult` WHERE ( objectid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT c.id,c.time,c.masterid,c.objectid,c.content,c.replycount FROM xueche1_school u INNER JOIN xueche1_consult c on u.userid=c.objectid and u.userid='988982E0-96F0-81C6-6663-ED7630993600'  ORDER BY id desc LIMIT 2   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_img` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_img` WHERE ( userid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `imgname` FROM `xueche1_img` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tcid`,`name`,`include`,`masterid`,`time`,`carname`,`mode`,`officialprice`,`whole517price`,`prepay517price`,`prepay517deposit`,`classtime` FROM `xueche1_trainclass` WHERE ( masterid='988982E0-96F0-81C6-6663-ED7630993600' )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_attention` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( userid='13E8BFFA-DB6F-B8F2-28DF-9FB67F528672' and objectid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-01-15T23:41:01+08:00 ] 180.175.145.93 /Admin/Index/bannerCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [8] Undefined index: userid /var/www/xueche/Application/Admin/Controller/CommonController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES (NULL,'访问','2017-01-15 23:41:01','www.517xc.com/Admin/Index/bannerCount','180.175.145.93','an') [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/xueche/Application/Admin/Common/function.php 第 185 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-01-15T23:41:03+08:00 ] 180.175.145.93 /admin/search/newschoolsearch_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_countys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_countys` WHERE ( countyname like '%松江%' and masterid=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `userid`,`nickname`,`score`,`allcount` FROM `xueche1_school` WHERE ( nickname like '%海湾镇海兴路%' and cityid=1 and verify=3 )  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `xueche1_landmark` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`longitude`,`latitude`,`landname` FROM `xueche1_landmark` WHERE ( cityid=1 and latitude>=31.011423839408 and latitude<=31.191288160592 and longitude>=121.21161833164 and longitude<=121.42167766836 )  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3210,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoollands` [ RunTime:0.0007s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3210,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3212,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3212,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3213,landmarkid) )  [ RunTime:0.0006s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3213,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3214,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3214,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3215,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3215,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3217,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3217,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3218,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3218,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3222,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3222,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3224,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3224,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3225,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3225,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3227,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3227,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3228,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3228,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3229,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3229,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3231,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3231,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3234,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3234,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3235,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3235,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3236,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3236,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_schoollands` WHERE ( locate(3327,landmarkid) )  [ RunTime:0.0005s ]
+SQL: SELECT s.userid,s.nickname,s.score,s.allcount FROM xueche1_schoollands l INNER JOIN xueche1_school s on s.userid=l.schoolid and locate(3327,l.landmarkid)  ORDER BY rand() LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: info /var/www/xueche/Application/Admin/Controller/SearchController.class.php 第 207 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+

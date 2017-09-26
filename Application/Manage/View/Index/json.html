@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="keywords" content="关键字">
+	<meta name="description" content="简介">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<script>
+      //创建XMLHttpRequest对象
+	  function getObject() {
+		  if(window.ActiveXObject){//如果是ie
+                 gt=new ActiveXObject("Microsoft.XMLHTTP");
+		  }else{
+				gt=new XMLHttpRequest();
+		  }
+		  return gt;
+      }
+	  var xml="";
+	  function  sends() {
+		  xml=getObject();
+		  url="json.php";
+		  data="name="+$('name').value;
+		  xml.open('post',url,true);
+		  xml.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		  xml.onreadystatechange=chuli;
+		  xml.send(data);
+	  }
+
+     function  chuli() {
+		//alert(xml.readyState);
+		if(xml.readyState==4){
+			//json格式
+		//alert(xml.responseText);
+			json=xml.responseText;
+		    json1=eval("("+json+")");
+			//alert(json1);
+			$("b1").value=json1[0]['res'];
+		}
+     }
+	  function   $(id) {
+		 return document.getElementById(id);
+     }
+</script>
+<body>
+<input type="text"  id="name"  onkeyup="sends()"/><input type="submit" onclick="sends()" /><input type="text" style="border:0" id='b1'/>
+</body>
+</html>

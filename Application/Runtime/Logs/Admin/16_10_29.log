@@ -1,0 +1,1485 @@
+[ 2016-10-29T19:18:34+08:00 ] 124.65.127.246 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:18:34','www.517xc.com/Admin/coach/getpublicList','124.65.127.246','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:03+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:03','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:03+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:03','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:03+08:00 ] 183.195.146.66 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:03','www.517xc.com/Admin/Index/version','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-10-29T19:19:03+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:03','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:25+08:00 ] 183.195.146.66 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:25','www.517xc.com/admin/dynamic/getalldynamic','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0006s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=18 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=18 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=17 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=17 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=16 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=16 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=9 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=9 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=2 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='defalut' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-10-29T19:19:52+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:52','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:54+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:54','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:19:56+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:19:56','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:20:02+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:02','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:20:18+08:00 ] 183.195.146.66 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:18','www.517xc.com/Admin/Index/version','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-10-29T19:20:18+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:18','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:20:18+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:18','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:20:18+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:18','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:20:23+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:23','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0014s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0012s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0005s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-10-29T19:20:37+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:37','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=1  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0008s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_coachland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-10-29T19:20:45+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:45','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=1  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_address` [ RunTime:0.0006s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guiderland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-05C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+SQL: SELECT `latitude`,`longitude` FROM `xueche1_address` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_guiderland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.guiderid='B0D60BCC-06C2-C391-5640-D0AC680B42AF'  ORDER BY rand() LIMIT 20   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-10-29T19:20:47+08:00 ] 183.195.146.66 /admin/dynamic/getalldynamic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:20:47','www.517xc.com/admin/dynamic/getalldynamic','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `newsid`,userid as masterid,`objectid`,`time`,`content`,`evalutioncount`,`piccount`,`praisecount`,`transmitcount`,`extras`,`tranid`,`type` FROM `xueche1_news` ORDER BY id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_newsimg` [ RunTime:0.0006s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=18 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_dynamic` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=18 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=17 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=17 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=16 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=16 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=9 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=9 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `img` FROM `xueche1_user` WHERE ( userid='7DADE2FA-3825-45A6-1C46-56061FFA9B0B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT imgname as imgurl FROM `xueche1_newsimg` WHERE ( imgid=2 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( masterid='defalut' and objecthingid=2 and mode=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_dynamic` WHERE ( objectid='defalut' and flag=0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-10-29T19:21:03+08:00 ] 183.195.146.66 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:21:03','www.517xc.com/Admin/coach/getpublicList','183.195.146.66','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%上海%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=1  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0009s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  ORDER BY rand() LIMIT 20   [ RunTime:0.0016s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  ORDER BY rand() LIMIT 20   [ RunTime:0.0005s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  ORDER BY rand() LIMIT 20   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-10-29T19:22:40+08:00 ] 114.249.247.32 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:22:40','www.517xc.com/Admin/Index/version','114.249.247.32','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-10-29T19:22:40+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:22:40','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:22:40+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:22:40','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:22:41+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:22:41','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:24:11+08:00 ] 114.249.247.32 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:24:11','www.517xc.com/Admin/Index/version','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-10-29T19:24:11+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:24:11','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:24:11+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:24:11','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:24:11+08:00 ] 114.249.247.32 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:24:11','www.517xc.com/Admin/coach/getpublicList','114.249.247.32','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:47:46+08:00 ] 114.245.35.39 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:47:46','www.517xc.com/Admin/Index/version','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-10-29T19:47:46+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:47:46','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:47:46+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:47:46','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:47:46+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:47:46','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:49:17+08:00 ] 114.245.35.39 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:17','www.517xc.com/Admin/Index/version','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-10-29T19:49:17+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:17','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2016-10-29T19:49:17+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:17','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0008s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-10-29T19:49:18+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:18','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0010s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='18C56BEB-7FA2-A256-16E5-DC62E42FC849'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='FB620265-797D-B3C6-DCDC-D969F26AC3B4'  ORDER BY rand() LIMIT 20   [ RunTime:0.0012s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='33535FBF-DB03-B5CB-9D7D-BF114A96992A'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-10-29T19:49:44+08:00 ] 222.129.51.48 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:44','www.517xc.com/Admin/Index/version','222.129.51.48','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-10-29T19:49:44+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:44','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:49:44+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:44','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:49:44+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:49:44','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:50:28+08:00 ] 114.245.35.39 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:50:28','www.517xc.com/Admin/Index/version','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-10-29T19:50:28+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:50:28','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:50:28+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:50:28','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:50:30+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:50:30','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T19:51:20+08:00 ] 222.129.51.48 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:20','www.517xc.com/Admin/Index/version','222.129.51.48','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-29T19:51:20+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:20','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-10-29T19:51:20+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:20','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-10-29T19:51:20+08:00 ] 222.129.51.48 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0012s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:20','www.517xc.com/Admin/coach/getpublicList','222.129.51.48','an') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0009s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='18C56BEB-7FA2-A256-16E5-DC62E42FC849'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='FB620265-797D-B3C6-DCDC-D969F26AC3B4'  ORDER BY rand() LIMIT 20   [ RunTime:0.0011s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='33535FBF-DB03-B5CB-9D7D-BF114A96992A'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000436s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2016-10-29T19:51:59+08:00 ] 114.245.35.39 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:59','www.517xc.com/Admin/Index/version','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-10-29T19:51:59+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:59','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-10-29T19:51:59+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:59','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-10-29T19:51:59+08:00 ] 114.245.35.39 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('defalut','访问','2016-10-29 19:51:59','www.517xc.com/Admin/coach/getpublicList','114.245.35.39','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0007s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%北京%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=118  and verify=3 ) LIMIT 0,5   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0008s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0007s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='18C56BEB-7FA2-A256-16E5-DC62E42FC849' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_schoolland` [ RunTime:0.0006s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='18C56BEB-7FA2-A256-16E5-DC62E42FC849'  ORDER BY rand() LIMIT 20   [ RunTime:0.0006s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='FB620265-797D-B3C6-DCDC-D969F26AC3B4' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='FB620265-797D-B3C6-DCDC-D969F26AC3B4'  ORDER BY rand() LIMIT 20   [ RunTime:0.0011s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='75CF446B-1C86-00E3-8BC4-B2B6BEF5CB53'  ORDER BY rand() LIMIT 20   [ RunTime:0.0003s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='9E4D8876-BFFF-06A4-32BD-B0A858597A5E'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+SQL: SELECT min(whole517price)as minprice FROM `xueche1_trainclass` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `userid`,`stime` FROM `xueche1_sign` WHERE ( masterid='33535FBF-DB03-B5CB-9D7D-BF114A96992A' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT l.id,l.longitude,l.latitude FROM xueche1_schoolland s INNER JOIN xueche1_landmark l on l.id=s.landmarkid and s.schoolid='33535FBF-DB03-B5CB-9D7D-BF114A96992A'  ORDER BY rand() LIMIT 20   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-10-29T21:35:58+08:00 ] 218.108.217.241 /Admin/Index/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:35:58','www.517xc.com/Admin/Index/version','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_version` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `xueche1_version`  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2016-10-29T21:35:58+08:00 ] 218.108.217.241 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:35:58','www.517xc.com/Admin/coach/getpublicList','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_coach` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T21:35:58+08:00 ] 218.108.217.241 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:35:58','www.517xc.com/Admin/coach/getpublicList','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_guider` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T21:35:58+08:00 ] 218.108.217.241 /Admin/coach/getpublicList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0008s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:35:58','www.517xc.com/Admin/coach/getpublicList','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `id` FROM `xueche1_citys` WHERE ( cityname like '%defalu%' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_school` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid=  and verify=3 ) LIMIT 0,5  
+
+[ 2016-10-29T21:36:08+08:00 ] 218.108.217.241 /Admin/Theory/zjtestnum1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:36:08','www.517xc.com/Admin/Theory/zjtestnum1','218.108.217.241','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_smallclass` [ RunTime:0.0007s ]
+SQL: SELECT count(t.id) as num,s.classname,t.ChapterId FROM xueche1_smallclass s INNER JOIN xueche1_theory t on classsmalltype=ChapterId and t.subjects=0  and t.ChapterId >0 and t.ChapterId <=4 and cartype=0  GROUP BY t.ChapterId  [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `xueche1_province` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_province` WHERE ( province like '%浙江省%' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id` FROM `xueche1_province` WHERE ( province like '%浙江省%' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( AddressId3=1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-10-29T21:36:11+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:36:11','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>136 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=137 ) [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=137 ) LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-10-29T21:36:25+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:36:25','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>137 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='161',`dotime`='1477748185',`tid`='137',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0012s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=138 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=138 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-10-29T21:37:08+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:37:08','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>138 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='162',`dotime`='1477748228',`tid`='138',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0013s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=139 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=139 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-10-29T21:37:25+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:37:25','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0026s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>139 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='163',`dotime`='1477748245',`tid`='139',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0012s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=140 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=140 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-10-29T21:38:00+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:38:00','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>140 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='164',`dotime`='1477748280',`tid`='140',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0013s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=141 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=141 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-29T21:38:27+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:38:27','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>141 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='165',`dotime`='1477748307',`tid`='141',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0013s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=142 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=142 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-10-29T21:39:24+08:00 ] 218.108.217.241 /Admin/Theory/zjtestnum1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000407s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:39:24','www.517xc.com/Admin/Theory/zjtestnum1','218.108.217.241','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_smallclass` [ RunTime:0.0006s ]
+SQL: SELECT count(t.id) as num,s.classname,t.ChapterId FROM xueche1_smallclass s INNER JOIN xueche1_theory t on classsmalltype=ChapterId and t.subjects=0  and t.ChapterId >0 and t.ChapterId <=4 and cartype=0  GROUP BY t.ChapterId  [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `xueche1_province` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_province` WHERE ( province like '%浙江省%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `xueche1_province` WHERE ( province like '%浙江省%' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( AddressId3=1 ) LIMIT 1   [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0006s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=2 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=4 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `tid`,(indexs-1) as indexs FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=5 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-10-29T21:39:26+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:39:26','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>141 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=142 ) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=142 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-29T21:39:38+08:00 ] 218.108.217.241 /Admin/Theory/addMytheory
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:39:38','www.517xc.com/Admin/Theory/addMytheory','218.108.217.241','an') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_quebank` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_quebank` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and tid=142 ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1406:Data too long for column 'jtype' at row 1
+ [ SQL语句 ] : INSERT INTO `xueche1_quebank` (`subjects`,`jtype`,`userid`,`tid`,`ChapterId`,`qtime`) VALUES ('0','defalut','8D8C6535-4E5D-C156-C659-8B53F1D3898A','142','1','2016-10-29 21:39:38')
+ERR: 1406:Data too long for column 'jtype' at row 1
+ [ SQL语句 ] : INSERT INTO `xueche1_quebank` (`subjects`,`jtype`,`userid`,`tid`,`ChapterId`,`qtime`) VALUES ('0','defalut','8D8C6535-4E5D-C156-C659-8B53F1D3898A','142','1','2016-10-29 21:39:38')
+
+[ 2016-10-29T21:39:52+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0011s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:39:52','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>142 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='165',`dotime`='1477748392',`tid`='142',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0012s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=143 ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=143 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-10-29T21:40:30+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:40:30','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>143 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='166',`dotime`='1477748430',`tid`='143',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0011s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=144 ) [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=144 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-10-29T21:40:51+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:40:51','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>144 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='167',`dotime`='1477748451',`tid`='144',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0013s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=145 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=145 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-10-29T21:41:14+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:41:14','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id<145 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_speed` SET `indexs`='166',`dotime`='1477748474',`tid`='145',`userid`='8D8C6535-4E5D-C156-C659-8B53F1D3898A',`subjectid`='0',`ChapterId`='1' WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) [ RunTime:0.0012s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=144 ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0007s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=144 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2016-10-29T21:41:18+08:00 ] 218.108.217.241 /admin/Theory/chapter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `xueche1_userlog` [ RunTime:0.0010s ]
+SQL: INSERT INTO `xueche1_userlog` (`userid`,`doing`,`dotime`,`url`,`ip`,`phone`) VALUES ('8D8C6535-4E5D-C156-C659-8B53F1D3898A','访问','2016-10-29 21:41:18','www.517xc.com/admin/Theory/chapter','218.108.217.241','an') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_theory` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1  ) LIMIT 1   [ RunTime:0.0024s ]
+SQL: SELECT `id`,`question`,`answer`,`a`,`b`,`c`,`d`,`times`,`errortimes`,`degree`,`ClassId`,`imgurl` FROM `xueche1_theory` WHERE ( subjects=0  and  ChapterId=1 and id>144 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_speed` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_speed` WHERE ( userid='8D8C6535-4E5D-C156-C659-8B53F1D3898A' and subjectid=0 and ChapterId=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `xueche1_theory` SET `times`=times+1 WHERE ( id=145 ) [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_reply` [ RunTime:0.0006s ]
+SQL: SELECT `analysis` FROM `xueche1_reply` WHERE ( tid=145 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-10-29T23:34:33+08:00 ] 123.56.233.103 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+

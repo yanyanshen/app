@@ -1,0 +1,3 @@
+<?php
+//000000000300a:15:{s:4:"tcid";s:4:"1117";s:4:"name";s:9:"在一起";s:7:"carname";s:6:"普桑";s:7:"include";s:188:"教材费、办证费、IC卡费、理科术科培训费、燃油费、车辆及人员使用费、经营管理等费用，以及科目一、科目二、科目三考试费、一次补考费";s:8:"picktype";s:1:"1";s:9:"traintype";s:12:"一人一车";s:13:"officialprice";s:3:"258";s:13:"whole517price";s:3:"147";s:14:"prepay517price";s:3:"147";s:5:"jtype";s:2:"C1";s:16:"prepay517deposit";s:3:"600";s:9:"classtime";s:9:"平时班";s:17:"objectsecondcount";s:2:"25";s:8:"linetime";s:1:"0";s:16:"objectthirdcount";s:2:"24";}
+?>

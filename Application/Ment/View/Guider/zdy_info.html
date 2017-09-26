@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>指导员详情</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="__PUBLIC__/ment/css/mine.css" type="text/css" rel="stylesheet">
+        <script  src="__PUBLIC__/ment/js/My97DatePicker/WdatePicker.js"></script>
+    </head>
+
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：系统管理-》指导员详情</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U('zdy_list?p='.$p)}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action="{:U('#')}" method="post" enctype="multipart/form-data">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                <input type="hidden" name='id' value="{$id}"/>
+                <input type="hidden" name='p' value="{$p}"/>
+                    <td width="7%">指导员账号</td>
+                    <td><input type="text" name="account" value="{$zdy.account}"/></td>
+                </tr>
+		<tr>
+                    <td>登录密码</td>
+                    <td><input type="text" name="pass" value="{$zdy.pass}" readonly style="width:500px;"/></td>
+                </tr>
+                <tr>
+                    <td>姓名</td>
+                    <td><input type="text" name="nickname" value="{$zdy.nickname}" /></td>
+                </tr>
+                 <tr>
+                    <td>性别</td>
+                    <td><label><input type="radio" {$zdy['sex']==1?'checked':''} name='sex' value=1/>男</label>　<label><input type="radio"  {$zdy['sex']==2?'checked':''} name='sex' value=2/>女</label><label><input type="radio"  {$zdy['sex']==0?'checked':''} name='sex' value=0/>保密</label></td>
+                </tr>
+                <tr>
+                    <td>计时培训</td>
+                    <td><label><input type="radio" {$zdy['timeflag']==1?'checked':''} name='timeflag' value=1/>支持</label>　<label><input type="radio"  {$zdy['timeflag']==0?'checked':''} name='timeflag' value=0/>不支持</label></td>
+                </tr>
+                <tr>
+                    <td>出生日期</td>
+                    <td><input type="text" name="birthday" value="{$zdy['birthday']}" onClick="WdatePicker()"/></td>
+                </tr>
+                <tr>
+                    <td>注册时间</td>
+                    <td><input type="text" name="ntime" value="{$zdy['ntime']}" readonly/></td>
+                </tr>
+                 <tr>
+                    <td>签名</td>
+                    <td><input type="text" name="signature" value="{$zdy['signature']}" /></td>
+                </tr>
+                <tr>
+                    <td>评分</td>
+                    <td><input type="text" name="score" value="{$zdy['score']}" /></td>
+                </tr>
+                 <tr>
+                    <td>评论数</td>
+                    <td><input type="text" name="evalutioncount" value="{$zdy['evalutioncount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>好评数</td>
+                    <td><input type="text" name="praisecount" value="{$zdy['praisecount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>总学员数</td>
+                    <td><input type="text" name="allcount" value="{$zdy['allcount']}" /></td>
+                </tr>
+                 <tr>
+                    <td>已通过人数</td>
+                    <td><input type="text" name="passedcount" value="{$zdy['passedcount']}" /></td>
+                </tr>
+                <tr>
+                    <td>地址</td>
+                    <td><input type="text" name="address" value="{$zdy['address']}"/></td>
+                </tr>
+                 <tr>
+                    <td>所在城市</td>
+                    <td>
+                    	<select name="cityid" id="">
+                    		<volist name="city" id='v'>
+                    			<option value="{$v.id}" {$zdy['cityid']==$v['id']?'selected':''}>{$v.cityname}</option>
+                    		</volist>
+                    	</select>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>指导员简介</td>
+                    <td><textarea name="introduction" id="" cols="80" rows="10">{$zdy['introduction']}</textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="保存更新">
+                    </td>
+                </tr>  
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

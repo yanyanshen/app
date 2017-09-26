@@ -1,0 +1,3 @@
+<?php
+//000000000300a:2:{i:0;a:10:{s:2:"id";s:2:"17";s:8:"masterid";s:36:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B";s:8:"objectid";s:36:"5C11C490_5D36_2AAB_C259_DD0F86A707C1";s:12:"objecthingid";s:2:"26";s:4:"time";s:19:"2016-11-11 17:21:00";s:4:"flag";s:1:"1";s:4:"mode";s:1:"2";s:9:"dynamicid";N;s:4:"type";N;s:7:"content";N;}i:1;a:10:{s:2:"id";s:2:"16";s:8:"masterid";s:36:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B";s:8:"objectid";s:36:"A25BF70C_D5FC_2956_5760_06611F40EBC7";s:12:"objecthingid";s:2:"27";s:4:"time";s:19:"2016-11-11 16:33:01";s:4:"flag";s:1:"1";s:4:"mode";s:1:"1";s:9:"dynamicid";N;s:4:"type";s:2:"jx";s:7:"content";N;}}
+?>

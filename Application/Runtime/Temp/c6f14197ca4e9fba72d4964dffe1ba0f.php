@@ -1,0 +1,3 @@
+<?php
+//000000000300a:22:{s:2:"id";s:3:"144";s:7:"account";s:11:"18616314773";s:8:"nickname";s:6:"李响";s:8:"truename";s:6:"李响";s:4:"pass";s:32:"8cc53d18ce50a4ea1555ecd20e01ffcf";s:8:"birthday";s:10:"2016-12-04";s:5:"ntime";s:19:"2016-12-04 02:59:51";s:4:"type";s:2:"xy";s:3:"img";N;s:9:"signature";N;s:3:"sex";s:1:"0";s:5:"jtype";s:2:"C1";s:6:"userid";s:36:"C782730D_C84E_CC02_A780_E5268BBCEDFE";s:5:"grade";s:1:"1";s:4:"rule";s:1:"0";s:7:"address";N;s:6:"verify";s:1:"0";s:5:"phone";s:11:"18616314773";s:8:"subjects";s:1:"0";s:8:"deviceid";N;s:10:"lastupdate";N;s:6:"cityid";s:1:"1";}
+?>

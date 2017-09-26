@@ -1,0 +1,3 @@
+<?php
+//000000000300a:1:{i:0;a:12:{s:6:"newsid";s:1:"2";s:8:"masterid";s:36:"7DADE2FA_3825_45A6_1C46_56061FFA9B0B";s:8:"objectid";s:36:"7DADE2FA_3825_45A6_1C46_56061FFA9B0B";s:4:"time";s:19:"2016-10-27 12:55:20";s:7:"content";s:33:"天天下雨，有完没完了！";s:14:"evalutioncount";s:1:"0";s:8:"piccount";s:1:"1";s:11:"praisecount";s:1:"1";s:13:"transmitcount";s:1:"0";s:6:"extras";N;s:6:"tranid";s:1:"0";s:4:"type";s:2:"xy";}}
+?>

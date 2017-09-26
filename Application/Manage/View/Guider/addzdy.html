@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+<script  src="__PUBLIC__/517/js/My97DatePicker/WdatePicker.js"></script>
+	<script>
+	$("document").ready(function(){
+ 		$("#button1").click(function(){
+			$.ajax({
+				url:"{:U('addzdyinfo')}",
+			    type:"POST",
+		        data:$('#form1').serialize(),
+		        success: function(data) {
+		           switch(data){
+		           		case '0':alert('添加失败');break;
+		           		case '2':alert('提交内容不能有空值');break;
+		           		case '3':alert('该帐号已存在');break;
+		           		default:  alert("添加成功");
+			        	   location.href="{:U('zdyinfo')}?userid="+data;break;
+		           }
+		        }
+			});
+		});
+	});
+	$("document").ready(function(){
+		$("#team").change(function(){
+			$.post(
+				"{:U('team')}",
+				{
+					type:$("#team option:selected").val(),
+				},function(data,status){
+					data1=eval("("+data+")");
+					//循环前先清空
+					$("#masterid").html("");
+					for(i=0;i<data1.length;i++){
+						$("#masterid").append("<option value="+data1[i].userid+">"+data1[i].nickname+"</option>");//在后面追加
+					}
+				});
+			});
+$("#cityname").keyup(function(){
+				$.post(
+					"{:U('returnallcity')}",
+					{
+						 cityname:$("#cityname").val(),
+					},function(data,status){
+						data2=eval("("+data+")");
+						//循环前先清空
+						$("#citys").html('');
+						for(i=0;i<data2.length;i++){
+							id=data2[i]['id'];
+							$("#citys").append("<option value="+id+">"+data2[i].cityname+"</option>");//加
+							$("#citys").css("display",'block');
+						}
+				});
+			});
+			$("#citys").change(function(){
+				$("#cityname").val($("#citys option:selected").text());
+				$(this).hide();
+			});
+		});
+		$(document).click(function(){
+			$("#citys").hide();
+		});
+	</script>
+	<style>
+		#citys{position:absolute;background:white;z-index:1000}
+	</style>
+<title>添加指导员</title>
+</head>
+<body style="background:#9CC">
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 指导员列表 <span class="c-gray en">&gt;</span> 添加指导员 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+
+<div class="pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form1" name='form1'>
+		<div class="row cl">
+				<input type="hidden" name="pass"   class="input-text" value="{$pass}">
+			<label class="form-label col-2"><span class="c-red">*</span>指导员账号：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text" name="account" style="width:300px;">
+			</div>
+			<label class="form-label col-2" style="width:100px;">姓名：</label>
+			<div class="formControls col-4">
+				<input type="text" class="input-text" name="nickname" style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2"><span class="c-red">*</span>评分：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text"  name="score" style="width:300px;">
+			</div>
+			<label class="form-label col-2" style="width:100px;"><span class="c-red">*</span>联系方式：</label>
+			<div class="formControls col-4">
+				<input type="text" class="input-text"  name="phone" style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2">接送范围：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" name="pickrange"   class="input-text" style="width:300px;">
+
+			</div>
+			<label class="form-label col-2" style="width:100px;">地址：</label>
+			<div class="formControls col-4">
+				<input type="text" name="address"  class="input-text" style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >选择城市：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" list="citys"  id='cityname'/>
+				<select name="cityid" id="citys" multiple="multiple" SIZE="10" style="display:none;width:135px;">
+					<volist name="city" id='v'>
+						<option value="{$v.id}">{$v.cityname}</option>
+					</volist>
+				</select>
+			</div>
+			<label class="form-label col-2" style="width:100px;">出生日期：</label>
+			<div class="formControls col-4"  style="width:360px;">
+				<input type="text" name="birthday" onClick="WdatePicker()"   style="width:120px;" >
+			　性别：<label><input type="radio" name="sex" value=1 checked/>男</label>　<label><input type="radio" name="sex" value=2/>女</label>
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >驾龄：</label>
+			<div class="formControls col-4" style="width:360px">
+				<input type="text" name="driverage"   class="input-text" style="width:300px;">
+			</div>
+			<label class="form-label col-2" style="width:100px;">教龄：</label>
+			<div class="formControls col-4"  style="width:360px;">
+				<input type="text" class="input-text"  name="teachedage"  style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2"><span class="c-red">*</span>计时培训：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<label><input type="radio" name="timeflag" value=1 checked/>支持</label>　<label><input type="radio" name="timeflag" value=0/>不支持</label>
+			</div>
+			<label class="form-label col-2" style="width:100px;"><span class="c-red">*</span>车牌号：</label>
+			<div class="formControls col-4">
+				<input type="text" class="input-text"  name="carNumber" style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >学员人数：</label>
+			<div class="formControls col-4" style="width:360px">
+				<input type="text" name="allcount"   class="input-text" style="width:300px;">
+			</div>
+			<label class="form-label col-2" style="width:100px;">已通过人数：</label>
+			<div class="formControls col-4"  style="width:360px;">
+				<input type="text" class="input-text"  name="passedcount"  style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2" >总评价数：</label>
+			<div class="formControls col-4" style="width:360px">
+				<input type="text" name="evalutioncount"  class="input-text" style="width:300px;">
+			</div>
+			<label class="form-label col-2" style="width:100px;">好评数：</label>
+			<div class="formControls col-4"  style="width:360px;">
+				<input type="text"  class="input-text"  name="praisecount" style="width:300px;">
+			</div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2">指导员简介：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<textarea name="introduction"  cols="30" rows="10" style="width:100%"></textarea>
+		    </div>
+		</div>
+		<div class="row cl">
+			<label class="form-label col-2">学车成本(默认)：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<textarea name="cost"  cols="30" rows="10" style="width:100%">{$cost}</textarea>
+		    </div>
+		</div>
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<b  class="btn btn-primary radius" id="button1" onclick='myCheck()'><i class="Hui-iconfont">&#xe632;</i> 添加指导员</b>
+				<a href="{:U('guiderList')}"><button class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 返回列表</button></a>
+				<button  class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+</form>
+</div>
+</div>
+</body>
+</html>

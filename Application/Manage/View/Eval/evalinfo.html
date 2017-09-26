@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/webuploader/0.1.5/webuploader.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+<script  src="__PUBLIC__/517/js/My97DatePicker/WdatePicker.js"></script>
+	<script>
+	$("document").ready(function(){
+ 		$("#button1").click(function(){
+			$.ajax({
+				url:"{:U('evalupdate')}",
+			    type:"POST",
+		        data:$('#form1').serialize(),
+		        success: function(data) {
+		           if(data==1){
+		        	   alert("更新成功");
+		        	   location.reload();
+		           }else if(data==0){
+		        	   alert("更新失败");
+		           }
+		        }
+			});
+		});
+	});
+	</script>
+		<style>
+		#masterid{position:absolute;background:white;z-index:1000}
+		#boss{position:absolute;background:white;z-index:1000}
+	</style>
+<title>编辑教练</title>
+</head>
+<body style="background:#9CC">
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 订单列表 <span class="c-gray en">&gt;</span> 订单详情 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+	<form action="" method="post" class="form form-horizontal" id="form1" name='form1'>
+		<div class="row cl">
+			<input type="hidden" value="{$info.id}"  name="id">
+			<label class="form-label col-2"><span class="c-red">*</span>驾校：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text" style="width:300px;" value="{$schoolname}">
+			</div>
+		</div>
+		<div class="row cl">
+			<input type="hidden" value="{$info.id}"  name="id">
+			<label class="form-label col-2"><span class="c-red">*</span>时间：</label>
+			<div class="formControls col-4" style="width:360px;">
+				<input type="text" class="input-text" name="time" style="width:300px;" value="{$info.time}">
+			</div>
+		</div>
+
+		<div class="row cl">
+			<label class="form-label col-2">评论内容：</label>
+			<div class="formControls col-4" style="width:60%">
+		    	<textarea name="content"  cols="30" rows="10" style="width:100%">{$info.content}</textarea><br>{$infojoin}
+		    </div>
+		</div>
+		<div class="row cl">
+			<div class="col-10 col-offset-2">
+				<b  class="btn btn-primary radius" id="button1" onclick='myCheck()'><i class="Hui-iconfont">&#xe632;</i> 保存更新</b>
+				<a href="{:U('evallist?p='.$p)}"><button class="btn btn-secondary radius" type="button"><i class="Hui-iconfont">&#xe632;</i> 返回列表</button></a>
+				<button  class="btn btn-default radius" type="button">&nbsp;&nbsp;取消&nbsp;&nbsp;</button>
+			</div>
+		</div>
+</form>
+</div>
+</div>
+</body>
+</html>

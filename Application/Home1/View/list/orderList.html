@@ -1,0 +1,143 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<LINK rel="Bookmark" href="__PUBLIC__/favicon.ico" >
+<LINK rel="Shortcut Icon" href="__PUBLIC__/favicon.ico" />
+<link href="__PUBLIC__/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+<script  src="__PUBLIC__/js/form1.js"></script>
+<script  src="__PUBLIC__/js/My97DatePicker/WdatePicker.js"></script>
+<title>订单列表</title>
+<script>
+	function aa(){
+		$t=$('i1').value;
+		if($t==''){
+			$('b1').disabled=true;
+		}else{
+			$('b1').disabled=false;
+		}
+	}
+	function $(id){
+		return document.getElementById(id);
+	}
+</script>
+</head>
+<body onload="aa()" >
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 管理员列表 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+	<div class="cl pd-5 bg-1 bk-gray mt-20" style="height:70px;margin-top:0">
+		<div class="left1">
+		<form action="{:U('list/orderList?type=1')}" method="post">
+			<input type="text" placeholder="用户姓名/联系方式/订单号" id="i1" onkeyup="aa()" style="width:150px;border:1px solid gray;" name="query"/>　<button style="submit" id='b1' >快速查询</button>
+			　<button>新建订单</button></form>
+		</div><div class="right1">
+		     条件查询 &nbsp;&nbsp;　　省:<select name="province" id="province">
+						</select>
+				    市:<select name="city" id="city">
+					 </select>
+						<script language="javascript">
+		      			setup() 
+		  				</script>
+		订单类型:<select name="mode" id="">
+			<option value="请选择">请选择</option>　
+			<option value=1>驾校</option>
+			<option value=2>教练</option>
+			<option value=3>指导员</option>
+			<option value=4>预约</option>
+		</select>&nbsp;
+		订单状态:<select name="liststate" id="">
+			<option value="请选择">请选择</option>　
+		</select>&nbsp;
+		支付状态:<select name="paymethod" id="">
+			<option value="请选择">请选择</option>　
+			<option value=5>全&nbsp;&nbsp;&nbsp;部</option>　
+			<option value=1>待付款</option>　
+			<option value=2>待评价</option>　
+			<option value=3>已完成</option>　　
+		</select>&nbsp;
+		驾照类型:<select name="jtype" id="">
+			<option value="请选择">请选择</option>　
+		</select>&nbsp;
+		来源:<select name="source" id="">
+			<option value="请选择">请选择</option>　
+		</select>&nbsp;<br>　　　　　　　驾校简称：<input type="text" name="listname" class="t2"/>&nbsp;&nbsp;
+		学车基地：<input type="text" name="listname" class="t2"/>&nbsp;&nbsp;
+		学员姓名：<input type="text" name="listname" class="t2"/>&nbsp;&nbsp;<br>
+		　　　　　　　回访时间：<input type="text" name="listname" class="t1" onClick="WdatePicker()"/>&nbsp;&nbsp;
+		至：<input type="text" name="listname" class="t1" onClick="WdatePicker()"/>&nbsp;&nbsp;
+		付款时间：<input type="text" name="listname" class="t1" onClick="WdatePicker()"/>&nbsp;&nbsp;
+		至：<input type="text" name="listname" class="t1" onClick="WdatePicker()"/>&nbsp;&nbsp;
+		<button style="submit">立即筛选</button>　<a href="">查看以退费订单</a>
+		</div>
+		
+	</div>
+	<table class="table table-border table-bordered table-bg">
+		<thead>
+			<tr>
+				<th scope="col" colspan="18">订单列表<span class="r">共有数据：<strong>{$count}</strong> 条</span> </th>
+			</tr>
+			<tr class="text-c">
+				<th width="40">编号</th>
+				<th width="150">订单号</th>
+				<th width="100">下单时间</th>
+				<th width="100">用户姓名</th>
+				<th width="100">联系电话</th>
+				<th width="20">人数</th>
+				<th width="100">驾校/教练/指导员</th>
+				<th width="100">课程</th>
+				<th width="100">基地</th>
+				<th width="70">支付方式</th>
+				<th width="70">支付状态</th>
+				<th width="100">支付时间</th>
+				<th width="70">订单状态</th>
+				<th width="100">跟单客服</th>
+				<th width="80">最新备注</th>
+				<th width="100">回访日期</th>
+				<th width="100">最后更新人</th>
+				<th width="80">处理</th>
+			</tr>
+		</thead>
+		<tbody><if condition="empty($list)"><td colspan="18" style="text-align:center">没有相关订单</td>
+    		<else /> 
+ 		
+		   <volist name="list" id='vv'>
+			<tr class="text-c">
+				<td>{$vv.id}</td>
+				<td>{$vv.listid}</td>
+				<td>{$vv.listtime}</td>
+				<td>{$vv.nickname}</td>
+				<td>{$vv.phone}</td>
+				<td>1</td>
+				<td>{$vv.listname}</td>
+				<td>{$vv.name}</td>
+				<td></td>
+				<td>{$vv.paymethod}</td>
+				<td>{$vv['state']==0?'待付款':($vv['state']==1?'待确认':($vv['state']==2?'待评价':($vv['state']==3?'已完成':'全部')))}</td>
+				<td>{$vv.paytime}</td>
+				<td>{$vv.liststate}</td>
+				<td>{$vv.customer}</td>
+				<td>{$vv.note}</td>
+				<td>{$vv.returndate}</td>
+				<td>{$vv.lastupdate}</td>
+				<td><a href="">处理</a></td>
+			</tr>
+			
+			</volist>
+			<tr>
+				<td colspan="18">
+				{$page}
+				</td>
+			</tr></if>
+		</tbody>
+	</table>
+</div>
+
+</body>
+</html>

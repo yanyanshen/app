@@ -1,0 +1,78 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<LINK rel="Bookmark" href="__PUBLIC__/517/favicon.ico" >
+<LINK rel="Shortcut Icon" href="__PUBLIC__/517/favicon.ico" />
+<link href="__PUBLIC__/517/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/css/style.css" rel="stylesheet" type="text/css" />
+<link href="__PUBLIC__/517/lib/Hui-iconfont/1.0.6/iconfont.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="__PUBLIC__/517/js/jquery-1.12.0.min.js"></script>
+	
+<title>意见反馈列表</title>
+</head>
+<body>
+<nav class="breadcrumb"><i class="Hui-iconfont">&#xe67f;</i> 首页 <span class="c-gray en">&gt;</span> 管理员管理 <span class="c-gray en">&gt;</span> 管理员列表 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="Hui-iconfont">&#xe68f;</i></a></nav>
+<div class="pd-20">
+	<div class="cl pd-5 bg-1 bk-gray mt-20"> <span class="l"><a href="javascript:;" onclick="check('a1')" class="btn btn-danger radius" id='a1'><i class="Hui-iconfont">&#xe6e2;</i> 全选</a> <a href="javascript:;" id='a2' onclick="check('a1')" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 反选</a> <a href="javascript:;" onclick="check('a3')" id='a3' class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 取消</a> <a href="javascript:;" id='a4' onclick="datadel()" class="btn btn-danger radius"><i class="Hui-iconfont">&#xe6e2;</i> 删除所选</a></span> <span class="r">共有数据：<strong>54</strong> 条</span> </div>
+	<table class="table table-border table-bordered table-bg">
+		<thead>
+			<tr>
+				<th scope="col" colspan="9">反馈列表</th>
+			</tr>
+			<tr class="text-c">
+				<th width="25"><input type="checkbox" id="checkall"></th>
+				<th width="40">编号</th>
+				<th width="150">用户账号</th>
+				<th width="90">用户姓名</th>
+				<th width="80">用户电话</th>
+				<th width="100">留言时间</th>
+				<th width="300">反馈内容</th>
+				<th width="50">状态</th>
+				<th width="100">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+		   <volist name="list" id='vv'>
+			<tr class="text-c">
+			    <th width="25"><input type="checkbox" name="check" ></th>
+				<td>{$vv.id}</td>
+				<td>{$vv.feedid}</td>
+				<td>{$vv.feedname}</td>
+				<td>{$vv.feedphone}</td>
+				<td>{$vv.feedtime}</td>
+				<td>{$vv.content|subtext=50}</td>
+				<td>  
+				 <if condition="$vv.flag=='n'">已查看
+                  <else /> 未查看
+  				 </if>
+  				 </td>
+			    <td class="td-manage"><a title="查看" href="{:U('feedinfo?type=feedinfo&id='.$vv['id'])}"><i>&#xe6df;</i></a>
+			     <a title="删除" href="{:U('Control/del?type=feed&id='.$vv['id'])}" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
+			</tr>
+			</volist>
+			<tr>
+				<td colspan="9">
+				{$page}
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<script>
+		function check(id){
+			if(id=='a1'){
+				alert('a');
+				$("[name=check]:checkbox").attr("checked",true);
+			}else if(id=='a3'){
+				$("[name=check]:checkbox").attr("checked",false);
+			}
+		}
+	</script>
+</body>
+</html>

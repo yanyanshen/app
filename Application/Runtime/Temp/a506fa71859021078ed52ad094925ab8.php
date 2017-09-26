@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:3:"945";s:6:"userid";s:36:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B";s:8:"nickname";s:12:"卫星驾校";s:3:"img";s:40:"5196C331_1DA3_E56C_DAC1_5EF8655FF96B.png";s:8:"piccount";s:2:"14";s:5:"phone";s:11:"15801719592";s:7:"address";s:27:"上海 上海市 黄浦区 ";s:9:"pickrange";s:57:"上海市杨浦区，宝山区，闵行区，浦东新区";s:5:"score";s:1:"1";s:12:"introduction";s:214:"卫星驾校有限公司创建于1993年，位于上海市杨浦区长阳路，在上海市中心，交通便利，历史悠久，星级教练，支持计时收费，学费更透明，学员学的更放心！！！";s:8:"allcount";s:1:"0";s:11:"passedcount";s:1:"0";s:11:"praisecount";s:1:"4";s:5:"price";s:1:"0";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"1";s:12:"trainaddress";N;s:6:"verify";s:1:"3";}
+?>

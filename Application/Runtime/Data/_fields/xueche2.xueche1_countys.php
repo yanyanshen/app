@@ -1,0 +1,1 @@
+a:5:{i:0;s:2:"id";i:1;s:10:"countyname";i:2;s:8:"masterid";s:3:"_pk";s:2:"id";s:5:"_type";a:3:{s:2:"id";s:16:"int(10) unsigned";s:10:"countyname";s:11:"varchar(20)";s:8:"masterid";s:16:"int(10) unsigned";}}

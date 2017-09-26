@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:3:"948";s:6:"userid";s:36:"25A2AD99_C4EC_BC54_C629_AEB1949D4AEE";s:8:"nickname";s:12:"长江驾校";s:3:"img";s:40:"25A2AD99_C4EC_BC54_C629_AEB1949D4AEE.png";s:8:"piccount";s:2:"18";s:5:"phone";s:11:"15801719595";s:7:"address";s:43:"上海 上海市 黄浦区 长阳路1600号";s:9:"pickrange";s:18:"上海市长阳路";s:5:"score";s:1:"1";s:12:"introduction";s:55:"长江驾校成立于2000年，政府扶持，政策好";s:8:"allcount";s:1:"0";s:11:"passedcount";s:1:"0";s:11:"praisecount";s:1:"0";s:5:"price";s:1:"0";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"1";s:12:"trainaddress";N;s:6:"verify";s:1:"3";}
+?>

@@ -1,0 +1,3 @@
+<?php
+//000000000300a:22:{s:2:"id";s:3:"276";s:7:"account";s:11:"13817207260";s:8:"nickname";s:6:"虞忠";s:8:"truename";s:6:"虞忠";s:4:"pass";s:32:"6e55d6ca078ec08a4a5d5f5f6e609200";s:8:"birthday";s:10:"1968-09-15";s:5:"ntime";s:19:"2017-03-05 22:17:57";s:4:"type";s:2:"xy";s:3:"img";N;s:9:"signature";N;s:3:"sex";s:1:"1";s:5:"jtype";s:2:"A2";s:6:"userid";s:36:"A2052113-70DC-5A2A-B87D-CE8A2DC17940";s:5:"grade";s:1:"1";s:4:"rule";s:1:"0";s:7:"address";s:19:"上海市 上海市";s:6:"verify";s:1:"0";s:5:"phone";s:11:"13817207260";s:8:"subjects";s:1:"0";s:8:"deviceid";N;s:10:"lastupdate";N;s:6:"cityid";s:1:"1";}
+?>

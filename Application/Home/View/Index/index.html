@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8">
+        <title>我要去学车-中国最专业的学车平台，找驾校、考驾照、学车就找我要去学车</title>
+        <meta name="description" content="我要去学车-中国最专业的学车平台，找驾校、考驾照、学车就找我要去学车">
+		<meta name="keywords" content="驾驶培训，学车，驾校，考驾照，学开车，上海驾校，上海学车，上海考驾照驾校杭州，杭州驾照，杭州考驾照，驾校济南，北京驾照，学车多少钱，计时驾校，驾考，交规考试，交规模拟，理论试题，科目一，C1照，C2照，学车网，517学车网，我要去学车，我要学车，51学车，吾要去学车，驾驶证，学车陪练，驾驶员培训，自学直考，计时预约，私人教练，驾校价格，学车多少钱" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<LINK rel="Bookmark" href="__PUBLIC__/517/favicon.ico" >
+        <link rel="Shortcut Icon" href="__PUBLIC__/517/favicon.ico" />
+        <link rel="stylesheet" href="__PUBLIC__/css/main.css" media="screen,projection">
+        <link rel="stylesheet" href="__PUBLIC__/css/print.css" media="print">
+        <link rel="shortcut icon"  href="__PUBLIC__/img/car.png" type="image/icon" />
+        <script type="text/javascript" src="__PUBLIC__/js/jquery.js"></script>
+
+		<!--点击事件-->
+		<script>
+        		$("document").ready(function(){
+					$("#pop_up").click(function(){
+						$("#pop_up").css("display","none");
+					});
+				});
+        </script>
+        <style>
+
+		#pop_up{
+				position: absolute;
+				right: 0px;
+				width: 60%;
+				height: auto;
+				display: none;
+				position:fixed;
+               }
+		#pop_up img{
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+		.download{
+				display: -webkit-box;
+				width: 88%;
+				height: 38px;
+				margin-top: 10px;
+				-webkit-box-pack: justify;
+
+			}
+
+		.ios_download{ background:#f05b48; border:none; width:50%; line-height:35px;border-radius:5px;color:#FFFFFF; display:block; margin-left:4%; cursor: pointer;text-align:center}
+		.and_download{ background:#f05b48; border:none; width:50%; line-height:35px;border-radius:5px;color:#FFFFFF; display:block; margin-left:4%; cursor: pointer;text-align:center}
+
+
+			@media only screen and (max-height:540px ) {
+
+		     .pop_up{
+				     height:100%;
+				}
+			}
+			#intro a{
+							text-decoration: none
+						}
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="wrap">
+				<img id="pop_up" src="__PUBLIC__/img/downloadTip.png">
+                <a id="logo" ><img src="__PUBLIC__/img/logo.png" ></a>
+                <hr>
+
+                <nav>
+                    <div id="nav">
+
+                        <ul>
+                            <li class="active">
+                                <a>手机频道{$aa}</a>
+                            </li>
+                            <li>
+                                <a>APP下载</a>
+                            </li>
+
+                          <li>
+                                <a>联系电话：400-8040-517</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <hr>
+        <div id="intro">
+            <div class="inner">
+                <div class="wrap clearFix">
+                    <div class="study1">
+                    <h1><strong>为改变驾校而生！</strong></h1>
+                    </div>
+                    <div class="study2">
+                    <p>“我要去学车”由上海吾要去信息科技有限公司投资建立的立足于上海的全国性的驾校招生及服务平台，用户只需下载APP或登录“www.517xueche.com”官网,即可轻松完成驾校报名、教练报名、计时预约、自学直考、下单、付款等一系列报名工作。</p>                    </div>
+
+                  <img style="margin-right:0%;margin-left:20%;margin-bottom:2%" src="__PUBLIC__/img/tell.png">
+                  <div class="erweima" >
+                  <img style="margin-bottom:30%;margin-left:6%;" src="__PUBLIC__/img/erweima.png"></div>
+                  <div class="download">
+			<a href="itms-apps://itunes.apple.com/app/id1107516226" class="ios_download" style="color:#FFFFFF" title="ios版下载" onclick="a()">iOS 版下载(学员端)</a>
+                       <a href="http://openbox.mobilem.360.cn/qcms/view/t/detail?sid=3468709" class="and_download" style="color:#FFFFFF" title="Android版下载">安卓版下载(学员端)</a>
+		</div>
+		
+                  <div class="download">
+			<a href="itms-apps://itunes.apple.com/app/id1107516360" class="ios_download" style="color:#FFFFFF" title="ios版下载" onclick="a()">iOS 版下载(教练端)</a>
+                       <a href="http://sj.qq.com/myapp/detail.htm?apkName=com.xuechelearncoach" class="and_download" style="color:#FFFFFF" title="Android版下载">安卓版下载(教练端)</a>
+		</div>
+              </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <hr class="noPrint">
+        <hr>
+
+        <footer>
+            <div class="wrap clearFix">
+
+<p class="floatLeft">
+          Copyright &copy; 2013 517xueche, All Rights Reserved. <br> 上海吾要去信息科技有限公司 | 沪ICP备13030092号
+</p>        
+<p class="floatRight">
+	联系电话：400-8040-517
+ </p>    
+            </div>
+        </footer>
+
+    </body>
+    <script>
+		$(function() {
+			$('.ios_download').click(function() {
+				$('#pop_up').show();
+				window.location.href='itms-apps://itunes.apple.com/app/id1107516226';
+			});
+
+			var urlinfo = window.location.href;
+			var myurl = urlinfo.split("?")[1].split("&")[0].split("=")[0];
+			if(myurl == "invitationCode"){
+				var myInvitationCode = urlinfo.split("?")[1].split("&")[0].split("=")[1];
+				document.getElementById("username").innerHTML = UrlDecode(myInvitationCode);
+			}
+			else{
+				$(".content_mrc1 p").html("");
+				$(".content_mrc1 h6").html("");
+			}
+
+		});
+
+		function UrlDecode(zipStr){
+			var uzipStr="";
+			for(var i=0;i<zipStr.length;i++){
+				var chr = zipStr.charAt(i);
+				if(chr == "+"){
+					uzipStr+=" ";
+				}else if(chr=="%"){
+					var asc = zipStr.substring(i+1,i+3);
+					if(parseInt("0x"+asc)>0x7f){
+						uzipStr+=decodeURI("%"+asc.toString()+zipStr.substring(i+3,i+9).toString());
+						i+=8;
+					}else{
+						uzipStr+=AsciiToString(parseInt("0x"+asc));
+						i+=2;
+					}
+				}else{
+					uzipStr+= chr;
+				}
+			}
+
+			return uzipStr;
+		}
+
+		function StringToAscii(str){
+			return str.charCodeAt(0).toString(16);
+		}
+		function AsciiToString(asccode){
+			return String.fromCharCode(asccode);
+		}
+	</script>
+</html>

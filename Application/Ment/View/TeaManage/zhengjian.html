@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>证件管理</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="__PUBLIC__/ment/css/mine.css" type="text/css" rel="stylesheet">
+        <script  src="__PUBLIC__/ment/js/My97DatePicker/WdatePicker.js"></script>
+    </head>
+
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：系统管理-》证件管理</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U($url.'?p='.$p)}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+
+        <div style="font-size: 13px;margin: 10px 5px">
+            <form action="{:U('#')}" method="post" enctype="multipart/form-data">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                <input type="hidden" name='id' value="{$id}"/>
+                 <input type="hidden" name='p' value="{$p}"/>
+                 <input type="hidden" name='t' value="{$t}"/>
+                    <td colspan='2'>{$user.nickname}</td>
+                     <td colspan='3'>
+                         <a href="{:U('verify?id='.$id.'&p='.$p.'&t='.$t.'&flag=3')}">认证通过</a>
+	                     <a href="{:U('verify?id='.$id.'&p='.$p.'&t='.$t.'&flag=2')}">正在认证</a>
+	                     <a href="{:U('verify?id='.$id.'&p='.$p.'&t='.$t.'&flag=1')}">已拒绝</a>
+                     </td>
+                </tr>
+                <tr>
+                	<td width="3%">序号</td>
+                	<td width="10%">图片</td>
+                	<td width="20%">路径</td>
+                	<td width="5%">类型</td>
+                	<td>操作</td>
+                </tr>
+                <volist name='img' id='v'>
+                	<tr>
+                		<td>{$v.id}</td>
+                		<td><img src="http://www.517xc.com{$v['imgurl']}" alt="" style="border-radius:40%" /></td>
+                		<td>{$v.imgurl}</td>
+                		<td>{$v['paperstype']=='yyzz'?'营业执照':($v['paperstype']=='jlz'?'教练证':($v['paperstype']=='jsz'?'驾驶证':'身份证'))}</td>
+                		<td><a href="{:U('del_zhengjian?id='.$id.'&iid='.$v['id'].'&p='.$p.'&t='.$t)}" onclick="if(confirm('确定删除?')==false)return false;">删除</a></td>
+                	</tr>
+                </volist> 
+            </table>
+            </form>
+        </div>
+    </body>
+</html>

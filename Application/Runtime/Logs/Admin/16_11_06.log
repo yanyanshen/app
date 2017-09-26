@@ -1,0 +1,48 @@
+[ 2016-11-06T02:49:05+08:00 ] 119.34.13.175 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T02:49:05+08:00 ] 119.34.13.175 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T02:49:05+08:00 ] 119.34.13.175 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T19:45:26+08:00 ] 220.191.119.119 /Admin/Coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T19:45:27+08:00 ] 220.191.119.119 /Admin/Coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T20:31:56+08:00 ] 114.83.142.44 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_guider` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T20:31:56+08:00 ] 114.83.142.44 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`img`,`sex`,`birthday`,`masterid`,`teachedage`,`score`,`passedcount`,`allcount`,`evalutioncount`,`praisecount` FROM `xueche1_coach` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+
+[ 2016-11-06T20:31:56+08:00 ] 114.83.142.44 /Admin/coach/getpublicList
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and verify=3 ) LIMIT 0,5' at line 1
+ [ SQL语句 ] : SELECT `id`,`userid`,`nickname`,`pickrange`,`score`,`allcount`,`price`,`img` FROM `xueche1_school` WHERE ( cityid= and verify=3 ) LIMIT 0,5  
+

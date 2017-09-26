@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>地标管理</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="__PUBLIC__/ment/css/mine.css" type="text/css" rel="stylesheet">
+	<script  src="__PUBLIC__/ment/js/jquery.js"></script>
+        <script>
+        $("document").ready(function(){
+      		$("#checkall").click(function(){
+     			if($(this).val()=='全选'){
+     				 $("input[type='checkbox']").prop('checked', true);
+     				 $("#checkall").val("取消全选");
+     			}else{
+     				 $("input[type='checkbox']").prop('checked', false);
+     				$("#checkall").val("全选");
+     			}
+     		});
+         });
+        </script>
+    </head>
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：系统管理-》地标管理</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U($url.'?p='.$p)}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+        <form action="{:U('landsave')}" method="post">
+        <div style="font-size: 13px;margin: 10px 5px">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                <input type="hidden" name='id' value="{$id}"/>
+                 <input type="hidden" name='p' value="{$p}"/>
+                 <input type="hidden" name='t' value="{$t}"/>
+                 <input type="hidden" name='userid' value="{$user.userid}"/>
+                    <td colspan='2'>{$user.nickname}</td>
+                    <td ><input type="button" id="checkall" value="全选"/> 　<input type="submit"  value="保存"/></td>
+                </tr>
+                <tr>
+               		<td width="3%">序号</td>
+                	<td width="3%">区/县</td>
+                	<td width="80%">地标</td>
+                </tr>
+                <volist name='county' id='v'>
+                	<tr height="40px">
+	                	<td>{$v.id}</td>
+	                	<td>{$v.countyname}</td>
+	                	<td>
+	                		<volist name="v['land']" id='vv'>
+	                			<label>
+	                			<if condition="in_array($vv['id'],$land)">
+	                				<input type="checkbox" name="{$vv.id}" value="{$vv.id}" checked/>{$vv.landname}
+								    <else />
+								    <input type="checkbox" name="{$vv.id}" value="{$vv.id}" />{$vv.landname}
+								</if>
+	                			</label>
+	                		</volist>
+	                	</td>
+                	</tr>
+                </volist>
+            </table>
+        </div>
+       </form>
+    </body>
+</html>

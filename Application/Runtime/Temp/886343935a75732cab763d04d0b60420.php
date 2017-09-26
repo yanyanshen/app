@@ -1,0 +1,3 @@
+<?php
+//000000000300a:22:{s:2:"id";s:1:"1";s:7:"account";s:11:"15901744172";s:8:"nickname";s:13:"noil丶果果";s:8:"truename";s:6:"凌胤";s:4:"pass";s:32:"0fba4b50417c675ac850ac9eae95a4c4";s:8:"birthday";s:10:"1993-10-09";s:5:"ntime";s:10:"2016-07-07";s:4:"type";s:2:"xy";s:3:"img";s:40:"1ACCA599_8206_F1DA_90D3_BCFC6243E415.png";s:9:"signature";s:46:":smile::grimacing::grimacing::grimacing:墨迹";s:3:"sex";s:1:"1";s:5:"jtype";s:2:"C1";s:6:"userid";s:36:"1ACCA599_8206_F1DA_90D3_BCFC6243E415";s:5:"grade";s:1:"1";s:4:"rule";s:1:"0";s:7:"address";s:19:"陕西省 汉中市";s:6:"verify";s:1:"0";s:5:"phone";s:11:"15901744172";s:8:"subjects";s:1:"1";s:8:"deviceid";N;s:10:"lastupdate";s:5:"junes";s:6:"cityid";s:1:"1";}
+?>

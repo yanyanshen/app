@@ -1,0 +1,3 @@
+<?php
+//000000000300a:3:{i:0;a:6:{s:2:"id";s:2:"55";s:8:"weekdays";s:3:"0-4";s:10:"timebucket";s:4:"0-40";s:5:"price";s:3:"150";s:5:"jtype";s:2:"C2";s:8:"subjects";s:1:"3";}i:1;a:6:{s:2:"id";s:2:"65";s:8:"weekdays";s:3:"0-4";s:10:"timebucket";s:5:"10-42";s:5:"price";s:3:"144";s:5:"jtype";s:2:"C2";s:8:"subjects";s:1:"2";}i:2;a:6:{s:2:"id";s:2:"66";s:8:"weekdays";s:3:"0-4";s:10:"timebucket";s:5:"10-38";s:5:"price";s:3:"158";s:5:"jtype";s:2:"C2";s:8:"subjects";s:1:"3";}}
+?>

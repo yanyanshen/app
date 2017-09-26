@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:3:"165";s:6:"userid";s:36:"33535FBF_DB03_B5CB_9D7D_BF114A96992A";s:8:"nickname";s:12:"利服驾校";s:3:"img";s:40:"33535FBF_DB03_B5CB_9D7D_BF114A96992A.jpg";s:8:"piccount";s:1:"1";s:5:"phone";s:12:"400-8040-517";s:7:"address";s:18:"大兴兴丰大街";s:9:"pickrange";s:0:"";s:5:"score";s:1:"0";s:12:"introduction";s:219:"北京市利服驾驶员培训学校办学宗旨：服务周到、价格合理、周期短、廉政建设强，为学员服务，让每位学员都满意，靠训练质量、靠信誉为社会培养合格的驾驶员。";s:8:"allcount";s:1:"0";s:11:"passedcount";s:1:"0";s:11:"praisecount";s:1:"0";s:5:"price";s:4:"6700";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"0";s:12:"trainaddress";s:0:"";s:6:"verify";s:1:"3";}
+?>

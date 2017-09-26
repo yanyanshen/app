@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:1:"2";s:6:"userid";s:36:"105BF1E9_C4A7_42AC_A74E_ED080F162A81";s:8:"nickname";s:12:"良峰驾校";s:3:"img";s:40:"105BF1E9_C4A7_42AC_A74E_ED080F162A81.jpg";s:8:"piccount";s:1:"1";s:5:"phone";s:12:"400-8040-517";s:7:"address";s:1:" ";s:9:"pickrange";s:1:" ";s:5:"score";s:3:"4.7";s:12:"introduction";s:408:"       良峰驾校建有标准化教学场地25000余平方米，建有培训配套用房面积500余平方米，教练车辆22辆。 “规范教学，诚信服务”是良峰驾培的承诺，“学员的满意、是良峰驾培追求的目标”，我们将通过一流的培训设施，一流的教学环境、一流的起因管理模式，高素质的教职工队伍、全心全意为了学员服务。";s:8:"allcount";s:4:"3241";s:11:"passedcount";s:4:"3021";s:11:"praisecount";s:1:"0";s:5:"price";s:4:"4100";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"0";s:12:"trainaddress";N;s:6:"verify";s:1:"3";}
+?>

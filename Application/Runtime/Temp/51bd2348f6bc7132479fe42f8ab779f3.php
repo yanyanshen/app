@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:1:"3";s:6:"userid";s:36:"5C11C490_5D36_2AAB_C259_DD0F86A707C1";s:8:"nickname";s:6:"卫佳";s:3:"img";s:40:"5C11C490_5D36_2AAB_C259_DD0F86A707C1.png";s:7:"address";s:27:"上海 上海市 黄浦区 ";s:3:"sex";s:1:"1";s:8:"birthday";s:10:"1967-11-02";s:5:"phone";s:11:"15801719592";s:8:"piccount";s:1:"1";s:10:"teachedage";s:10:"2004-11-02";s:12:"introduction";s:54:"认真学车是一种对家人对社会负责的态度";s:5:"score";s:1:"1";s:11:"passedcount";s:1:"0";s:8:"allcount";s:1:"0";s:9:"driverage";s:10:"1996-11-02";s:11:"praisecount";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"timeflag";s:1:"0";s:14:"teachablecount";s:1:"0";s:4:"cost";N;s:6:"verify";s:1:"3";}
+?>

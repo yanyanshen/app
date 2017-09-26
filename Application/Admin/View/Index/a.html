@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="{:U('coach/upcertificate')}" method="post" enctype="multipart/form-data">
+请输入userid:  <input type="text" name="userid" style="width:500px"/><br>
+请输入session-id:  <input type="text" name="session_id"/><br>
+请输入图片格式:  <input type="text" name="path"/><br>
+请选择图片:  <input type="file" name="file[]" multiple/><br>
+请输入用户类型:  <input type="text" name="type"/><br>
+ <input type="submit"/><br>
+</form>
+</body>
+</html>

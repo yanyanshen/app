@@ -1,0 +1,1691 @@
+[ 2016-10-26T16:43:50+08:00 ] 127.0.0.1 /10.19/xueche/Manage/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-26T16:57:15+08:00 ] 101.81.13.210 /Manage/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES (NULL,'1477472235','1699810770','退出') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-10-26T16:57:15+08:00 ] 101.81.13.210 /Manage/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-10-26T17:00:32+08:00 ] 101.81.13.210 /Manage/Index/verify.html?+new%20Date()
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-10-26T17:00:38+08:00 ] 101.81.13.210 /Manage/Index/checkuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0150s ]
+SQL: SELECT count(*),`pass`,`masgroup`,`flag`,`username`,`role` FROM `xueche1_admin` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0007s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES ('admin','1477472438','1699810770','登录') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-10-26T17:00:39+08:00 ] 101.81.13.210 /Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0008s ]
+SQL: SELECT `permissId` FROM `xueche1_admin` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-10-26T17:00:39+08:00 ] 101.81.13.210 /Manage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: SELECT `ntime`,`nip` FROM `xueche1_adminlog` WHERE ( account='admin' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_adminlog` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0039s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) GROUP BY state  [ RunTime:0.0290s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) GROUP BY state  [ RunTime:0.0005s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) GROUP BY state  [ RunTime:0.0007s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` GROUP BY state  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: count /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 54 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 56 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 57 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 58 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 66 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 67 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 78 行.
+NOTIC: [8] Undefined variable: ww /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 102 行.
+NOTIC: [8] Undefined variable: php /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 106 行.
+NOTIC: [8] Undefined variable: ver /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 130 行.
+NOTIC: [8] Undefined variable: s /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 134 行.
+NOTIC: [8] Undefined variable: tp /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 138 行.
+NOTIC: [8] Undefined variable: sql /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 142 行.
+NOTIC: [8] Undefined variable: file /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-10-26T17:00:40+08:00 ] 101.81.13.210 /Manage/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+ERR: 非法操作:skin
+
+[ 2016-10-26T17:00:43+08:00 ] 101.81.13.210 /Manage/list/orderList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_list l LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`listid`,`listtime`,`masterid`,`objectid`,`phone`,`stucount`,`listname`,`paymethod`,`liststate`,`paytime`,`state`,`classid`,`customer`,`note`,`type`,`returndate`,`lastupdate`,`CL_type`,`flag`,`preferentialprice`,`gmt_payment` FROM xueche1_list l ORDER BY id desc LIMIT 0,13   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=71 ) LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0008s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0290s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0010s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=70 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=38 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1F1302C2-563D-724F-CA12-776A0F4BB895' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=70 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1F1302C2-563D-724F-CA12-776A0F4BB895' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='1CDED6A4-1404-D478-8689-7A7EBC18BFBB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=38 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1F1302C2-563D-724F-CA12-776A0F4BB895' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=34 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=0 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_coach` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=28 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `xueche1_trainclass` WHERE ( tcid=10 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `username` FROM `xueche1_admin` WHERE ( id=22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_user` WHERE ( userid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+NOTIC: [8] Undefined index: CL_type /var/www/xueche/Application/Runtime/Cache/Manage/1cf0397956afe21bc2ff0ef98a3d71ed.php 第 144 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-10-26T17:00:49+08:00 ] 101.81.13.210 /Manage/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018676s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-10-26T17:02:09+08:00 ] 101.81.13.210 /Manage/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-10-26T17:02:17+08:00 ] 101.81.13.210 /Manage/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0009s ]
+SQL: SELECT `permissId` FROM `xueche1_admin` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-10-26T17:02:18+08:00 ] 101.81.13.210 /Manage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0008s ]
+SQL: SELECT `ntime`,`nip` FROM `xueche1_adminlog` WHERE ( account='admin' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_adminlog` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) GROUP BY state  [ RunTime:0.0003s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` GROUP BY state  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: count /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 54 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 55 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 56 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 57 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 58 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 66 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 67 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 78 行.
+NOTIC: [8] Undefined variable: ww /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 102 行.
+NOTIC: [8] Undefined variable: php /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 106 行.
+NOTIC: [8] Undefined variable: ver /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 130 行.
+NOTIC: [8] Undefined variable: s /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 134 行.
+NOTIC: [8] Undefined variable: tp /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 138 行.
+NOTIC: [8] Undefined variable: sql /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 142 行.
+NOTIC: [8] Undefined variable: file /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2016-10-26T17:02:18+08:00 ] 101.81.13.210 /Manage/Index/skin/default/skin.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+ERR: 非法操作:skin
+
+[ 2016-10-26T17:02:20+08:00 ] 101.81.13.210 /Manage/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008034s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-10-26T17:02:21+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000411s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 8,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='AFB797DF-6911-1FE3-F080-AD2BB69B7170' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='AFB797DF-6911-1FE3-F080-AD2BB69B7170' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='109F2EA7-09D2-A6DC-0EBE-8F591E4D489E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='109F2EA7-09D2-A6DC-0EBE-8F591E4D489E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='B563CA22-E9C8-F343-5929-88BA7101E156' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='B563CA22-E9C8-F343-5929-88BA7101E156' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='56FF69D6-45CF-6475-DFDF-6EA480B86B78' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='56FF69D6-45CF-6475-DFDF-6EA480B86B78' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='A8872EAA-43AA-B7BE-782D-DED0060EED8E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='A8872EAA-43AA-B7BE-782D-DED0060EED8E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='A09841A5-25CF-748E-92EE-C7333EA6BE2D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='A09841A5-25CF-748E-92EE-C7333EA6BE2D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='C0271111-A8AD-B8D6-645E-FC5C6EC2CDFA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='C0271111-A8AD-B8D6-645E-FC5C6EC2CDFA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='DCBD77EC-0F2B-EE5A-63B0-E2BCA6EAFB85' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='DCBD77EC-0F2B-EE5A-63B0-E2BCA6EAFB85' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2016-10-26T17:02:23+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 16,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='BA7331EF-DF75-6188-4776-915FA15C9BC9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='BA7331EF-DF75-6188-4776-915FA15C9BC9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='42236A9F-9EB0-B474-C574-C65106BC22E3' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='42236A9F-9EB0-B474-C574-C65106BC22E3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='27A430D9-21AA-297E-3CE9-934E36D198FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='27A430D9-21AA-297E-3CE9-934E36D198FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='B83B651C-09A0-B2B5-0F12-7CF5758AA2E9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='B83B651C-09A0-B2B5-0F12-7CF5758AA2E9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='EC3A543C-94CB-B36A-11C1-FDCF259B3C83' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='EC3A543C-94CB-B36A-11C1-FDCF259B3C83' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='02E6B63A-E755-3E19-F1D2-5ADD8D17DBEC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='02E6B63A-E755-3E19-F1D2-5ADD8D17DBEC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='9CDB5D38-2F81-4D46-F827-13A6643AEBEF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='9CDB5D38-2F81-4D46-F827-13A6643AEBEF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='A44DA884-AB7D-D744-C288-572D30194D87' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='A44DA884-AB7D-D744-C288-572D30194D87' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-10-26T17:02:24+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 24,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='3B1CA51F-1204-0C8C-3535-75770AC29E80' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='3B1CA51F-1204-0C8C-3535-75770AC29E80' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1436C841-5644-5719-D6A0-D9A71FEF54A2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1436C841-5644-5719-D6A0-D9A71FEF54A2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7B88AFC0-29C5-7D93-9727-0C3078F5DB71' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7B88AFC0-29C5-7D93-9727-0C3078F5DB71' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7BFD95E4-78E9-B926-1571-27B0BCA4B1D2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7BFD95E4-78E9-B926-1571-27B0BCA4B1D2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='593E15BB-2714-3F14-F49A-6B6A041CD551' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='593E15BB-2714-3F14-F49A-6B6A041CD551' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='F1717025-446C-553E-EC0E-9B2CA45ED007' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='F1717025-446C-553E-EC0E-9B2CA45ED007' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='9019E33C-771E-7C7D-5568-57E8AC4414D8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='9019E33C-771E-7C7D-5568-57E8AC4414D8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='3C84FA8E-CE49-79F8-7459-910A54206837' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='3C84FA8E-CE49-79F8-7459-910A54206837' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-10-26T17:02:24+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 32,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='17951CAB-E53A-D303-93C9-F3B01FE1918D' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='17951CAB-E53A-D303-93C9-F3B01FE1918D' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1E86C91B-96D7-CCC3-2871-24FFE52EB874' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1E86C91B-96D7-CCC3-2871-24FFE52EB874' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='3D74A73E-C263-22B5-4758-E1334459DE9C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='3D74A73E-C263-22B5-4758-E1334459DE9C' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='FFBBCA95-DC37-8C5A-2258-86680D136FCC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='FFBBCA95-DC37-8C5A-2258-86680D136FCC' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7A762441-E677-DEB9-0F7B-C651E5DD278E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7A762441-E677-DEB9-0F7B-C651E5DD278E' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='B7F3D088-C9E3-DF2D-5D24-7F1E6566BA19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='B7F3D088-C9E3-DF2D-5D24-7F1E6566BA19' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='002645C0-6391-5BCB-DEBA-07B6136D0254' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='002645C0-6391-5BCB-DEBA-07B6136D0254' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='5B5F87D7-E832-3793-0183-C7270AE3C3E2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='5B5F87D7-E832-3793-0183-C7270AE3C3E2' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-10-26T17:03:38+08:00 ] 61.151.226.199 /manage/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-10-26T17:03:38+08:00 ] 61.151.226.199 /Manage/index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES (NULL,'1477472618','1033364167','退出') [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-10-26T17:12:40+08:00 ] 101.81.13.210 /Manage/School/schoolList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 68 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 75 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 85 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_school s LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 90 行.
+SQL: SELECT s.userid,s.cityid FROM xueche1_school s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 93 行.
+SQL: SELECT s.id,s.account,s.userid,s.nickname,s.img,s.phone,s.type,s.address,count(t.id) as traincount,s.connectteacher,s.cityid,s.verify,s.lastupdate FROM xueche1_school s left join xueche1_schooltrain t on t.schoolid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `xueche1_attention` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0010s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EB1E6891-7619-4F58-DF59-594C19781EA3'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EBE5AD29-A3BA-7B60-9B79-9AB09CB308B7'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D537245B-A49E-9828-E063-4C2C63DEC273'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='ADC55564-F55E-B1DA-77F2-CC5BB6F93267'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E9581929-CF91-99CF-237F-FB07C3AB2091'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='921E6D53-1E61-31F4-6912-39E9051C9777'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-10-26T17:12:43+08:00 ] 101.81.13.210 /Manage/User/userList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-10-26T17:12:46+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 72,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='51D789AB-E8F2-92C9-8D8B-3E1F14C9C4E8' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='51D789AB-E8F2-92C9-8D8B-3E1F14C9C4E8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8653491F-993F-C53F-7328-F20679E29B04' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8653491F-993F-C53F-7328-F20679E29B04' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='33765025-1E5A-1F20-D5F4-68259A6345D7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='33765025-1E5A-1F20-D5F4-68259A6345D7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='B5E62216-35B9-C203-3DEF-458369040B69' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='B5E62216-35B9-C203-3DEF-458369040B69' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='EDA9C636-AD3E-7B20-A58B-54C4C613E55F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='EDA9C636-AD3E-7B20-A58B-54C4C613E55F' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='12109046-3577-157C-F0B7-BCA048B313FA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='12109046-3577-157C-F0B7-BCA048B313FA' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='D717881B-5D58-4985-41C1-4659B01A55F0' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='D717881B-5D58-4985-41C1-4659B01A55F0' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='B3F46D81-190F-AB2B-AC93-96363BDF877F' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='B3F46D81-190F-AB2B-AC93-96363BDF877F' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-10-26T17:12:48+08:00 ] 101.81.13.210 /Manage/User/userList.html?p=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 88,8   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='82DCE099-DC57-0ADA-CC3E-8AB15B302F9A' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='82DCE099-DC57-0ADA-CC3E-8AB15B302F9A' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2016-10-26T18:05:44+08:00 ] 101.81.13.210 /manage/school/schoollist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 68 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 75 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 85 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_school s LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 90 行.
+SQL: SELECT s.userid,s.cityid FROM xueche1_school s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 93 行.
+SQL: SELECT s.id,s.account,s.userid,s.nickname,s.img,s.phone,s.type,s.address,count(t.id) as traincount,s.connectteacher,s.cityid,s.verify,s.lastupdate FROM xueche1_school s left join xueche1_schooltrain t on t.schoolid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0284s ]
+SQL: SHOW COLUMNS FROM `xueche1_attention` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0005s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0010s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EB1E6891-7619-4F58-DF59-594C19781EA3'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EBE5AD29-A3BA-7B60-9B79-9AB09CB308B7'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D537245B-A49E-9828-E063-4C2C63DEC273'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='ADC55564-F55E-B1DA-77F2-CC5BB6F93267'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E9581929-CF91-99CF-237F-FB07C3AB2091'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='921E6D53-1E61-31F4-6912-39E9051C9777'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' )  [ RunTime:0.0008s ]
+ERR: 模板不存在:./Application/Manage/View/School/schoollist.html
+
+[ 2016-10-26T18:05:53+08:00 ] 101.81.13.210 /manage/coach/coachlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 16 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 23 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 28 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coach s LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 38 行.
+SQL: SELECT s.userid,s.masterid,s.cityid FROM xueche1_coach s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 41 行.
+SQL: SELECT s.id,s.account,s.sex,s.userid,s.nickname,s.img,s.phone,s.birthday,s.type,s.timeflag,s.address,count(t.id) as attcount,s.jltype,s.cityid,s.verify,s.lastupdate,s.carNumber FROM xueche1_coach s left join xueche1_attention t on t.objectid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachtrain` [ RunTime:0.0009s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='F36B5873-B886-E543-513F-CC325AE9A63B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B3738353-D3FF-F20F-5946-E462A6912AF5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='B3738353-D3FF-F20F-5946-E462A6912AF5'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B3738353-D3FF-F20F-5946-E462A6912AF5'  LIMIT 1   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Manage/View/Coach/coachlist.html
+
+[ 2016-10-26T18:05:54+08:00 ] 101.81.13.210 /manage/guider/guiderlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 16 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 23 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 28 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `xueche1_guider` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_guider s LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 38 行.
+SQL: SELECT s.userid,s.cityid FROM xueche1_guider s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/GuiderController.class.php 第 41 行.
+SQL: SELECT s.id,s.account,s.sex,s.userid,s.nickname,s.img,s.phone,s.type,s.timeflag,s.address,count(t.id) as attcount,s.cityid,s.verify,s.lastupdate,s.carNumber FROM xueche1_guider s left join xueche1_attention t on t.objectid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0005s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B0D60BCC-05C2-C391-5640-D0AC680B42AF'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B0D60BCC-06C2-C391-5640-D0AC680B42AF'  LIMIT 1   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Manage/View/Guider/guiderlist.html
+
+[ 2016-10-26T18:05:55+08:00 ] 101.81.13.210 /manage/user/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `xueche1_user` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`account`,`sex`,`userid`,`ntime`,`nickname`,`img`,`phone`,`address`,`subjects`,`jtype`,`lastupdate`,`verify` FROM `xueche1_user` ORDER BY id asc LIMIT 0,8   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_reservation` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='1ACCA599-8206-F1DA-90D3-BCFC6243E415' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='008B5940-E4E6-081D-4B3E-C180E2AD0AC0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='0BC9E90D-7014-323C-F4C1-72E8C7F568F9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='87696BB0-B365-6EC8-BE24-DBE30E4901B7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='8CF687BE-A1AF-5F50-5C3F-C051BB0218A7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='31A9D405-1D2C-9B12-0F90-2D23CE00E7D4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='E6ED960E-234F-6DA4-31D1-D59CD435B2FB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_list` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_reservation` WHERE ( masterid='7F8CCC4C-F02E-14ED-229E-3BDE596A21DB' ) LIMIT 1   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Manage/View/User/userlist.html
+
+[ 2016-10-26T18:05:58+08:00 ] 101.81.13.210 /Manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `xueche1_admin` [ RunTime:0.0010s ]
+SQL: SELECT `permissId` FROM `xueche1_admin` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-10-26T18:05:58+08:00 ] 101.81.13.210 /Manage/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0010s ]
+SQL: SELECT `ntime`,`nip` FROM `xueche1_adminlog` WHERE ( account='admin' ) ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_adminlog` WHERE ( account='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `xueche1_list` [ RunTime:0.0011s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT `state`,count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) GROUP BY state  [ RunTime:0.0004s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` GROUP BY state  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined variable: count /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 82 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: state /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 81 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 83 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 84 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined offset: 4 /var/www/xueche/Application/Manage/Controller/IndexController.class.php 第 85 行.
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-26%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10-25%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-10%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT count(id) as id FROM `xueche1_list` WHERE ( listtime like '%2016-09%' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 54 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 57 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 58 行.
+NOTIC: [8] Undefined offset: 0 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 64 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 65 行.
+NOTIC: [8] Undefined offset: 1 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 66 行.
+NOTIC: [8] Undefined offset: 2 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 67 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 68 行.
+NOTIC: [8] Undefined offset: 3 /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 78 行.
+NOTIC: [8] Undefined variable: ww /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 102 行.
+NOTIC: [8] Undefined variable: php /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 106 行.
+NOTIC: [8] Undefined variable: ver /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 130 行.
+NOTIC: [8] Undefined variable: s /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 134 行.
+NOTIC: [8] Undefined variable: tp /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 138 行.
+NOTIC: [8] Undefined variable: sql /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 142 行.
+NOTIC: [8] Undefined variable: file /var/www/xueche/Application/Runtime/Cache/Manage/1e288adad12e0bfd37a0b3a2cdaf852e.php 第 150 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2016-10-26T18:06:04+08:00 ] 101.81.13.210 /Manage/School/schoolList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 68 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 75 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 85 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_school s LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 90 行.
+SQL: SELECT s.userid,s.cityid FROM xueche1_school s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 93 行.
+SQL: SELECT s.id,s.account,s.userid,s.nickname,s.img,s.phone,s.type,s.address,count(t.id) as traincount,s.connectteacher,s.cityid,s.verify,s.lastupdate FROM xueche1_school s left join xueche1_schooltrain t on t.schoolid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `xueche1_attention` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0005s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0011s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EB1E6891-7619-4F58-DF59-594C19781EA3'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EBE5AD29-A3BA-7B60-9B79-9AB09CB308B7'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D537245B-A49E-9828-E063-4C2C63DEC273'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='ADC55564-F55E-B1DA-77F2-CC5BB6F93267'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E9581929-CF91-99CF-237F-FB07C3AB2091'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='921E6D53-1E61-31F4-6912-39E9051C9777'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000522s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`nickname`,`img` FROM `xueche1_school` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_img` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`imgname`,`imgtime` FROM `xueche1_img` WHERE ( userid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 41 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 41 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/small/D18CF959-EDB7-B2C2-C8D0-85CFB1415721.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/1473039943-5i.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/1473039943-2x.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/14730399431g.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/1473040638-2i.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/1473039943-5i.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/small/D18CF959-EDB7-B2C2-C8D0-85CFB1415721.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2016-10-26T18:06:08+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/D18CF959-EDB7-B2C2-C8D0-85CFB1415721/type/jx/p/URL/Upload/school/small/1473039943-2x.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+
+[ 2016-10-26T18:06:47+08:00 ] 101.81.13.210 /Manage/Coach/coachList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 16 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 23 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 28 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 33 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_coach s LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 38 行.
+SQL: SELECT s.userid,s.masterid,s.cityid FROM xueche1_coach s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/CoachController.class.php 第 41 行.
+SQL: SELECT s.id,s.account,s.sex,s.userid,s.nickname,s.img,s.phone,s.birthday,s.type,s.timeflag,s.address,count(t.id) as attcount,s.jltype,s.cityid,s.verify,s.lastupdate,s.carNumber FROM xueche1_coach s left join xueche1_attention t on t.objectid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0111s ]
+SQL: SHOW COLUMNS FROM `xueche1_news` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='E7D96389-D40B-EA8B-46DF-99FF792C0D27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0009s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coachtrain` [ RunTime:0.0006s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0005s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E7D96389-D40B-EA8B-46DF-99FF792C0D27'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='81362E0D-4200-7FE6-EFDC-7051A54E34AD' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='81362E0D-4200-7FE6-EFDC-7051A54E34AD'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B0D60BCC-05C2-C391-5640-D0AC680B41AF' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'   [ RunTime:0.0003s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B0D60BCC-05C2-C391-5640-D0AC680B41AF'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='C203E3AC-FE4C-FB3C-8584-3499F46C6863' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='C203E3AC-FE4C-FB3C-8584-3499F46C6863'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='6DD1B43D-35EF-30DE-BE07-6429980F2F53' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6DD1B43D-35EF-30DE-BE07-6429980F2F53'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='6CC07A5C-CADB-C5D0-DCB4-9E7CF21FC192' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E5A467B7-19E4-9EF3-BAC5-09EED04DB1F0'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='F36B5873-B886-E543-513F-CC325AE9A63B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='C1F5DB3A-58E5-037F-6B86-1B00F17856E0'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_news` WHERE ( userid='B3738353-D3FF-F20F-5946-E462A6912AF5' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname` FROM `xueche1_school` WHERE ( userid='988982E0-96F0-81C6-6663-ED7630993600' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT t.trname FROM xueche1_coachtrain c INNER JOIN xueche1_train t on t.id=c.trainid and coachid='B3738353-D3FF-F20F-5946-E462A6912AF5'   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B3738353-D3FF-F20F-5946-E462A6912AF5'  LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+NOTIC: [8] Undefined index: carNumber /var/www/xueche/Application/Runtime/Cache/Manage/2211db19c9584e19fa78c727c5960eb4.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010789s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-26T18:06:49+08:00 ] 101.81.13.210 /Manage/School/schoolList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 68 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 75 行.
+NOTIC: [8] Undefined index: city /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+NOTIC: [8] Undefined index: nickname /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 85 行.
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_school s LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 90 行.
+SQL: SELECT s.userid,s.cityid FROM xueche1_school s ORDER BY s.id LIMIT 0,8   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: where /var/www/xueche/Application/Manage/Controller/SchoolController.class.php 第 93 行.
+SQL: SELECT s.id,s.account,s.userid,s.nickname,s.img,s.phone,s.type,s.address,count(t.id) as traincount,s.connectteacher,s.cityid,s.verify,s.lastupdate FROM xueche1_school s left join xueche1_schooltrain t on t.schoolid=s.userid  GROUP BY s.userid ORDER BY s.id LIMIT 0,8   [ RunTime:0.0280s ]
+SQL: SHOW COLUMNS FROM `xueche1_attention` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_trainclass` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_sign` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_citys` [ RunTime:0.0006s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `xueche1_student` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `xueche1_coach` [ RunTime:0.0010s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='D18CF959-EDB7-B2C2-C8D0-85CFB1415721' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='BC7547F9-CDC6-3432-1FF1-601A66BCB3F6' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EB1E6891-7619-4F58-DF59-594C19781EA3'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110'  LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='6C7E6108-806A-A9BE-DB34-A04A9AC88110' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='B7FB97B8-C71C-CB17-5AC8-9E427BD9A61B' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='AA0F9918-4DE4-412F-738C-954DAFF1F857' )  [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='EBE5AD29-A3BA-7B60-9B79-9AB09CB308B7'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='D537245B-A49E-9828-E063-4C2C63DEC273'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='ADC55564-F55E-B1DA-77F2-CC5BB6F93267'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='E9581929-CF91-99CF-237F-FB07C3AB2091'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='E9581929-CF91-99CF-237F-FB07C3AB2091' )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_attention` WHERE ( objectid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_trainclass` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `xueche1_sign` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `cityname` FROM `xueche1_citys` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM xueche1_student s INNER JOIN xueche1_user u on s.userid=u.userid and s.masterid='921E6D53-1E61-31F4-6912-39E9051C9777'  LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `nickname`,`userid` FROM `xueche1_coach` WHERE ( masterid='921E6D53-1E61-31F4-6912-39E9051C9777' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+NOTIC: [8] Undefined index: newscount /var/www/xueche/Application/Runtime/Cache/Manage/efc7e28ecd813da06c08cf808820418f.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `xueche1_school` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`nickname`,`img` FROM `xueche1_school` WHERE ( userid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `xueche1_img` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`imgname`,`imgtime` FROM `xueche1_img` WHERE ( userid='105BF1E9-C4A7-42AC-A74E-ED080F162A81' )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 41 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 41 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+NOTIC: [8] Use of undefined constant URL - assumed 'URL' /var/www/xueche/Application/Runtime/Cache/Manage/513edf9ae2f59ddaf4459e1608ffee25.php 第 63 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/URL/Upload/school/small/1473039573-6c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/URL/Upload/school/small/14730395746n.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/URL/Upload/small/105BF1E9-C4A7-42AC-A74E-ED080F162A81.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/URL/Upload/school/small/1473039574-5t.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-10-26T18:06:53+08:00 ] 101.81.13.210 /Manage/School/imgmanage/userid/105BF1E9-C4A7-42AC-A74E-ED080F162A81/type/jx/p/URL/Upload/school/small/1473039574-9w.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-10-26T18:07:10+08:00 ] 101.81.13.210 /Manage/Index/login/type/end.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES ('admin','1477476430','1699810770','退出') [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2016-10-26T18:07:10+08:00 ] 101.81.13.210 /Manage/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-10-26T18:11:45+08:00 ] 101.81.13.210 /Manage/Index/login/type/end.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `xueche1_adminlog` [ RunTime:0.0009s ]
+SQL: INSERT INTO `xueche1_adminlog` (`account`,`ntime`,`nip`,`info`) VALUES (NULL,'1477476705','1699810770','退出') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2016-10-26T18:11:45+08:00 ] 101.81.13.210 /Manage/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+

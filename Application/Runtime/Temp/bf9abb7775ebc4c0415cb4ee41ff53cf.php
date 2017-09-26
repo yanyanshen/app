@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:2:"29";s:6:"userid";s:36:"F387CFCE_5AEC_9B3E_B01F_80132B58AB98";s:8:"nickname";s:12:"怡明驾校";s:3:"img";s:40:"F387CFCE_5AEC_9B3E_B01F_80132B58AB98.png";s:8:"piccount";s:1:"1";s:5:"phone";s:12:"400-8040-517";s:7:"address";s:0:"";s:9:"pickrange";s:0:"";s:5:"score";s:1:"4";s:12:"introduction";s:383:"上海怡明驾驶员培训有限公司（怡明驾校）是车辆管理所指定的第二十八大型教考基地。位于宝山区，学员可乘坐地铁一号线，只需步行3分钟就可直达驾校门口，是本市目前现代化程度最高，唯一一所环线内教考基地，离市中心最近，设施最完备，管理最先进，服务最优良的园林式驾校。 ";s:8:"allcount";s:3:"190";s:11:"passedcount";s:3:"180";s:11:"praisecount";s:1:"6";s:5:"price";s:4:"6000";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"0";s:12:"trainaddress";s:0:"";s:6:"verify";s:1:"3";}
+?>

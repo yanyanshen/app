@@ -1,0 +1,3 @@
+<?php
+//000000000300a:21:{s:2:"id";s:3:"887";s:6:"userid";s:36:"1871FC4E_BB30_2463_0045_0EB5D2D2F544";s:8:"nickname";s:12:"薪景驾校";s:3:"img";s:40:"1871FC4E_BB30_2463_0045_0EB5D2D2F544.jpg";s:8:"piccount";s:1:"1";s:5:"phone";s:12:"400-8040-517";s:7:"address";s:0:"";s:9:"pickrange";s:0:"";s:5:"score";s:1:"0";s:12:"introduction";s:265:"       厦门薪景培训有限公司，拥有300多辆教练车，标准的培训场地，现代化的设施。致力于以高效，安全的服务培训每一位学员。公司在岛内外拥有20块培训场地，更加便利的让每位学员轻松学车。";s:8:"allcount";s:1:"0";s:11:"passedcount";s:1:"0";s:11:"praisecount";s:1:"0";s:5:"price";s:4:"5000";s:7:"hotflag";s:1:"0";s:13:"recommendflag";s:1:"0";s:15:"certificateflag";s:1:"0";s:8:"pickflag";s:1:"0";s:8:"timeflag";s:1:"0";s:12:"trainaddress";s:0:"";s:6:"verify";s:1:"3";}
+?>

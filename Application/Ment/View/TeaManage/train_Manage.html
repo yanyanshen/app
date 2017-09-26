@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>地标管理</title>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link href="__PUBLIC__/ment/css/mine.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="div_head">
+            <span>
+                <span style="float:left">当前位置是：系统管理-》基地管理</span>
+                <span style="float:right;margin-right: 8px;font-weight: bold">
+                    <a style="text-decoration: none" href="{:U($url.'?p='.$p)}">【返回】</a>
+                </span>
+            </span>
+        </div>
+        <div></div>
+        <form action="{:U('trainsave')}" method="post">
+        <div style="font-size: 13px;margin: 10px 5px">
+            <table border="1" width="100%" class="table_a">
+                <tr>
+                <input type="hidden" name='id' value="{$id}"/>
+                 <input type="hidden" name='p' value="{$p}"/>
+                 <input type="hidden" name='t' value="{$t}"/>
+                 <input type="hidden" name='userid' value="{$user.userid}"/>
+                    <td colspan='2'>{$user.nickname}　城市：{$cityname}</td>
+                    <td ><input type="submit"  value="保存"/></td>
+                </tr>
+                <tr>
+               		<td width="3%">序号</td>
+                	<td width="10%">基地</td>
+                	<td width="80%">地址</td>
+                </tr>
+                <volist name="train" id='v'>
+	                <tr>
+	                	<td>{$v.id}</td>
+	                	<td><label>
+	                			<if condition="in_array($v['id'],$trains)">
+	                				<input type="checkbox" name="{$v.id}" value="{$v.id}" checked/>{$v.trname}
+								    <else />
+								    <input type="checkbox" name="{$v.id}" value="{$v.id}" />{$v.trname}
+								</if>
+	                		</label>
+	                	</td>
+	                	<td>{$v.address}</td>
+	                </tr>
+               </volist>
+        </div>
+       </form>
+    </body>
+</html>
